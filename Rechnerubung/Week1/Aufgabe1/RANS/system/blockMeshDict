@@ -1,0 +1,95 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      blockMeshDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+#include "../config"
+
+twoDelta                #calc "2*$delta";
+inverseWallGrading      #calc "1/$wallGrading";
+
+convertToMeters 1;
+
+vertices
+(
+    (0              0           -1)
+    ($channelLength 0           -1)
+    ($channelLength $twoDelta   -1)
+    (0              $twoDelta   -1)
+    (0              0            1)
+    ($channelLength 0            1)
+    ($channelLength $twoDelta    1)
+    (0              $twoDelta    1)
+);
+
+blocks
+(
+    hex (0 1 2 3 4 5 6 7) ($nCellsX $nCellsY 1) 
+    simpleGrading 
+    (
+        1 
+        ((0.5 0.5 $wallGrading)(0.5 0.5 $inverseWallGrading)) 
+        1
+    )
+);
+
+edges
+(
+);
+
+boundary
+(
+    inlet
+    {
+        type cyclic;
+        neighbourPatch outlet;
+        faces
+        (
+            (0 4 7 3)
+        );
+    }
+    outlet
+    {
+        type cyclic;
+        neighbourPatch inlet;
+        faces
+        (
+            (2 6 5 1)
+        );
+    }
+    wall
+    {
+        type wall;
+        faces
+        (
+            (1 5 4 0)
+            (3 7 6 2)
+        );
+    }
+    frontAndBack
+    {
+        type empty;
+        faces
+        (
+            (0 3 2 1)
+            (4 5 6 7)
+        );
+    }
+);
+
+mergePatchPairs
+(
+);
+
+// ************************************************************************* //

@@ -1,0 +1,25 @@
+For time file:
+cat slurm-18123435.out | grep "Time" | sed -n 2~2p | head -n  -2 | cut -d " " -f3 > time
+Outputs 4621 lines
+
+For maxCourantNumber.txt file:
+cat slurm-18123435.out | grep "Courant" | cut -d ":" -f3 > maxCourantNumber.txt
+
+For meanFlowVelocity.txt file:
+cat slurm-18123435.out | grep "volAverage() of U" | cut -d "(" -f3 | cut -d " " -f1 | sed '1i\\' > meanFlowVelocity.txt
+
+For forcePressure.txt file:
+cat slurm-18123435.out | grep -E "pressure  : \(0" | cut -d "(" -f2 | cut -d " " -f1 | sed '1i\\' > forcePressure.txt
+or
+cat slurm-18123435.out | grep "sum of forces" -A 1 | grep "pressure" | cut -d "(" -f2 | cut -d " " -f1 | sed '1i\\' > forcePressure.txt
+
+For forceViscous.txt file:
+cat slurm-18123435.out | grep -E "viscous  : \(0" | cut -d "(" -f2 | cut -d " " -f1 | sed '1i\\' > forceViscous.txt
+or
+cat slurm-18123435.out | grep "sum of forces" -A 2 | grep "viscous" | cut -d "(" -f2 | cut -d " " -f1 | sed '1i\\' > forceViscous.txt
+
+Combined files using paste function into combinedResult.txt file
+What does sed 'li\\' do ? 
+Adds an empty line at the beggining as some of the data doesn't have a value at t=0
+Switched around order of meanFlowVelocity and maxCourantNumber as gnuplot had some scaling issues with blank data points
+Force-Pressure is dominant over Force-Viscous
