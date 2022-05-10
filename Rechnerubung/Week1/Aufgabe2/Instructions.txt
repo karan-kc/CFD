@@ -9,7 +9,7 @@ For meanFlowVelocity.txt file:
 cat slurm-18123435.out | grep "volAverage() of U" | cut -d "(" -f3 | cut -d " " -f1 | sed '1i\\' > meanFlowVelocity.txt
 
 For forcePressure.txt file:
-cat slurm-18123435.out | grep -E "pressure  : \(0" | cut -d "(" -f2 | cut -d " " -f1 | sed '1i\\' > forcePressure.txt
+cat slurm-18123435.out | grep -E "pressure : \(0" | cut -d "(" -f2 | cut -d " " -f1 | sed '1i\\' > forcePressure.txt
 or
 cat slurm-18123435.out | grep "sum of forces" -A 1 | grep "pressure" | cut -d "(" -f2 | cut -d " " -f1 | sed '1i\\' > forcePressure.txt
 
