@@ -1,0 +1,97 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application     simpleFoam;
+
+startFrom       startTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         100000;
+
+deltaT          1;
+
+writeControl    timeStep;
+
+writeInterval   10000;
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  6;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable true;
+
+functions
+{
+  #includeFunc  sample
+
+  calcGradU
+  {
+    libs                ("libutilityFunctionObjects.so");
+
+    type                coded;
+    name                calcGradU;
+    executeControl      timeStep;
+    
+    codeRead
+    #{
+      const volVectorField& U = mesh().lookupObjectRef<volVectorField>("U");
+
+      autoPtr<volTensorField> gradU;
+      gradU.reset
+      (
+        new volTensorField 
+        (
+          IOobject
+          (
+              "gradU",
+              mesh().time().timeName(),
+              mesh(),
+              IOobject::NO_READ,
+              IOobject::AUTO_WRITE
+          ),
+          fvc::grad(U)
+        )
+      );
+      gradU->store(gradU);
+    #};
+    
+    codeExecute
+    #{
+        const volVectorField& U = mesh().lookupObjectRef<volVectorField>("U");
+        volTensorField& gradU = mesh().lookupObjectRef<volTensorField>("gradU");
+
+        Info << "Calculating grad(U)." << endl;
+        gradU = fvc::grad(U);
+
+        if(mesh().time().outputTime()){ gradU.write(); }
+    #};
+  }
+}
+
+
+// ************************************************************************* //
