@@ -1,0 +1,1 @@
+LIB = $(PWD)/../platforms/$(WM_OPTIONS)/lib/libcalcGradU_f0d97ebb7ad3dce54b3e67499a59844095d42ae8
