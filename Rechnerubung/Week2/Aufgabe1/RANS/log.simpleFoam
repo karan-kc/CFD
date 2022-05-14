@@ -8,9 +8,9 @@
 Build  : 7-3bcbaf946ae9
 Exec   : simpleFoam
 Date   : May 14 2022
-Time   : 04:09:58
+Time   : 04:35:49
 Host   : "Lubuntu"
-PID    : 29356
+PID    : 39546
 I/O    : uncollated
 Case   : /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe1/RANS
 nProcs : 1
@@ -107,7 +107,7 @@ time step continuity errors : sum local = 1.46905e-06, global = -5.80504e-19, cu
 smoothSolver:  Solving for omega, Initial residual = 0.651001, Final residual = 0.00493797, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 1, Final residual = 0.057911, No Iterations 1
 bounding k, min: -0.000586027 max: 0.0010425 average: 0.000562396
-ExecutionTime = 0.01 s  ClockTime = 6 s
+ExecutionTime = 0 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 2
@@ -151,7 +151,7 @@ GAMG:  Solving for p, Initial residual = 0.153316, Final residual = 0.0123017, N
 time step continuity errors : sum local = 1.54404e-06, global = -6.59159e-19, cumulative = -2.4006e-18
 smoothSolver:  Solving for omega, Initial residual = 0.0013049, Final residual = 8.28737e-05, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0433011, Final residual = 0.00190754, No Iterations 3
-ExecutionTime = 0.02 s  ClockTime = 6 s
+ExecutionTime = 0.01 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 6
@@ -162,7 +162,7 @@ GAMG:  Solving for p, Initial residual = 0.115092, Final residual = 0.00696789, 
 time step continuity errors : sum local = 1.06406e-06, global = -1.36219e-19, cumulative = -2.53682e-18
 smoothSolver:  Solving for omega, Initial residual = 0.00066663, Final residual = 4.94301e-05, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0242788, Final residual = 0.000877925, No Iterations 3
-ExecutionTime = 0.02 s  ClockTime = 6 s
+ExecutionTime = 0.01 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 7
@@ -173,7 +173,7 @@ GAMG:  Solving for p, Initial residual = 0.0902048, Final residual = 0.0060567, 
 time step continuity errors : sum local = 1.06011e-06, global = 1.01158e-18, cumulative = -1.52524e-18
 smoothSolver:  Solving for omega, Initial residual = 0.000402689, Final residual = 3.10022e-05, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0205636, Final residual = 0.00125554, No Iterations 3
-ExecutionTime = 0.02 s  ClockTime = 6 s
+ExecutionTime = 0.01 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 8
@@ -184,7 +184,7 @@ GAMG:  Solving for p, Initial residual = 0.0720647, Final residual = 0.00476657,
 time step continuity errors : sum local = 9.1632e-07, global = -7.64759e-19, cumulative = -2.29e-18
 smoothSolver:  Solving for omega, Initial residual = 0.00023695, Final residual = 4.18337e-06, No Iterations 2
 smoothSolver:  Solving for k, Initial residual = 0.0166942, Final residual = 0.000891479, No Iterations 3
-ExecutionTime = 0.02 s  ClockTime = 6 s
+ExecutionTime = 0.01 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 9
@@ -195,7 +195,7 @@ GAMG:  Solving for p, Initial residual = 0.0591937, Final residual = 0.00372726,
 time step continuity errors : sum local = 7.71602e-07, global = -2.03399e-18, cumulative = -4.32399e-18
 smoothSolver:  Solving for omega, Initial residual = 0.000141712, Final residual = 4.21681e-06, No Iterations 2
 smoothSolver:  Solving for k, Initial residual = 0.015005, Final residual = 0.00103816, No Iterations 3
-ExecutionTime = 0.02 s  ClockTime = 6 s
+ExecutionTime = 0.01 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 10
@@ -206,7 +206,7 @@ GAMG:  Solving for p, Initial residual = 0.0498183, Final residual = 0.00314047,
 time step continuity errors : sum local = 6.82868e-07, global = -2.05364e-18, cumulative = -6.37763e-18
 smoothSolver:  Solving for omega, Initial residual = 9.28372e-05, Final residual = 4.98259e-06, No Iterations 2
 smoothSolver:  Solving for k, Initial residual = 0.0156837, Final residual = 0.00108874, No Iterations 3
-ExecutionTime = 0.02 s  ClockTime = 6 s
+ExecutionTime = 0.01 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 11
@@ -283,7 +283,7 @@ GAMG:  Solving for p, Initial residual = 0.0200717, Final residual = 0.00139385,
 time step continuity errors : sum local = 3.50549e-07, global = -1.24582e-18, cumulative = -1.53022e-17
 smoothSolver:  Solving for omega, Initial residual = 2.42477e-05, Final residual = 9.69622e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0233556, Final residual = 0.00151812, No Iterations 3
-ExecutionTime = 0.03 s  ClockTime = 6 s
+ExecutionTime = 0.02 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 18
@@ -294,7 +294,7 @@ GAMG:  Solving for p, Initial residual = 0.0179562, Final residual = 0.00121128,
 time step continuity errors : sum local = 3.05241e-07, global = -1.55206e-18, cumulative = -1.68543e-17
 smoothSolver:  Solving for omega, Initial residual = 2.59857e-05, Final residual = 9.26067e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0247745, Final residual = 0.0016851, No Iterations 3
-ExecutionTime = 0.03 s  ClockTime = 6 s
+ExecutionTime = 0.02 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 19
@@ -305,7 +305,7 @@ GAMG:  Solving for p, Initial residual = 0.0161914, Final residual = 0.00111269,
 time step continuity errors : sum local = 2.77296e-07, global = -1.08331e-18, cumulative = -1.79376e-17
 smoothSolver:  Solving for omega, Initial residual = 2.36659e-05, Final residual = 9.16637e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0259102, Final residual = 0.00239924, No Iterations 3
-ExecutionTime = 0.03 s  ClockTime = 6 s
+ExecutionTime = 0.02 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 20
@@ -382,7 +382,7 @@ GAMG:  Solving for p, Initial residual = 0.00814206, Final residual = 0.00061659
 time step continuity errors : sum local = 1.64159e-07, global = -1.696e-18, cumulative = -2.58896e-17
 smoothSolver:  Solving for omega, Initial residual = 2.21811e-05, Final residual = 8.04879e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0311092, Final residual = 0.0017415, No Iterations 3
-ExecutionTime = 0.04 s  ClockTime = 6 s
+ExecutionTime = 0.03 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 27
@@ -393,7 +393,7 @@ GAMG:  Solving for p, Initial residual = 0.0073564, Final residual = 0.000555536
 time step continuity errors : sum local = 1.43495e-07, global = -2.32073e-18, cumulative = -2.82103e-17
 smoothSolver:  Solving for omega, Initial residual = 2.05346e-05, Final residual = 8.01875e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0320574, Final residual = 0.00205189, No Iterations 3
-ExecutionTime = 0.04 s  ClockTime = 6 s
+ExecutionTime = 0.03 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 28
@@ -404,7 +404,7 @@ GAMG:  Solving for p, Initial residual = 0.00674582, Final residual = 0.00053024
 time step continuity errors : sum local = 1.40522e-07, global = -1.38522e-18, cumulative = -2.95955e-17
 smoothSolver:  Solving for omega, Initial residual = 2.12768e-05, Final residual = 7.98216e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0331826, Final residual = 0.00276184, No Iterations 3
-ExecutionTime = 0.04 s  ClockTime = 6 s
+ExecutionTime = 0.03 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 29
@@ -481,7 +481,7 @@ GAMG:  Solving for p, Initial residual = 0.00468029, Final residual = 0.00028314
 time step continuity errors : sum local = 6.98952e-08, global = 5.25225e-20, cumulative = -3.72654e-17
 smoothSolver:  Solving for omega, Initial residual = 2.01946e-05, Final residual = 7.61506e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0373295, Final residual = 0.00325176, No Iterations 3
-ExecutionTime = 0.05 s  ClockTime = 6 s
+ExecutionTime = 0.04 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 36
@@ -492,7 +492,7 @@ GAMG:  Solving for p, Initial residual = 0.00440361, Final residual = 0.00023678
 time step continuity errors : sum local = 5.82405e-08, global = -3.17577e-18, cumulative = -4.04412e-17
 smoothSolver:  Solving for omega, Initial residual = 2.03838e-05, Final residual = 7.52207e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0361288, Final residual = 0.00185269, No Iterations 3
-ExecutionTime = 0.05 s  ClockTime = 6 s
+ExecutionTime = 0.04 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 37
@@ -503,7 +503,7 @@ GAMG:  Solving for p, Initial residual = 0.00490229, Final residual = 0.00031578
 time step continuity errors : sum local = 7.47225e-08, global = -2.55017e-18, cumulative = -4.29914e-17
 smoothSolver:  Solving for omega, Initial residual = 2.01929e-05, Final residual = 7.61081e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0372021, Final residual = 0.00235959, No Iterations 3
-ExecutionTime = 0.05 s  ClockTime = 6 s
+ExecutionTime = 0.04 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 38
@@ -580,7 +580,7 @@ GAMG:  Solving for p, Initial residual = 0.0139767, Final residual = 0.00116088,
 time step continuity errors : sum local = 2.69191e-07, global = -8.95253e-19, cumulative = -5.78448e-17
 smoothSolver:  Solving for omega, Initial residual = 2.1383e-05, Final residual = 7.77656e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0373974, Final residual = 0.00370473, No Iterations 3
-ExecutionTime = 0.06 s  ClockTime = 6 s
+ExecutionTime = 0.05 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 45
@@ -591,7 +591,7 @@ GAMG:  Solving for p, Initial residual = 0.0149831, Final residual = 0.000730993
 time step continuity errors : sum local = 1.69001e-07, global = 1.48297e-19, cumulative = -5.76965e-17
 smoothSolver:  Solving for omega, Initial residual = 2.24145e-05, Final residual = 8.46591e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0353786, Final residual = 0.00189606, No Iterations 3
-ExecutionTime = 0.06 s  ClockTime = 6 s
+ExecutionTime = 0.05 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 46
@@ -679,7 +679,7 @@ GAMG:  Solving for p, Initial residual = 0.0538513, Final residual = 0.00310697,
 time step continuity errors : sum local = 6.13562e-07, global = -2.69271e-18, cumulative = -7.35683e-17
 smoothSolver:  Solving for omega, Initial residual = 2.6137e-05, Final residual = 3.74714e-06, No Iterations 2
 smoothSolver:  Solving for k, Initial residual = 0.0270539, Final residual = 0.00195205, No Iterations 3
-ExecutionTime = 0.07 s  ClockTime = 6 s
+ExecutionTime = 0.06 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 54
@@ -690,7 +690,7 @@ GAMG:  Solving for p, Initial residual = 0.053605, Final residual = 0.00398501, 
 time step continuity errors : sum local = 8.25212e-07, global = 1.1329e-21, cumulative = -7.35672e-17
 smoothSolver:  Solving for omega, Initial residual = 2.75965e-05, Final residual = 3.9574e-06, No Iterations 2
 smoothSolver:  Solving for k, Initial residual = 0.0260136, Final residual = 0.00258484, No Iterations 3
-ExecutionTime = 0.07 s  ClockTime = 6 s
+ExecutionTime = 0.06 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 55
@@ -778,7 +778,7 @@ GAMG:  Solving for p, Initial residual = 0.0492602, Final residual = 0.002913, N
 time step continuity errors : sum local = 4.48985e-07, global = -9.5524e-19, cumulative = -9.70848e-17
 smoothSolver:  Solving for omega, Initial residual = 2.61723e-05, Final residual = 9.25774e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0163019, Final residual = 0.00130124, No Iterations 3
-ExecutionTime = 0.08 s  ClockTime = 6 s
+ExecutionTime = 0.07 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 63
@@ -789,7 +789,7 @@ GAMG:  Solving for p, Initial residual = 0.0535108, Final residual = 0.00296481,
 time step continuity errors : sum local = 4.80417e-07, global = -1.09643e-18, cumulative = -9.81812e-17
 smoothSolver:  Solving for omega, Initial residual = 2.96323e-05, Final residual = 2.51887e-06, No Iterations 2
 smoothSolver:  Solving for k, Initial residual = 0.0167015, Final residual = 0.000866445, No Iterations 4
-ExecutionTime = 0.08 s  ClockTime = 6 s
+ExecutionTime = 0.07 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 64
@@ -800,7 +800,7 @@ GAMG:  Solving for p, Initial residual = 0.051469, Final residual = 0.00292594, 
 time step continuity errors : sum local = 4.4965e-07, global = -7.94619e-19, cumulative = -9.89758e-17
 smoothSolver:  Solving for omega, Initial residual = 2.55361e-05, Final residual = 3.04767e-06, No Iterations 2
 smoothSolver:  Solving for k, Initial residual = 0.0157499, Final residual = 0.00144581, No Iterations 3
-ExecutionTime = 0.08 s  ClockTime = 6 s
+ExecutionTime = 0.07 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 65
@@ -811,7 +811,7 @@ GAMG:  Solving for p, Initial residual = 0.054583, Final residual = 0.00299227, 
 time step continuity errors : sum local = 4.61932e-07, global = -4.50029e-18, cumulative = -1.03476e-16
 smoothSolver:  Solving for omega, Initial residual = 2.56021e-05, Final residual = 8.74693e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0157169, Final residual = 0.000713127, No Iterations 4
-ExecutionTime = 0.08 s  ClockTime = 6 s
+ExecutionTime = 0.07 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 66
@@ -822,7 +822,7 @@ GAMG:  Solving for p, Initial residual = 0.059443, Final residual = 0.00271565, 
 time step continuity errors : sum local = 3.90369e-07, global = -1.32449e-18, cumulative = -1.04801e-16
 smoothSolver:  Solving for omega, Initial residual = 2.56319e-05, Final residual = 9.7051e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.015209, Final residual = 0.000701735, No Iterations 4
-ExecutionTime = 0.08 s  ClockTime = 6 s
+ExecutionTime = 0.07 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 67
@@ -833,7 +833,7 @@ GAMG:  Solving for p, Initial residual = 0.0581336, Final residual = 0.0027579, 
 time step continuity errors : sum local = 3.94121e-07, global = -3.51332e-18, cumulative = -1.08314e-16
 smoothSolver:  Solving for omega, Initial residual = 2.89312e-05, Final residual = 9.96531e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0149295, Final residual = 0.000660367, No Iterations 4
-ExecutionTime = 0.08 s  ClockTime = 6 s
+ExecutionTime = 0.07 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 68
@@ -877,7 +877,7 @@ GAMG:  Solving for p, Initial residual = 0.0571255, Final residual = 0.0028924, 
 time step continuity errors : sum local = 3.33362e-07, global = -3.60744e-18, cumulative = -1.08454e-16
 smoothSolver:  Solving for omega, Initial residual = 2.61114e-05, Final residual = 8.64111e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0133019, Final residual = 0.00122034, No Iterations 3
-ExecutionTime = 0.09 s  ClockTime = 6 s
+ExecutionTime = 0.08 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 72
@@ -888,7 +888,7 @@ GAMG:  Solving for p, Initial residual = 0.0604003, Final residual = 0.00363354,
 time step continuity errors : sum local = 4.2278e-07, global = -1.17221e-18, cumulative = -1.09626e-16
 smoothSolver:  Solving for omega, Initial residual = 2.68093e-05, Final residual = 7.85442e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0134087, Final residual = 0.000826317, No Iterations 4
-ExecutionTime = 0.09 s  ClockTime = 6 s
+ExecutionTime = 0.08 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 73
@@ -899,7 +899,7 @@ GAMG:  Solving for p, Initial residual = 0.0583377, Final residual = 0.00265326,
 time step continuity errors : sum local = 3.17933e-07, global = -1.54131e-18, cumulative = -1.11167e-16
 smoothSolver:  Solving for omega, Initial residual = 2.49677e-05, Final residual = 7.30462e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0128518, Final residual = 0.00125461, No Iterations 3
-ExecutionTime = 0.09 s  ClockTime = 6 s
+ExecutionTime = 0.08 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 74
@@ -910,7 +910,7 @@ GAMG:  Solving for p, Initial residual = 0.0574492, Final residual = 0.00271548,
 time step continuity errors : sum local = 2.99841e-07, global = -5.03391e-18, cumulative = -1.16201e-16
 smoothSolver:  Solving for omega, Initial residual = 2.36448e-05, Final residual = 6.60757e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0125396, Final residual = 0.00121581, No Iterations 3
-ExecutionTime = 0.09 s  ClockTime = 6 s
+ExecutionTime = 0.08 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 75
@@ -921,7 +921,7 @@ GAMG:  Solving for p, Initial residual = 0.0633039, Final residual = 0.00287726,
 time step continuity errors : sum local = 3.04669e-07, global = -2.20616e-18, cumulative = -1.18407e-16
 smoothSolver:  Solving for omega, Initial residual = 2.19076e-05, Final residual = 6.05783e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0119504, Final residual = 0.000655566, No Iterations 4
-ExecutionTime = 0.09 s  ClockTime = 6 s
+ExecutionTime = 0.08 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 76
@@ -932,7 +932,7 @@ GAMG:  Solving for p, Initial residual = 0.0563374, Final residual = 0.00252168,
 time step continuity errors : sum local = 2.61661e-07, global = -4.2881e-18, cumulative = -1.22695e-16
 smoothSolver:  Solving for omega, Initial residual = 2.04944e-05, Final residual = 5.33139e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.011398, Final residual = 0.000507762, No Iterations 4
-ExecutionTime = 0.09 s  ClockTime = 6 s
+ExecutionTime = 0.08 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 77
@@ -976,7 +976,7 @@ GAMG:  Solving for p, Initial residual = 0.0550205, Final residual = 0.00347054,
 time step continuity errors : sum local = 3.15871e-07, global = -2.74502e-18, cumulative = -1.34107e-16
 smoothSolver:  Solving for omega, Initial residual = 1.79617e-05, Final residual = 5.13991e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00930669, Final residual = 0.000854212, No Iterations 3
-ExecutionTime = 0.1 s  ClockTime = 6 s
+ExecutionTime = 0.09 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 81
@@ -987,7 +987,7 @@ GAMG:  Solving for p, Initial residual = 0.0573682, Final residual = 0.00245041,
 time step continuity errors : sum local = 2.12692e-07, global = -7.65753e-19, cumulative = -1.34873e-16
 smoothSolver:  Solving for omega, Initial residual = 1.81657e-05, Final residual = 5.23542e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00885669, Final residual = 0.000440832, No Iterations 4
-ExecutionTime = 0.1 s  ClockTime = 6 s
+ExecutionTime = 0.09 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 82
@@ -998,7 +998,7 @@ GAMG:  Solving for p, Initial residual = 0.0542674, Final residual = 0.00414006,
 time step continuity errors : sum local = 3.29966e-07, global = -3.53314e-19, cumulative = -1.35226e-16
 smoothSolver:  Solving for omega, Initial residual = 1.8385e-05, Final residual = 5.16593e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00833616, Final residual = 0.00047677, No Iterations 4
-ExecutionTime = 0.1 s  ClockTime = 6 s
+ExecutionTime = 0.09 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 83
@@ -1009,7 +1009,7 @@ GAMG:  Solving for p, Initial residual = 0.0463442, Final residual = 0.0022958, 
 time step continuity errors : sum local = 1.98719e-07, global = -3.75786e-18, cumulative = -1.38984e-16
 smoothSolver:  Solving for omega, Initial residual = 1.80777e-05, Final residual = 5.47975e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00774348, Final residual = 0.000365578, No Iterations 4
-ExecutionTime = 0.1 s  ClockTime = 6 s
+ExecutionTime = 0.09 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 84
@@ -1020,7 +1020,7 @@ GAMG:  Solving for p, Initial residual = 0.0477759, Final residual = 0.00286265,
 time step continuity errors : sum local = 2.15891e-07, global = -4.02543e-18, cumulative = -1.43009e-16
 smoothSolver:  Solving for omega, Initial residual = 1.88511e-05, Final residual = 5.4069e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00725776, Final residual = 0.000338525, No Iterations 4
-ExecutionTime = 0.1 s  ClockTime = 6 s
+ExecutionTime = 0.09 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 85
@@ -1075,7 +1075,7 @@ GAMG:  Solving for p, Initial residual = 0.0492573, Final residual = 0.00190846,
 time step continuity errors : sum local = 1.25029e-07, global = -1.12132e-18, cumulative = -1.57072e-16
 smoothSolver:  Solving for omega, Initial residual = 1.94772e-05, Final residual = 6.22569e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0051698, Final residual = 0.000280855, No Iterations 4
-ExecutionTime = 0.11 s  ClockTime = 6 s
+ExecutionTime = 0.1 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 90
@@ -1086,7 +1086,7 @@ GAMG:  Solving for p, Initial residual = 0.0379083, Final residual = 0.00241218,
 time step continuity errors : sum local = 1.58557e-07, global = -2.53475e-19, cumulative = -1.57325e-16
 smoothSolver:  Solving for omega, Initial residual = 1.97103e-05, Final residual = 6.15355e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00484035, Final residual = 0.00027411, No Iterations 4
-ExecutionTime = 0.11 s  ClockTime = 6 s
+ExecutionTime = 0.1 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 91
@@ -1097,7 +1097,7 @@ GAMG:  Solving for p, Initial residual = 0.0376066, Final residual = 0.00329038,
 time step continuity errors : sum local = 1.92148e-07, global = -5.23219e-19, cumulative = -1.57848e-16
 smoothSolver:  Solving for omega, Initial residual = 1.97741e-05, Final residual = 6.504e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00434402, Final residual = 0.00022203, No Iterations 4
-ExecutionTime = 0.11 s  ClockTime = 6 s
+ExecutionTime = 0.1 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 92
@@ -1108,7 +1108,7 @@ GAMG:  Solving for p, Initial residual = 0.0405261, Final residual = 0.00200244,
 time step continuity errors : sum local = 1.1002e-07, global = -2.04581e-18, cumulative = -1.59894e-16
 smoothSolver:  Solving for omega, Initial residual = 2.01018e-05, Final residual = 6.47943e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.0040955, Final residual = 0.000211526, No Iterations 4
-ExecutionTime = 0.11 s  ClockTime = 6 s
+ExecutionTime = 0.1 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 93
@@ -1119,7 +1119,7 @@ GAMG:  Solving for p, Initial residual = 0.0372703, Final residual = 0.00283896,
 time step continuity errors : sum local = 1.66494e-07, global = -4.14515e-18, cumulative = -1.64039e-16
 smoothSolver:  Solving for omega, Initial residual = 2.03638e-05, Final residual = 6.7585e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00376105, Final residual = 0.000189861, No Iterations 4
-ExecutionTime = 0.11 s  ClockTime = 6 s
+ExecutionTime = 0.1 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 94
@@ -1174,7 +1174,7 @@ GAMG:  Solving for p, Initial residual = 0.0269039, Final residual = 0.0013676, 
 time step continuity errors : sum local = 7.13191e-08, global = -3.15633e-18, cumulative = -1.80393e-16
 smoothSolver:  Solving for omega, Initial residual = 2.03941e-05, Final residual = 6.83158e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00231173, Final residual = 0.000228841, No Iterations 3
-ExecutionTime = 0.12 s  ClockTime = 6 s
+ExecutionTime = 0.11 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 99
@@ -1185,7 +1185,7 @@ GAMG:  Solving for p, Initial residual = 0.0255128, Final residual = 0.00212002,
 time step continuity errors : sum local = 1.17369e-07, global = -4.40001e-18, cumulative = -1.84793e-16
 smoothSolver:  Solving for omega, Initial residual = 2.0361e-05, Final residual = 6.97908e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00209284, Final residual = 0.00010978, No Iterations 4
-ExecutionTime = 0.12 s  ClockTime = 6 s
+ExecutionTime = 0.11 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 100
@@ -1196,7 +1196,7 @@ GAMG:  Solving for p, Initial residual = 0.0259949, Final residual = 0.00233951,
 time step continuity errors : sum local = 1.17394e-07, global = -1.0558e-18, cumulative = -1.85848e-16
 smoothSolver:  Solving for omega, Initial residual = 2.00576e-05, Final residual = 6.79119e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00181925, Final residual = 9.61075e-05, No Iterations 4
-ExecutionTime = 0.12 s  ClockTime = 6 s
+ExecutionTime = 0.11 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 101
@@ -1207,7 +1207,7 @@ GAMG:  Solving for p, Initial residual = 0.0267018, Final residual = 0.00146178,
 time step continuity errors : sum local = 8.10909e-08, global = -2.54121e-18, cumulative = -1.8839e-16
 smoothSolver:  Solving for omega, Initial residual = 1.9999e-05, Final residual = 6.96205e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00170965, Final residual = 0.000148428, No Iterations 3
-ExecutionTime = 0.12 s  ClockTime = 6 s
+ExecutionTime = 0.11 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 102
@@ -1218,7 +1218,7 @@ GAMG:  Solving for p, Initial residual = 0.0246922, Final residual = 0.00206223,
 time step continuity errors : sum local = 1.12994e-07, global = -4.24501e-18, cumulative = -1.92635e-16
 smoothSolver:  Solving for omega, Initial residual = 1.97045e-05, Final residual = 6.70635e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00153712, Final residual = 0.00014593, No Iterations 3
-ExecutionTime = 0.12 s  ClockTime = 6 s
+ExecutionTime = 0.11 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 103
@@ -1273,7 +1273,7 @@ GAMG:  Solving for p, Initial residual = 0.0260659, Final residual = 0.00176423,
 time step continuity errors : sum local = 9.30495e-08, global = -1.09472e-18, cumulative = -2.06932e-16
 smoothSolver:  Solving for omega, Initial residual = 1.81179e-05, Final residual = 6.43553e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00123456, Final residual = 0.000111888, No Iterations 3
-ExecutionTime = 0.13 s  ClockTime = 6 s
+ExecutionTime = 0.12 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 108
@@ -1284,7 +1284,7 @@ GAMG:  Solving for p, Initial residual = 0.0233541, Final residual = 0.00173198,
 time step continuity errors : sum local = 9.12093e-08, global = -2.51464e-18, cumulative = -2.09447e-16
 smoothSolver:  Solving for omega, Initial residual = 1.76382e-05, Final residual = 6.14799e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00123355, Final residual = 0.000113707, No Iterations 3
-ExecutionTime = 0.13 s  ClockTime = 6 s
+ExecutionTime = 0.12 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 109
@@ -1295,7 +1295,7 @@ GAMG:  Solving for p, Initial residual = 0.0256187, Final residual = 0.00210687,
 time step continuity errors : sum local = 1.09737e-07, global = -2.4319e-18, cumulative = -2.11879e-16
 smoothSolver:  Solving for omega, Initial residual = 1.72964e-05, Final residual = 6.16306e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00118226, Final residual = 0.000112957, No Iterations 3
-ExecutionTime = 0.13 s  ClockTime = 6 s
+ExecutionTime = 0.12 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 110
@@ -1306,7 +1306,7 @@ GAMG:  Solving for p, Initial residual = 0.0269496, Final residual = 0.00174555,
 time step continuity errors : sum local = 8.89478e-08, global = -2.26871e-18, cumulative = -2.14148e-16
 smoothSolver:  Solving for omega, Initial residual = 1.67514e-05, Final residual = 5.89377e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00118415, Final residual = 0.00011652, No Iterations 3
-ExecutionTime = 0.13 s  ClockTime = 6 s
+ExecutionTime = 0.12 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 111
@@ -1317,7 +1317,7 @@ GAMG:  Solving for p, Initial residual = 0.0255781, Final residual = 0.00191454,
 time step continuity errors : sum local = 9.7372e-08, global = -2.10117e-18, cumulative = -2.16249e-16
 smoothSolver:  Solving for omega, Initial residual = 1.64259e-05, Final residual = 5.89816e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00118271, Final residual = 0.000113245, No Iterations 3
-ExecutionTime = 0.13 s  ClockTime = 6 s
+ExecutionTime = 0.12 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 112
@@ -1460,7 +1460,7 @@ GAMG:  Solving for p, Initial residual = 0.0256405, Final residual = 0.00139198,
 time step continuity errors : sum local = 4.99833e-08, global = -1.22228e-18, cumulative = -2.48427e-16
 smoothSolver:  Solving for omega, Initial residual = 1.04848e-05, Final residual = 3.78473e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000767578, Final residual = 4.67393e-05, No Iterations 4
-ExecutionTime = 0.14 s  ClockTime = 6 s
+ExecutionTime = 0.15 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 125
@@ -1570,7 +1570,7 @@ GAMG:  Solving for p, Initial residual = 0.0306765, Final residual = 0.00176105,
 time step continuity errors : sum local = 4.73708e-08, global = -2.88816e-18, cumulative = -2.75435e-16
 smoothSolver:  Solving for omega, Initial residual = 8.36894e-06, Final residual = 8.36894e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000775723, Final residual = 4.70005e-05, No Iterations 4
-ExecutionTime = 0.16 s  ClockTime = 6 s
+ExecutionTime = 0.15 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 135
@@ -1581,7 +1581,7 @@ GAMG:  Solving for p, Initial residual = 0.0333737, Final residual = 0.00180722,
 time step continuity errors : sum local = 4.86617e-08, global = -4.37924e-18, cumulative = -2.79814e-16
 smoothSolver:  Solving for omega, Initial residual = 1.05276e-05, Final residual = 3.71458e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000699908, Final residual = 5.33688e-05, No Iterations 4
-ExecutionTime = 0.16 s  ClockTime = 6 s
+ExecutionTime = 0.15 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 136
@@ -1592,7 +1592,7 @@ GAMG:  Solving for p, Initial residual = 0.0311556, Final residual = 0.00185374,
 time step continuity errors : sum local = 4.74877e-08, global = -3.4162e-18, cumulative = -2.8323e-16
 smoothSolver:  Solving for omega, Initial residual = 7.96965e-06, Final residual = 7.96965e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000677983, Final residual = 4.84728e-05, No Iterations 4
-ExecutionTime = 0.16 s  ClockTime = 6 s
+ExecutionTime = 0.15 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 137
@@ -1625,7 +1625,7 @@ GAMG:  Solving for p, Initial residual = 0.0281486, Final residual = 0.00171142,
 time step continuity errors : sum local = 4.15793e-08, global = -4.88068e-18, cumulative = -2.93659e-16
 smoothSolver:  Solving for omega, Initial residual = 7.86243e-06, Final residual = 7.86243e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000616232, Final residual = 4.14216e-05, No Iterations 4
-ExecutionTime = 0.17 s  ClockTime = 6 s
+ExecutionTime = 0.16 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 140
@@ -1636,7 +1636,7 @@ GAMG:  Solving for p, Initial residual = 0.0327996, Final residual = 0.00162691,
 time step continuity errors : sum local = 3.76758e-08, global = -8.8103e-19, cumulative = -2.9454e-16
 smoothSolver:  Solving for omega, Initial residual = 8.86654e-06, Final residual = 8.86654e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000631792, Final residual = 4.05924e-05, No Iterations 4
-ExecutionTime = 0.17 s  ClockTime = 6 s
+ExecutionTime = 0.16 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 141
@@ -1647,7 +1647,7 @@ GAMG:  Solving for p, Initial residual = 0.0327056, Final residual = 0.00212433,
 time step continuity errors : sum local = 4.69338e-08, global = 1.5639e-19, cumulative = -2.94384e-16
 smoothSolver:  Solving for omega, Initial residual = 1.0513e-05, Final residual = 3.69468e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000592056, Final residual = 3.75327e-05, No Iterations 4
-ExecutionTime = 0.17 s  ClockTime = 6 s
+ExecutionTime = 0.16 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 142
@@ -1658,7 +1658,7 @@ GAMG:  Solving for p, Initial residual = 0.0317186, Final residual = 0.00221457,
 time step continuity errors : sum local = 4.75274e-08, global = -3.28787e-18, cumulative = -2.97672e-16
 smoothSolver:  Solving for omega, Initial residual = 7.44157e-06, Final residual = 7.44157e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000511088, Final residual = 2.92298e-05, No Iterations 4
-ExecutionTime = 0.17 s  ClockTime = 6 s
+ExecutionTime = 0.16 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 143
@@ -1669,7 +1669,7 @@ GAMG:  Solving for p, Initial residual = 0.0316972, Final residual = 0.0016062, 
 time step continuity errors : sum local = 3.36433e-08, global = -4.4156e-18, cumulative = -3.02087e-16
 smoothSolver:  Solving for omega, Initial residual = 8.84519e-06, Final residual = 8.84519e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000516637, Final residual = 2.43235e-05, No Iterations 4
-ExecutionTime = 0.17 s  ClockTime = 6 s
+ExecutionTime = 0.16 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 144
@@ -1680,7 +1680,7 @@ GAMG:  Solving for p, Initial residual = 0.0315668, Final residual = 0.00232262,
 time step continuity errors : sum local = 4.6837e-08, global = -1.32769e-18, cumulative = -3.03415e-16
 smoothSolver:  Solving for omega, Initial residual = 1.03125e-05, Final residual = 3.59779e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000465691, Final residual = 2.4085e-05, No Iterations 4
-ExecutionTime = 0.17 s  ClockTime = 6 s
+ExecutionTime = 0.16 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 145
@@ -1691,7 +1691,7 @@ GAMG:  Solving for p, Initial residual = 0.0322816, Final residual = 0.00202085,
 time step continuity errors : sum local = 3.83582e-08, global = -5.46368e-18, cumulative = -3.08879e-16
 smoothSolver:  Solving for omega, Initial residual = 7.12418e-06, Final residual = 7.12418e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000410264, Final residual = 2.54223e-05, No Iterations 4
-ExecutionTime = 0.17 s  ClockTime = 6 s
+ExecutionTime = 0.16 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 146
@@ -1702,7 +1702,7 @@ GAMG:  Solving for p, Initial residual = 0.0335681, Final residual = 0.00196519,
 time step continuity errors : sum local = 3.69588e-08, global = -2.96753e-18, cumulative = -3.11846e-16
 smoothSolver:  Solving for omega, Initial residual = 8.16618e-06, Final residual = 8.16618e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000403775, Final residual = 2.07056e-05, No Iterations 4
-ExecutionTime = 0.18 s  ClockTime = 6 s
+ExecutionTime = 0.17 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 147
@@ -1713,7 +1713,7 @@ GAMG:  Solving for p, Initial residual = 0.030684, Final residual = 0.00204333, 
 time step continuity errors : sum local = 3.71865e-08, global = -4.86171e-18, cumulative = -3.16708e-16
 smoothSolver:  Solving for omega, Initial residual = 9.50104e-06, Final residual = 9.50104e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000424324, Final residual = 2.21448e-05, No Iterations 4
-ExecutionTime = 0.18 s  ClockTime = 6 s
+ExecutionTime = 0.17 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 148
@@ -1724,7 +1724,7 @@ GAMG:  Solving for p, Initial residual = 0.0311598, Final residual = 0.00193252,
 time step continuity errors : sum local = 3.53371e-08, global = -1.97815e-18, cumulative = -3.18686e-16
 smoothSolver:  Solving for omega, Initial residual = 1.08089e-05, Final residual = 3.64648e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000368227, Final residual = 2.33243e-05, No Iterations 4
-ExecutionTime = 0.18 s  ClockTime = 6 s
+ExecutionTime = 0.17 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 149
@@ -1735,7 +1735,7 @@ GAMG:  Solving for p, Initial residual = 0.0356474, Final residual = 0.00222746,
 time step continuity errors : sum local = 3.92634e-08, global = -2.07733e-18, cumulative = -3.20763e-16
 smoothSolver:  Solving for omega, Initial residual = 7.20135e-06, Final residual = 7.20135e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000285806, Final residual = 2.82323e-05, No Iterations 3
-ExecutionTime = 0.18 s  ClockTime = 6 s
+ExecutionTime = 0.17 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 150
@@ -1746,7 +1746,7 @@ GAMG:  Solving for p, Initial residual = 0.0339787, Final residual = 0.00193094,
 time step continuity errors : sum local = 3.28217e-08, global = -1.81311e-18, cumulative = -3.22576e-16
 smoothSolver:  Solving for omega, Initial residual = 7.6518e-06, Final residual = 7.6518e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000306055, Final residual = 2.57041e-05, No Iterations 3
-ExecutionTime = 0.18 s  ClockTime = 6 s
+ExecutionTime = 0.17 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 151
@@ -1757,7 +1757,7 @@ GAMG:  Solving for p, Initial residual = 0.0307904, Final residual = 0.00232853,
 time step continuity errors : sum local = 3.86104e-08, global = -3.28209e-18, cumulative = -3.25858e-16
 smoothSolver:  Solving for omega, Initial residual = 8.87318e-06, Final residual = 8.87318e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000329743, Final residual = 2.89306e-05, No Iterations 3
-ExecutionTime = 0.18 s  ClockTime = 6 s
+ExecutionTime = 0.17 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 152
@@ -1768,7 +1768,7 @@ GAMG:  Solving for p, Initial residual = 0.0304542, Final residual = 0.00186063,
 time step continuity errors : sum local = 3.045e-08, global = -2.68596e-18, cumulative = -3.28544e-16
 smoothSolver:  Solving for omega, Initial residual = 1.00872e-05, Final residual = 3.52675e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000286287, Final residual = 2.24049e-05, No Iterations 3
-ExecutionTime = 0.18 s  ClockTime = 6 s
+ExecutionTime = 0.17 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 153
@@ -1779,7 +1779,7 @@ GAMG:  Solving for p, Initial residual = 0.0350248, Final residual = 0.00263781,
 time step continuity errors : sum local = 4.19204e-08, global = 2.52221e-19, cumulative = -3.28292e-16
 smoothSolver:  Solving for omega, Initial residual = 6.62963e-06, Final residual = 6.62963e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000226536, Final residual = 2.14871e-05, No Iterations 3
-ExecutionTime = 0.18 s  ClockTime = 6 s
+ExecutionTime = 0.17 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 154
@@ -1790,7 +1790,7 @@ GAMG:  Solving for p, Initial residual = 0.0354092, Final residual = 0.00186799,
 time step continuity errors : sum local = 2.91939e-08, global = -1.81519e-18, cumulative = -3.30107e-16
 smoothSolver:  Solving for omega, Initial residual = 7.38366e-06, Final residual = 7.38366e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000237633, Final residual = 2.12498e-05, No Iterations 3
-ExecutionTime = 0.18 s  ClockTime = 6 s
+ExecutionTime = 0.17 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 155
@@ -1801,7 +1801,7 @@ GAMG:  Solving for p, Initial residual = 0.0347665, Final residual = 0.0023147, 
 time step continuity errors : sum local = 3.55448e-08, global = -4.72074e-18, cumulative = -3.34828e-16
 smoothSolver:  Solving for omega, Initial residual = 8.57468e-06, Final residual = 8.57468e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000272959, Final residual = 2.7286e-05, No Iterations 3
-ExecutionTime = 0.19 s  ClockTime = 6 s
+ExecutionTime = 0.18 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 156
@@ -1812,7 +1812,7 @@ GAMG:  Solving for p, Initial residual = 0.0331198, Final residual = 0.00194401,
 time step continuity errors : sum local = 2.92694e-08, global = -2.49894e-18, cumulative = -3.37327e-16
 smoothSolver:  Solving for omega, Initial residual = 9.7549e-06, Final residual = 9.7549e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000300223, Final residual = 1.50967e-05, No Iterations 4
-ExecutionTime = 0.19 s  ClockTime = 6 s
+ExecutionTime = 0.18 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 157
@@ -1823,7 +1823,7 @@ GAMG:  Solving for p, Initial residual = 0.0309372, Final residual = 0.00197707,
 time step continuity errors : sum local = 2.86407e-08, global = -5.69476e-19, cumulative = -3.37897e-16
 smoothSolver:  Solving for omega, Initial residual = 1.09333e-05, Final residual = 3.54584e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000237637, Final residual = 2.34403e-05, No Iterations 3
-ExecutionTime = 0.19 s  ClockTime = 6 s
+ExecutionTime = 0.18 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 158
@@ -1834,7 +1834,7 @@ GAMG:  Solving for p, Initial residual = 0.0385498, Final residual = 0.00209218,
 time step continuity errors : sum local = 3.0441e-08, global = 7.30776e-19, cumulative = -3.37166e-16
 smoothSolver:  Solving for omega, Initial residual = 6.89769e-06, Final residual = 6.89769e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.0002253, Final residual = 1.17985e-05, No Iterations 4
-ExecutionTime = 0.19 s  ClockTime = 6 s
+ExecutionTime = 0.18 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 159
@@ -1845,7 +1845,7 @@ GAMG:  Solving for p, Initial residual = 0.0376852, Final residual = 0.00241982,
 time step continuity errors : sum local = 3.37477e-08, global = -5.25369e-18, cumulative = -3.42419e-16
 smoothSolver:  Solving for omega, Initial residual = 7.13668e-06, Final residual = 7.13668e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000232381, Final residual = 1.22149e-05, No Iterations 4
-ExecutionTime = 0.19 s  ClockTime = 6 s
+ExecutionTime = 0.18 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 160
@@ -1856,7 +1856,7 @@ GAMG:  Solving for p, Initial residual = 0.0345462, Final residual = 0.00218298,
 time step continuity errors : sum local = 3.11338e-08, global = -3.07973e-18, cumulative = -3.45499e-16
 smoothSolver:  Solving for omega, Initial residual = 8.03888e-06, Final residual = 8.03888e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000256338, Final residual = 1.28264e-05, No Iterations 4
-ExecutionTime = 0.19 s  ClockTime = 6 s
+ExecutionTime = 0.18 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 161
@@ -1867,7 +1867,7 @@ GAMG:  Solving for p, Initial residual = 0.0318288, Final residual = 0.00190727,
 time step continuity errors : sum local = 2.66844e-08, global = 9.49359e-19, cumulative = -3.4455e-16
 smoothSolver:  Solving for omega, Initial residual = 9.22246e-06, Final residual = 9.22246e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.00028207, Final residual = 1.75798e-05, No Iterations 4
-ExecutionTime = 0.19 s  ClockTime = 6 s
+ExecutionTime = 0.18 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 162
@@ -1878,7 +1878,7 @@ GAMG:  Solving for p, Initial residual = 0.0302991, Final residual = 0.00173452,
 time step continuity errors : sum local = 2.44385e-08, global = -5.44077e-18, cumulative = -3.49991e-16
 smoothSolver:  Solving for omega, Initial residual = 1.04133e-05, Final residual = 3.41645e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000257931, Final residual = 1.32505e-05, No Iterations 4
-ExecutionTime = 0.19 s  ClockTime = 6 s
+ExecutionTime = 0.18 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 163
@@ -1889,7 +1889,7 @@ GAMG:  Solving for p, Initial residual = 0.0340355, Final residual = 0.00208349,
 time step continuity errors : sum local = 2.85152e-08, global = -4.33387e-18, cumulative = -3.54324e-16
 smoothSolver:  Solving for omega, Initial residual = 6.32724e-06, Final residual = 6.32724e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000295859, Final residual = 1.73383e-05, No Iterations 4
-ExecutionTime = 0.19 s  ClockTime = 6 s
+ExecutionTime = 0.18 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 164
@@ -1900,7 +1900,7 @@ GAMG:  Solving for p, Initial residual = 0.0360035, Final residual = 0.00181874,
 time step continuity errors : sum local = 2.35707e-08, global = -4.57983e-18, cumulative = -3.58904e-16
 smoothSolver:  Solving for omega, Initial residual = 6.6516e-06, Final residual = 6.6516e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000340573, Final residual = 2.36311e-05, No Iterations 4
-ExecutionTime = 0.2 s  ClockTime = 6 s
+ExecutionTime = 0.19 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 165
@@ -1911,7 +1911,7 @@ GAMG:  Solving for p, Initial residual = 0.0331785, Final residual = 0.00228058,
 time step continuity errors : sum local = 2.92846e-08, global = -1.99651e-18, cumulative = -3.60901e-16
 smoothSolver:  Solving for omega, Initial residual = 7.84956e-06, Final residual = 7.84956e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000340421, Final residual = 1.8167e-05, No Iterations 4
-ExecutionTime = 0.2 s  ClockTime = 6 s
+ExecutionTime = 0.19 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 166
@@ -1922,7 +1922,7 @@ GAMG:  Solving for p, Initial residual = 0.0307212, Final residual = 0.00175361,
 time step continuity errors : sum local = 2.1651e-08, global = -4.43777e-18, cumulative = -3.65339e-16
 smoothSolver:  Solving for omega, Initial residual = 9.04725e-06, Final residual = 9.04725e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.0003645, Final residual = 2.06369e-05, No Iterations 4
-ExecutionTime = 0.2 s  ClockTime = 6 s
+ExecutionTime = 0.19 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 167
@@ -1933,7 +1933,7 @@ GAMG:  Solving for p, Initial residual = 0.029067, Final residual = 0.00244925, 
 time step continuity errors : sum local = 3.18796e-08, global = -2.67923e-18, cumulative = -3.68018e-16
 smoothSolver:  Solving for omega, Initial residual = 1.02635e-05, Final residual = 3.29059e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000341582, Final residual = 2.25455e-05, No Iterations 4
-ExecutionTime = 0.2 s  ClockTime = 6 s
+ExecutionTime = 0.19 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 168
@@ -1944,7 +1944,7 @@ GAMG:  Solving for p, Initial residual = 0.0359028, Final residual = 0.00223939,
 time step continuity errors : sum local = 2.79496e-08, global = -3.21369e-19, cumulative = -3.68339e-16
 smoothSolver:  Solving for omega, Initial residual = 6.22607e-06, Final residual = 6.22607e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000400875, Final residual = 2.72499e-05, No Iterations 4
-ExecutionTime = 0.2 s  ClockTime = 6 s
+ExecutionTime = 0.19 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 169
@@ -1955,7 +1955,7 @@ GAMG:  Solving for p, Initial residual = 0.0344838, Final residual = 0.00215556,
 time step continuity errors : sum local = 2.66367e-08, global = -1.16087e-18, cumulative = -3.695e-16
 smoothSolver:  Solving for omega, Initial residual = 6.46281e-06, Final residual = 6.46281e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000413118, Final residual = 2.76244e-05, No Iterations 4
-ExecutionTime = 0.2 s  ClockTime = 6 s
+ExecutionTime = 0.19 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 170
@@ -1966,7 +1966,7 @@ GAMG:  Solving for p, Initial residual = 0.0314754, Final residual = 0.00168001,
 time step continuity errors : sum local = 2.05326e-08, global = -1.53034e-18, cumulative = -3.7103e-16
 smoothSolver:  Solving for omega, Initial residual = 7.52659e-06, Final residual = 7.52659e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000416801, Final residual = 2.15168e-05, No Iterations 4
-ExecutionTime = 0.2 s  ClockTime = 6 s
+ExecutionTime = 0.19 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 171
@@ -1977,7 +1977,7 @@ GAMG:  Solving for p, Initial residual = 0.0291342, Final residual = 0.00173337,
 time step continuity errors : sum local = 2.0905e-08, global = -3.56448e-18, cumulative = -3.74595e-16
 smoothSolver:  Solving for omega, Initial residual = 8.74513e-06, Final residual = 8.74513e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.00044865, Final residual = 2.75322e-05, No Iterations 4
-ExecutionTime = 0.2 s  ClockTime = 6 s
+ExecutionTime = 0.19 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 172
@@ -1999,7 +1999,7 @@ GAMG:  Solving for p, Initial residual = 0.026626, Final residual = 0.00203755, 
 time step continuity errors : sum local = 2.43504e-08, global = -3.44388e-18, cumulative = -3.8083e-16
 smoothSolver:  Solving for omega, Initial residual = 1.11995e-05, Final residual = 3.36274e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000407664, Final residual = 2.92192e-05, No Iterations 4
-ExecutionTime = 0.21 s  ClockTime = 6 s
+ExecutionTime = 0.2 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 174
@@ -2010,7 +2010,7 @@ GAMG:  Solving for p, Initial residual = 0.0360346, Final residual = 0.00197821,
 time step continuity errors : sum local = 2.42397e-08, global = -2.7705e-18, cumulative = -3.836e-16
 smoothSolver:  Solving for omega, Initial residual = 6.25091e-06, Final residual = 6.25091e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000445247, Final residual = 3.15879e-05, No Iterations 4
-ExecutionTime = 0.21 s  ClockTime = 6 s
+ExecutionTime = 0.2 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 175
@@ -2021,7 +2021,7 @@ GAMG:  Solving for p, Initial residual = 0.0393389, Final residual = 0.00177459,
 time step continuity errors : sum local = 2.14404e-08, global = -3.72225e-18, cumulative = -3.87322e-16
 smoothSolver:  Solving for omega, Initial residual = 6.23623e-06, Final residual = 6.23623e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000463057, Final residual = 2.88199e-05, No Iterations 4
-ExecutionTime = 0.21 s  ClockTime = 6 s
+ExecutionTime = 0.2 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 176
@@ -2032,7 +2032,7 @@ GAMG:  Solving for p, Initial residual = 0.0343119, Final residual = 0.0017404, 
 time step continuity errors : sum local = 1.98237e-08, global = -1.69509e-18, cumulative = -3.89017e-16
 smoothSolver:  Solving for omega, Initial residual = 6.9295e-06, Final residual = 6.9295e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000457321, Final residual = 2.82203e-05, No Iterations 4
-ExecutionTime = 0.21 s  ClockTime = 6 s
+ExecutionTime = 0.2 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 177
@@ -2043,7 +2043,7 @@ GAMG:  Solving for p, Initial residual = 0.0300839, Final residual = 0.00164439,
 time step continuity errors : sum local = 1.85211e-08, global = -1.90682e-18, cumulative = -3.90924e-16
 smoothSolver:  Solving for omega, Initial residual = 8.16188e-06, Final residual = 8.16188e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000477238, Final residual = 2.98316e-05, No Iterations 4
-ExecutionTime = 0.21 s  ClockTime = 6 s
+ExecutionTime = 0.2 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 178
@@ -2054,7 +2054,7 @@ GAMG:  Solving for p, Initial residual = 0.0303416, Final residual = 0.00142013,
 time step continuity errors : sum local = 1.54242e-08, global = -3.81012e-18, cumulative = -3.94734e-16
 smoothSolver:  Solving for omega, Initial residual = 9.39577e-06, Final residual = 9.39577e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000480006, Final residual = 3.54048e-05, No Iterations 4
-ExecutionTime = 0.21 s  ClockTime = 6 s
+ExecutionTime = 0.2 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 179
@@ -2065,7 +2065,7 @@ GAMG:  Solving for p, Initial residual = 0.028218, Final residual = 0.00198548, 
 time step continuity errors : sum local = 2.19276e-08, global = -1.93628e-18, cumulative = -3.96671e-16
 smoothSolver:  Solving for omega, Initial residual = 1.06322e-05, Final residual = 3.22089e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000418245, Final residual = 2.64591e-05, No Iterations 4
-ExecutionTime = 0.21 s  ClockTime = 6 s
+ExecutionTime = 0.2 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 180
@@ -2076,7 +2076,7 @@ GAMG:  Solving for p, Initial residual = 0.0378615, Final residual = 0.00199072,
 time step continuity errors : sum local = 2.14042e-08, global = -1.91851e-18, cumulative = -3.98589e-16
 smoothSolver:  Solving for omega, Initial residual = 5.99245e-06, Final residual = 5.99245e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000459016, Final residual = 3.37135e-05, No Iterations 4
-ExecutionTime = 0.21 s  ClockTime = 6 s
+ExecutionTime = 0.2 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 181
@@ -2098,7 +2098,7 @@ GAMG:  Solving for p, Initial residual = 0.0334321, Final residual = 0.00157088,
 time step continuity errors : sum local = 1.68434e-08, global = -1.49183e-18, cumulative = -4.01316e-16
 smoothSolver:  Solving for omega, Initial residual = 6.86244e-06, Final residual = 6.86244e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000449091, Final residual = 2.56626e-05, No Iterations 4
-ExecutionTime = 0.22 s  ClockTime = 6 s
+ExecutionTime = 0.21 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 183
@@ -2109,7 +2109,7 @@ GAMG:  Solving for p, Initial residual = 0.0301061, Final residual = 0.00156801,
 time step continuity errors : sum local = 1.6897e-08, global = -3.04543e-18, cumulative = -4.04361e-16
 smoothSolver:  Solving for omega, Initial residual = 8.09376e-06, Final residual = 8.09376e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.00047287, Final residual = 3.03084e-05, No Iterations 4
-ExecutionTime = 0.22 s  ClockTime = 6 s
+ExecutionTime = 0.21 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 184
@@ -2120,7 +2120,7 @@ GAMG:  Solving for p, Initial residual = 0.0297458, Final residual = 0.00128689,
 time step continuity errors : sum local = 1.37368e-08, global = -2.97703e-18, cumulative = -4.07338e-16
 smoothSolver:  Solving for omega, Initial residual = 9.32003e-06, Final residual = 9.32003e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.00046096, Final residual = 3.09372e-05, No Iterations 4
-ExecutionTime = 0.22 s  ClockTime = 6 s
+ExecutionTime = 0.21 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 185
@@ -2131,7 +2131,7 @@ GAMG:  Solving for p, Initial residual = 0.023699, Final residual = 0.00136493, 
 time step continuity errors : sum local = 1.43893e-08, global = -3.2286e-18, cumulative = -4.10567e-16
 smoothSolver:  Solving for omega, Initial residual = 1.05453e-05, Final residual = 3.0792e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000418671, Final residual = 3.66998e-05, No Iterations 4
-ExecutionTime = 0.22 s  ClockTime = 6 s
+ExecutionTime = 0.21 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 186
@@ -2142,7 +2142,7 @@ GAMG:  Solving for p, Initial residual = 0.033543, Final residual = 0.00185204, 
 time step continuity errors : sum local = 2.00988e-08, global = -2.83622e-18, cumulative = -4.13403e-16
 smoothSolver:  Solving for omega, Initial residual = 5.68969e-06, Final residual = 5.68969e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000412161, Final residual = 2.66474e-05, No Iterations 4
-ExecutionTime = 0.22 s  ClockTime = 6 s
+ExecutionTime = 0.21 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 187
@@ -2153,7 +2153,7 @@ GAMG:  Solving for p, Initial residual = 0.0362039, Final residual = 0.00179711,
 time step continuity errors : sum local = 1.93108e-08, global = -4.02114e-19, cumulative = -4.13805e-16
 smoothSolver:  Solving for omega, Initial residual = 5.66082e-06, Final residual = 5.66082e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000435468, Final residual = 1.98836e-05, No Iterations 4
-ExecutionTime = 0.22 s  ClockTime = 6 s
+ExecutionTime = 0.21 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 188
@@ -2164,7 +2164,7 @@ GAMG:  Solving for p, Initial residual = 0.033432, Final residual = 0.00173936, 
 time step continuity errors : sum local = 1.71019e-08, global = -3.41432e-18, cumulative = -4.1722e-16
 smoothSolver:  Solving for omega, Initial residual = 6.38235e-06, Final residual = 6.38235e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000453258, Final residual = 3.53742e-05, No Iterations 4
-ExecutionTime = 0.22 s  ClockTime = 6 s
+ExecutionTime = 0.21 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 189
@@ -2175,7 +2175,7 @@ GAMG:  Solving for p, Initial residual = 0.0298544, Final residual = 0.00183801,
 time step continuity errors : sum local = 1.8055e-08, global = -6.91096e-19, cumulative = -4.17911e-16
 smoothSolver:  Solving for omega, Initial residual = 7.57873e-06, Final residual = 7.57873e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000409593, Final residual = 2.46865e-05, No Iterations 4
-ExecutionTime = 0.22 s  ClockTime = 6 s
+ExecutionTime = 0.21 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 190
@@ -2197,7 +2197,7 @@ GAMG:  Solving for p, Initial residual = 0.0277964, Final residual = 0.00213941,
 time step continuity errors : sum local = 2.21114e-08, global = -1.52376e-18, cumulative = -4.22124e-16
 smoothSolver:  Solving for omega, Initial residual = 9.9531e-06, Final residual = 9.9531e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000424913, Final residual = 2.69353e-05, No Iterations 4
-ExecutionTime = 0.23 s  ClockTime = 6 s
+ExecutionTime = 0.22 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 192
@@ -2208,7 +2208,7 @@ GAMG:  Solving for p, Initial residual = 0.024792, Final residual = 0.00146928, 
 time step continuity errors : sum local = 1.57988e-08, global = -3.36865e-18, cumulative = -4.25493e-16
 smoothSolver:  Solving for omega, Initial residual = 1.1109e-05, Final residual = 3.14606e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000361246, Final residual = 2.57135e-05, No Iterations 4
-ExecutionTime = 0.23 s  ClockTime = 6 s
+ExecutionTime = 0.22 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 193
@@ -2219,7 +2219,7 @@ GAMG:  Solving for p, Initial residual = 0.0352106, Final residual = 0.00201785,
 time step continuity errors : sum local = 2.00809e-08, global = -3.8982e-18, cumulative = -4.29391e-16
 smoothSolver:  Solving for omega, Initial residual = 5.9636e-06, Final residual = 5.9636e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000357115, Final residual = 1.86672e-05, No Iterations 4
-ExecutionTime = 0.23 s  ClockTime = 6 s
+ExecutionTime = 0.22 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 194
@@ -2230,7 +2230,7 @@ GAMG:  Solving for p, Initial residual = 0.0349124, Final residual = 0.00164118,
 time step continuity errors : sum local = 1.6599e-08, global = -3.55122e-18, cumulative = -4.32942e-16
 smoothSolver:  Solving for omega, Initial residual = 5.75833e-06, Final residual = 5.75833e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000399574, Final residual = 2.70997e-05, No Iterations 4
-ExecutionTime = 0.23 s  ClockTime = 6 s
+ExecutionTime = 0.22 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 195
@@ -2241,7 +2241,7 @@ GAMG:  Solving for p, Initial residual = 0.0307689, Final residual = 0.00146833,
 time step continuity errors : sum local = 1.45752e-08, global = -5.38292e-18, cumulative = -4.38325e-16
 smoothSolver:  Solving for omega, Initial residual = 6.01664e-06, Final residual = 6.01664e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000364671, Final residual = 2.21124e-05, No Iterations 4
-ExecutionTime = 0.23 s  ClockTime = 6 s
+ExecutionTime = 0.22 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 196
@@ -2252,7 +2252,7 @@ GAMG:  Solving for p, Initial residual = 0.0283184, Final residual = 0.00118795,
 time step continuity errors : sum local = 1.21575e-08, global = -3.81698e-18, cumulative = -4.42142e-16
 smoothSolver:  Solving for omega, Initial residual = 6.88388e-06, Final residual = 6.88388e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000362854, Final residual = 2.08104e-05, No Iterations 4
-ExecutionTime = 0.23 s  ClockTime = 6 s
+ExecutionTime = 0.22 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 197
@@ -2263,7 +2263,7 @@ GAMG:  Solving for p, Initial residual = 0.0272042, Final residual = 0.00157998,
 time step continuity errors : sum local = 1.5962e-08, global = -3.53035e-18, cumulative = -4.45672e-16
 smoothSolver:  Solving for omega, Initial residual = 7.98629e-06, Final residual = 7.98629e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000374968, Final residual = 2.23215e-05, No Iterations 4
-ExecutionTime = 0.23 s  ClockTime = 6 s
+ExecutionTime = 0.22 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 198
@@ -2274,7 +2274,7 @@ GAMG:  Solving for p, Initial residual = 0.0243792, Final residual = 0.00138648,
 time step continuity errors : sum local = 1.47967e-08, global = -3.15482e-18, cumulative = -4.48827e-16
 smoothSolver:  Solving for omega, Initial residual = 9.07726e-06, Final residual = 9.07726e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000362904, Final residual = 2.60491e-05, No Iterations 4
-ExecutionTime = 0.23 s  ClockTime = 6 s
+ExecutionTime = 0.22 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 199
@@ -2296,7 +2296,7 @@ GAMG:  Solving for p, Initial residual = 0.0303356, Final residual = 0.00154792,
 time step continuity errors : sum local = 1.56244e-08, global = -4.4167e-18, cumulative = -4.5511e-16
 smoothSolver:  Solving for omega, Initial residual = 5.35157e-06, Final residual = 5.35157e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000323417, Final residual = 2.1867e-05, No Iterations 4
-ExecutionTime = 0.24 s  ClockTime = 6 s
+ExecutionTime = 0.23 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 201
@@ -2307,7 +2307,7 @@ GAMG:  Solving for p, Initial residual = 0.0319469, Final residual = 0.00160434,
 time step continuity errors : sum local = 1.59193e-08, global = -2.61025e-18, cumulative = -4.57721e-16
 smoothSolver:  Solving for omega, Initial residual = 5.1984e-06, Final residual = 5.1984e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000325008, Final residual = 2.10527e-05, No Iterations 4
-ExecutionTime = 0.24 s  ClockTime = 6 s
+ExecutionTime = 0.23 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 202
@@ -2318,7 +2318,7 @@ GAMG:  Solving for p, Initial residual = 0.0281129, Final residual = 0.00145996,
 time step continuity errors : sum local = 1.48121e-08, global = -1.26829e-18, cumulative = -4.58989e-16
 smoothSolver:  Solving for omega, Initial residual = 5.55425e-06, Final residual = 5.55425e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000308489, Final residual = 1.8493e-05, No Iterations 4
-ExecutionTime = 0.24 s  ClockTime = 6 s
+ExecutionTime = 0.23 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 203
@@ -2329,7 +2329,7 @@ GAMG:  Solving for p, Initial residual = 0.0299079, Final residual = 0.00165996,
 time step continuity errors : sum local = 1.64226e-08, global = -3.78436e-18, cumulative = -4.62773e-16
 smoothSolver:  Solving for omega, Initial residual = 6.58311e-06, Final residual = 6.58311e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.00031903, Final residual = 1.81124e-05, No Iterations 4
-ExecutionTime = 0.24 s  ClockTime = 6 s
+ExecutionTime = 0.23 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 204
@@ -2340,7 +2340,7 @@ GAMG:  Solving for p, Initial residual = 0.0257508, Final residual = 0.00154381,
 time step continuity errors : sum local = 1.54906e-08, global = 4.14151e-19, cumulative = -4.62359e-16
 smoothSolver:  Solving for omega, Initial residual = 7.60551e-06, Final residual = 7.60551e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000308498, Final residual = 1.72043e-05, No Iterations 4
-ExecutionTime = 0.24 s  ClockTime = 6 s
+ExecutionTime = 0.23 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 205
@@ -2351,7 +2351,7 @@ GAMG:  Solving for p, Initial residual = 0.0247665, Final residual = 0.00150404,
 time step continuity errors : sum local = 1.44902e-08, global = -6.31414e-19, cumulative = -4.62991e-16
 smoothSolver:  Solving for omega, Initial residual = 8.61505e-06, Final residual = 8.61505e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000294675, Final residual = 1.70039e-05, No Iterations 4
-ExecutionTime = 0.24 s  ClockTime = 6 s
+ExecutionTime = 0.23 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 206
@@ -2362,7 +2362,7 @@ GAMG:  Solving for p, Initial residual = 0.0241841, Final residual = 0.00132301,
 time step continuity errors : sum local = 1.38446e-08, global = -5.27693e-18, cumulative = -4.68267e-16
 smoothSolver:  Solving for omega, Initial residual = 9.61111e-06, Final residual = 9.61111e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000305466, Final residual = 1.6879e-05, No Iterations 4
-ExecutionTime = 0.24 s  ClockTime = 6 s
+ExecutionTime = 0.23 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 207
@@ -2373,7 +2373,7 @@ GAMG:  Solving for p, Initial residual = 0.0220722, Final residual = 0.00157549,
 time step continuity errors : sum local = 1.599e-08, global = -3.02417e-18, cumulative = -4.71292e-16
 smoothSolver:  Solving for omega, Initial residual = 1.05985e-05, Final residual = 2.96426e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000253543, Final residual = 1.67676e-05, No Iterations 4
-ExecutionTime = 0.24 s  ClockTime = 6 s
+ExecutionTime = 0.23 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 208
@@ -2395,7 +2395,7 @@ GAMG:  Solving for p, Initial residual = 0.03116, Final residual = 0.00173982, N
 time step continuity errors : sum local = 1.63932e-08, global = -2.22643e-18, cumulative = -4.74002e-16
 smoothSolver:  Solving for omega, Initial residual = 5.46373e-06, Final residual = 5.46373e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000275482, Final residual = 2.03657e-05, No Iterations 4
-ExecutionTime = 0.25 s  ClockTime = 6 s
+ExecutionTime = 0.24 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 210
@@ -2406,7 +2406,7 @@ GAMG:  Solving for p, Initial residual = 0.0310106, Final residual = 0.0013237, 
 time step continuity errors : sum local = 1.25948e-08, global = -3.15819e-18, cumulative = -4.7716e-16
 smoothSolver:  Solving for omega, Initial residual = 5.58396e-06, Final residual = 5.58396e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000263692, Final residual = 1.6699e-05, No Iterations 4
-ExecutionTime = 0.25 s  ClockTime = 6 s
+ExecutionTime = 0.24 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 211
@@ -2417,7 +2417,7 @@ GAMG:  Solving for p, Initial residual = 0.0285149, Final residual = 0.0015126, 
 time step continuity errors : sum local = 1.45622e-08, global = -1.95352e-18, cumulative = -4.79114e-16
 smoothSolver:  Solving for omega, Initial residual = 5.94054e-06, Final residual = 5.94054e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.00027755, Final residual = 1.88496e-05, No Iterations 4
-ExecutionTime = 0.25 s  ClockTime = 6 s
+ExecutionTime = 0.24 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 212
@@ -2428,7 +2428,7 @@ GAMG:  Solving for p, Initial residual = 0.0287454, Final residual = 0.00138673,
 time step continuity errors : sum local = 1.3341e-08, global = -2.00901e-18, cumulative = -4.81123e-16
 smoothSolver:  Solving for omega, Initial residual = 6.8821e-06, Final residual = 6.8821e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000249434, Final residual = 1.43926e-05, No Iterations 4
-ExecutionTime = 0.25 s  ClockTime = 6 s
+ExecutionTime = 0.24 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 213
@@ -2439,7 +2439,7 @@ GAMG:  Solving for p, Initial residual = 0.0234464, Final residual = 0.00145957,
 time step continuity errors : sum local = 1.45411e-08, global = -2.33405e-18, cumulative = -4.83457e-16
 smoothSolver:  Solving for omega, Initial residual = 7.82112e-06, Final residual = 7.82112e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000255106, Final residual = 1.2837e-05, No Iterations 4
-ExecutionTime = 0.25 s  ClockTime = 6 s
+ExecutionTime = 0.24 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 214
@@ -2450,7 +2450,7 @@ GAMG:  Solving for p, Initial residual = 0.0266787, Final residual = 0.00119642,
 time step continuity errors : sum local = 1.17666e-08, global = 5.82916e-19, cumulative = -4.82874e-16
 smoothSolver:  Solving for omega, Initial residual = 8.74154e-06, Final residual = 8.74154e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000256749, Final residual = 1.38371e-05, No Iterations 4
-ExecutionTime = 0.25 s  ClockTime = 6 s
+ExecutionTime = 0.24 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 215
@@ -2461,7 +2461,7 @@ GAMG:  Solving for p, Initial residual = 0.0215267, Final residual = 0.00124011,
 time step continuity errors : sum local = 1.22689e-08, global = -1.9718e-18, cumulative = -4.84846e-16
 smoothSolver:  Solving for omega, Initial residual = 9.6544e-06, Final residual = 9.6544e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000254901, Final residual = 1.56987e-05, No Iterations 4
-ExecutionTime = 0.25 s  ClockTime = 6 s
+ExecutionTime = 0.24 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 216
@@ -2472,7 +2472,7 @@ GAMG:  Solving for p, Initial residual = 0.0209722, Final residual = 0.000914573
 time step continuity errors : sum local = 8.87257e-09, global = -2.32055e-18, cumulative = -4.87166e-16
 smoothSolver:  Solving for omega, Initial residual = 1.05532e-05, Final residual = 2.94374e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000196212, Final residual = 1.09832e-05, No Iterations 4
-ExecutionTime = 0.25 s  ClockTime = 6 s
+ExecutionTime = 0.24 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 217
@@ -2538,7 +2538,7 @@ GAMG:  Solving for p, Initial residual = 0.0259876, Final residual = 0.00138141,
 time step continuity errors : sum local = 1.17996e-08, global = -2.25938e-18, cumulative = -4.99485e-16
 smoothSolver:  Solving for omega, Initial residual = 7.12115e-06, Final residual = 7.12115e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000211775, Final residual = 1.03315e-05, No Iterations 4
-ExecutionTime = 0.26 s  ClockTime = 6 s
+ExecutionTime = 0.25 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 223
@@ -2549,7 +2549,7 @@ GAMG:  Solving for p, Initial residual = 0.0279905, Final residual = 0.00178146,
 time step continuity errors : sum local = 1.47486e-08, global = -2.42513e-18, cumulative = -5.0191e-16
 smoothSolver:  Solving for omega, Initial residual = 7.94221e-06, Final residual = 7.94221e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000226487, Final residual = 1.22764e-05, No Iterations 4
-ExecutionTime = 0.26 s  ClockTime = 6 s
+ExecutionTime = 0.25 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 224
@@ -2560,7 +2560,7 @@ GAMG:  Solving for p, Initial residual = 0.02463, Final residual = 0.00179496, N
 time step continuity errors : sum local = 1.52026e-08, global = -1.6819e-18, cumulative = -5.03592e-16
 smoothSolver:  Solving for omega, Initial residual = 8.75487e-06, Final residual = 8.75487e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000222786, Final residual = 1.39862e-05, No Iterations 4
-ExecutionTime = 0.26 s  ClockTime = 6 s
+ExecutionTime = 0.25 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 225
@@ -2571,7 +2571,7 @@ GAMG:  Solving for p, Initial residual = 0.0232361, Final residual = 0.00200827,
 time step continuity errors : sum local = 1.68551e-08, global = -3.80764e-18, cumulative = -5.074e-16
 smoothSolver:  Solving for omega, Initial residual = 9.56104e-06, Final residual = 9.56104e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000212168, Final residual = 1.11057e-05, No Iterations 4
-ExecutionTime = 0.26 s  ClockTime = 6 s
+ExecutionTime = 0.25 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 226
@@ -2637,7 +2637,7 @@ GAMG:  Solving for p, Initial residual = 0.0331085, Final residual = 0.00152936,
 time step continuity errors : sum local = 1.17548e-08, global = -5.45275e-19, cumulative = -5.21236e-16
 smoothSolver:  Solving for omega, Initial residual = 5.80004e-06, Final residual = 5.80004e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000196224, Final residual = 1.02981e-05, No Iterations 4
-ExecutionTime = 0.27 s  ClockTime = 6 s
+ExecutionTime = 0.26 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 232
@@ -2648,7 +2648,7 @@ GAMG:  Solving for p, Initial residual = 0.0267184, Final residual = 0.0012626, 
 time step continuity errors : sum local = 1.03923e-08, global = -8.82575e-19, cumulative = -5.22118e-16
 smoothSolver:  Solving for omega, Initial residual = 6.53901e-06, Final residual = 6.53901e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000203831, Final residual = 1.05652e-05, No Iterations 4
-ExecutionTime = 0.27 s  ClockTime = 6 s
+ExecutionTime = 0.26 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 233
@@ -2659,7 +2659,7 @@ GAMG:  Solving for p, Initial residual = 0.0282616, Final residual = 0.00149985,
 time step continuity errors : sum local = 1.20847e-08, global = -1.38302e-18, cumulative = -5.23501e-16
 smoothSolver:  Solving for omega, Initial residual = 7.2699e-06, Final residual = 7.2699e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000206264, Final residual = 1.22522e-05, No Iterations 4
-ExecutionTime = 0.27 s  ClockTime = 6 s
+ExecutionTime = 0.26 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 234
@@ -2670,7 +2670,7 @@ GAMG:  Solving for p, Initial residual = 0.0241513, Final residual = 0.000966422
 time step continuity errors : sum local = 8.33573e-09, global = -1.05082e-18, cumulative = -5.24552e-16
 smoothSolver:  Solving for omega, Initial residual = 7.99717e-06, Final residual = 7.99717e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000204963, Final residual = 1.35566e-05, No Iterations 4
-ExecutionTime = 0.27 s  ClockTime = 6 s
+ExecutionTime = 0.26 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 235
@@ -2736,7 +2736,7 @@ GAMG:  Solving for p, Initial residual = 0.0373473, Final residual = 0.00185769,
 time step continuity errors : sum local = 1.37789e-08, global = -3.16274e-18, cumulative = -5.41474e-16
 smoothSolver:  Solving for omega, Initial residual = 5.07728e-06, Final residual = 5.07728e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000173866, Final residual = 9.5007e-06, No Iterations 4
-ExecutionTime = 0.28 s  ClockTime = 6 s
+ExecutionTime = 0.27 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 241
@@ -2747,7 +2747,7 @@ GAMG:  Solving for p, Initial residual = 0.034407, Final residual = 0.0016313, N
 time step continuity errors : sum local = 1.17531e-08, global = -2.56118e-18, cumulative = -5.44035e-16
 smoothSolver:  Solving for omega, Initial residual = 5.17828e-06, Final residual = 5.17828e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000191753, Final residual = 1.14818e-05, No Iterations 4
-ExecutionTime = 0.28 s  ClockTime = 6 s
+ExecutionTime = 0.27 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 242
@@ -2758,7 +2758,7 @@ GAMG:  Solving for p, Initial residual = 0.033036, Final residual = 0.00160251, 
 time step continuity errors : sum local = 1.15792e-08, global = -1.77726e-18, cumulative = -5.45812e-16
 smoothSolver:  Solving for omega, Initial residual = 5.40781e-06, Final residual = 5.40781e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000186403, Final residual = 1.30422e-05, No Iterations 4
-ExecutionTime = 0.28 s  ClockTime = 6 s
+ExecutionTime = 0.27 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 243
@@ -2769,7 +2769,7 @@ GAMG:  Solving for p, Initial residual = 0.029268, Final residual = 0.00137826, 
 time step continuity errors : sum local = 9.85542e-09, global = -3.96641e-18, cumulative = -5.49779e-16
 smoothSolver:  Solving for omega, Initial residual = 5.95468e-06, Final residual = 5.95468e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000179773, Final residual = 1.00561e-05, No Iterations 4
-ExecutionTime = 0.28 s  ClockTime = 6 s
+ExecutionTime = 0.27 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 244
@@ -2835,7 +2835,7 @@ GAMG:  Solving for p, Initial residual = 0.0183397, Final residual = 0.000922652
 time step continuity errors : sum local = 7.54424e-09, global = -2.94794e-19, cumulative = -5.63175e-16
 smoothSolver:  Solving for omega, Initial residual = 9.85046e-06, Final residual = 9.85046e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000179994, Final residual = 9.28156e-06, No Iterations 4
-ExecutionTime = 0.29 s  ClockTime = 6 s
+ExecutionTime = 0.28 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 250
@@ -2912,7 +2912,7 @@ GAMG:  Solving for p, Initial residual = 0.0321387, Final residual = 0.0011707, 
 time step continuity errors : sum local = 8.52892e-09, global = -4.58244e-18, cumulative = -5.83627e-16
 smoothSolver:  Solving for omega, Initial residual = 5.55107e-06, Final residual = 5.55107e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000166757, Final residual = 1.02592e-05, No Iterations 4
-ExecutionTime = 0.29 s  ClockTime = 6 s
+ExecutionTime = 0.3 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 257
@@ -2923,7 +2923,7 @@ GAMG:  Solving for p, Initial residual = 0.0295639, Final residual = 0.00175831,
 time step continuity errors : sum local = 1.23139e-08, global = -2.45818e-18, cumulative = -5.86085e-16
 smoothSolver:  Solving for omega, Initial residual = 5.88166e-06, Final residual = 5.88166e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000171236, Final residual = 8.13383e-06, No Iterations 4
-ExecutionTime = 0.29 s  ClockTime = 6 s
+ExecutionTime = 0.3 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 258
@@ -3011,7 +3011,7 @@ GAMG:  Solving for p, Initial residual = 0.0154458, Final residual = 0.0010599, 
 time step continuity errors : sum local = 8.36318e-09, global = -4.3456e-18, cumulative = -6.16048e-16
 smoothSolver:  Solving for omega, Initial residual = 1.04522e-05, Final residual = 2.85054e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.000135326, Final residual = 7.32463e-06, No Iterations 4
-ExecutionTime = 0.3 s  ClockTime = 6 s
+ExecutionTime = 0.31 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 266
@@ -3022,7 +3022,7 @@ GAMG:  Solving for p, Initial residual = 0.0395901, Final residual = 0.00150894,
 time step continuity errors : sum local = 1.17268e-08, global = -2.06262e-18, cumulative = -6.1811e-16
 smoothSolver:  Solving for omega, Initial residual = 5.35939e-06, Final residual = 5.35939e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000141973, Final residual = 8.85049e-06, No Iterations 4
-ExecutionTime = 0.3 s  ClockTime = 6 s
+ExecutionTime = 0.31 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 267
@@ -3110,7 +3110,7 @@ GAMG:  Solving for p, Initial residual = 0.0288461, Final residual = 0.00160281,
 time step continuity errors : sum local = 1.04607e-08, global = -2.32659e-18, cumulative = -6.36993e-16
 smoothSolver:  Solving for omega, Initial residual = 6.24678e-06, Final residual = 6.24678e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000145229, Final residual = 7.27998e-06, No Iterations 4
-ExecutionTime = 0.31 s  ClockTime = 6 s
+ExecutionTime = 0.32 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 275
@@ -3121,7 +3121,7 @@ GAMG:  Solving for p, Initial residual = 0.0247771, Final residual = 0.00159782,
 time step continuity errors : sum local = 1.05489e-08, global = -3.13403e-18, cumulative = -6.40127e-16
 smoothSolver:  Solving for omega, Initial residual = 6.74991e-06, Final residual = 6.74991e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000150757, Final residual = 8.82707e-06, No Iterations 4
-ExecutionTime = 0.31 s  ClockTime = 6 s
+ExecutionTime = 0.32 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 276
@@ -3209,7 +3209,7 @@ GAMG:  Solving for p, Initial residual = 0.0464395, Final residual = 0.00198132,
 time step continuity errors : sum local = 1.38165e-08, global = -1.8021e-18, cumulative = -6.60324e-16
 smoothSolver:  Solving for omega, Initial residual = 5.34301e-06, Final residual = 5.34301e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000119383, Final residual = 7.23407e-06, No Iterations 4
-ExecutionTime = 0.32 s  ClockTime = 6 s
+ExecutionTime = 0.33 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 284
@@ -3220,7 +3220,7 @@ GAMG:  Solving for p, Initial residual = 0.0464242, Final residual = 0.00188862,
 time step continuity errors : sum local = 1.24822e-08, global = -2.19289e-18, cumulative = -6.62517e-16
 smoothSolver:  Solving for omega, Initial residual = 5.14754e-06, Final residual = 5.14754e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000123778, Final residual = 9.03907e-06, No Iterations 4
-ExecutionTime = 0.32 s  ClockTime = 6 s
+ExecutionTime = 0.33 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 285
@@ -3308,7 +3308,7 @@ GAMG:  Solving for p, Initial residual = 0.0254601, Final residual = 0.00175655,
 time step continuity errors : sum local = 1.04906e-08, global = -3.94449e-18, cumulative = -6.84502e-16
 smoothSolver:  Solving for omega, Initial residual = 5.97242e-06, Final residual = 5.97242e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000124026, Final residual = 1.13594e-05, No Iterations 3
-ExecutionTime = 0.33 s  ClockTime = 6 s
+ExecutionTime = 0.34 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 293
@@ -3319,7 +3319,7 @@ GAMG:  Solving for p, Initial residual = 0.0229884, Final residual = 0.000944599
 time step continuity errors : sum local = 5.93949e-09, global = -3.51268e-18, cumulative = -6.88015e-16
 smoothSolver:  Solving for omega, Initial residual = 6.39617e-06, Final residual = 6.39617e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000125956, Final residual = 7.15866e-06, No Iterations 4
-ExecutionTime = 0.33 s  ClockTime = 6 s
+ExecutionTime = 0.34 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 294
@@ -3407,7 +3407,7 @@ GAMG:  Solving for p, Initial residual = 0.0126588, Final residual = 0.000796497
 time step continuity errors : sum local = 5.97257e-09, global = -1.80501e-18, cumulative = -7.10498e-16
 smoothSolver:  Solving for omega, Initial residual = 9.70934e-06, Final residual = 9.70934e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000119181, Final residual = 6.63151e-06, No Iterations 4
-ExecutionTime = 0.34 s  ClockTime = 6 s
+ExecutionTime = 0.35 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 302
@@ -3418,7 +3418,7 @@ GAMG:  Solving for p, Initial residual = 0.0103145, Final residual = 0.000930011
 time step continuity errors : sum local = 6.51626e-09, global = -3.69689e-18, cumulative = -7.14195e-16
 smoothSolver:  Solving for omega, Initial residual = 1.01083e-05, Final residual = 2.73926e-06, No Iterations 1
 smoothSolver:  Solving for k, Initial residual = 0.00011033, Final residual = 5.94503e-06, No Iterations 4
-ExecutionTime = 0.34 s  ClockTime = 6 s
+ExecutionTime = 0.35 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 303
@@ -3495,7 +3495,7 @@ GAMG:  Solving for p, Initial residual = 0.0355591, Final residual = 0.00191052,
 time step continuity errors : sum local = 1.07859e-08, global = -3.28847e-18, cumulative = -7.36395e-16
 smoothSolver:  Solving for omega, Initial residual = 5.08746e-06, Final residual = 5.08746e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 9.79859e-05, Final residual = 4.91484e-06, No Iterations 4
-ExecutionTime = 0.35 s  ClockTime = 6 s
+ExecutionTime = 0.36 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 310
@@ -3506,7 +3506,7 @@ GAMG:  Solving for p, Initial residual = 0.0344057, Final residual = 0.00186006,
 time step continuity errors : sum local = 1.02671e-08, global = -3.64721e-18, cumulative = -7.40043e-16
 smoothSolver:  Solving for omega, Initial residual = 5.13977e-06, Final residual = 5.13977e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000100583, Final residual = 5.84951e-06, No Iterations 4
-ExecutionTime = 0.35 s  ClockTime = 6 s
+ExecutionTime = 0.36 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 311
@@ -3517,7 +3517,7 @@ GAMG:  Solving for p, Initial residual = 0.0314048, Final residual = 0.00182992,
 time step continuity errors : sum local = 1.00378e-08, global = -7.2402e-19, cumulative = -7.40767e-16
 smoothSolver:  Solving for omega, Initial residual = 5.25662e-06, Final residual = 5.25662e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 9.7321e-05, Final residual = 5.0883e-06, No Iterations 4
-ExecutionTime = 0.35 s  ClockTime = 6 s
+ExecutionTime = 0.36 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 312
@@ -3627,7 +3627,7 @@ GAMG:  Solving for p, Initial residual = 0.0121997, Final residual = 0.00100634,
 time step continuity errors : sum local = 6.13613e-09, global = -3.10872e-18, cumulative = -7.63512e-16
 smoothSolver:  Solving for omega, Initial residual = 8.09672e-06, Final residual = 8.09672e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 0.000100361, Final residual = 5.34655e-06, No Iterations 4
-ExecutionTime = 0.37 s  ClockTime = 6 s
+ExecutionTime = 0.36 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 322
@@ -3726,7 +3726,7 @@ GAMG:  Solving for p, Initial residual = 0.0493233, Final residual = 0.0021767, 
 time step continuity errors : sum local = 1.19484e-08, global = -7.2466e-19, cumulative = -7.81044e-16
 smoothSolver:  Solving for omega, Initial residual = 5.16452e-06, Final residual = 5.16452e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 7.5632e-05, Final residual = 9.35595e-06, No Iterations 3
-ExecutionTime = 0.38 s  ClockTime = 6 s
+ExecutionTime = 0.37 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 331
@@ -3825,7 +3825,7 @@ GAMG:  Solving for p, Initial residual = 0.0235472, Final residual = 0.00117092,
 time step continuity errors : sum local = 6.24399e-09, global = -1.92815e-20, cumulative = -8.02983e-16
 smoothSolver:  Solving for omega, Initial residual = 5.37233e-06, Final residual = 5.37233e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 8.42672e-05, Final residual = 8.44282e-06, No Iterations 3
-ExecutionTime = 0.39 s  ClockTime = 6 s
+ExecutionTime = 0.38 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 340
@@ -3924,7 +3924,7 @@ GAMG:  Solving for p, Initial residual = 0.0107475, Final residual = 0.000971234
 time step continuity errors : sum local = 5.91418e-09, global = -1.10376e-18, cumulative = -8.24529e-16
 smoothSolver:  Solving for omega, Initial residual = 7.14079e-06, Final residual = 7.14079e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 8.09929e-05, Final residual = 8.93663e-06, No Iterations 3
-ExecutionTime = 0.4 s  ClockTime = 6 s
+ExecutionTime = 0.39 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 349
@@ -4507,7 +4507,7 @@ GAMG:  Solving for p, Initial residual = 0.00290596, Final residual = 0.00018416
 time step continuity errors : sum local = 1.14267e-09, global = -3.16945e-18, cumulative = -9.76889e-16
 smoothSolver:  Solving for omega, Initial residual = 8.85267e-06, Final residual = 8.85267e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 5.97387e-05, Final residual = 6.50361e-06, No Iterations 3
-ExecutionTime = 0.45 s  ClockTime = 6 s
+ExecutionTime = 0.46 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 402
@@ -4606,7 +4606,7 @@ GAMG:  Solving for p, Initial residual = 0.0533691, Final residual = 0.00234562,
 time step continuity errors : sum local = 1.39666e-08, global = -2.50528e-19, cumulative = -1.00264e-15
 smoothSolver:  Solving for omega, Initial residual = 5.32377e-06, Final residual = 5.32377e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 9.67908e-05, Final residual = 9.37103e-06, No Iterations 3
-ExecutionTime = 0.46 s  ClockTime = 6 s
+ExecutionTime = 0.47 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 411
@@ -4705,7 +4705,7 @@ GAMG:  Solving for p, Initial residual = 0.028746, Final residual = 0.00129774, 
 time step continuity errors : sum local = 6.24971e-09, global = -2.11321e-18, cumulative = -1.03068e-15
 smoothSolver:  Solving for omega, Initial residual = 5.77362e-06, Final residual = 5.77362e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.67411e-05, Final residual = 7.13111e-06, No Iterations 2
-ExecutionTime = 0.47 s  ClockTime = 6 s
+ExecutionTime = 0.48 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 420
@@ -4815,7 +4815,7 @@ GAMG:  Solving for p, Initial residual = 0.0113802, Final residual = 0.000907952
 time step continuity errors : sum local = 4.99522e-09, global = -1.96672e-18, cumulative = -1.05398e-15
 smoothSolver:  Solving for omega, Initial residual = 5.49092e-06, Final residual = 5.49092e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.27835e-05, Final residual = 6.61747e-06, No Iterations 2
-ExecutionTime = 0.49 s  ClockTime = 6 s
+ExecutionTime = 0.48 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 430
@@ -4826,7 +4826,7 @@ GAMG:  Solving for p, Initial residual = 0.0100576, Final residual = 0.000507505
 time step continuity errors : sum local = 2.80852e-09, global = -1.93322e-18, cumulative = -1.05591e-15
 smoothSolver:  Solving for omega, Initial residual = 5.45502e-06, Final residual = 5.45502e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.06265e-05, Final residual = 7.24794e-06, No Iterations 2
-ExecutionTime = 0.49 s  ClockTime = 6 s
+ExecutionTime = 0.48 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 431
@@ -4837,7 +4837,7 @@ GAMG:  Solving for p, Initial residual = 0.00979872, Final residual = 0.00089149
 time step continuity errors : sum local = 5.01243e-09, global = -4.47766e-18, cumulative = -1.06039e-15
 smoothSolver:  Solving for omega, Initial residual = 5.42307e-06, Final residual = 5.42307e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.18672e-05, Final residual = 6.67377e-06, No Iterations 2
-ExecutionTime = 0.49 s  ClockTime = 6 s
+ExecutionTime = 0.48 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 432
@@ -4914,7 +4914,7 @@ GAMG:  Solving for p, Initial residual = 0.00570329, Final residual = 0.00040360
 time step continuity errors : sum local = 2.46352e-09, global = -3.3196e-18, cumulative = -1.07852e-15
 smoothSolver:  Solving for omega, Initial residual = 5.34908e-06, Final residual = 5.34908e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.28771e-05, Final residual = 8.56561e-06, No Iterations 2
-ExecutionTime = 0.5 s  ClockTime = 6 s
+ExecutionTime = 0.49 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 439
@@ -4925,7 +4925,7 @@ GAMG:  Solving for p, Initial residual = 0.00528506, Final residual = 0.00051714
 time step continuity errors : sum local = 2.92893e-09, global = -1.66483e-18, cumulative = -1.08019e-15
 smoothSolver:  Solving for omega, Initial residual = 5.36458e-06, Final residual = 5.36458e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.43845e-05, Final residual = 7.76299e-06, No Iterations 2
-ExecutionTime = 0.5 s  ClockTime = 6 s
+ExecutionTime = 0.49 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 440
@@ -4936,7 +4936,7 @@ GAMG:  Solving for p, Initial residual = 0.00514447, Final residual = 0.00038402
 time step continuity errors : sum local = 2.37669e-09, global = -4.17294e-19, cumulative = -1.0806e-15
 smoothSolver:  Solving for omega, Initial residual = 5.38021e-06, Final residual = 5.38021e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.43516e-05, Final residual = 8.388e-06, No Iterations 2
-ExecutionTime = 0.5 s  ClockTime = 6 s
+ExecutionTime = 0.49 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 441
@@ -5013,7 +5013,7 @@ GAMG:  Solving for p, Initial residual = 0.00338444, Final residual = 0.00033008
 time step continuity errors : sum local = 2.11066e-09, global = -4.70579e-18, cumulative = -1.09683e-15
 smoothSolver:  Solving for omega, Initial residual = 5.51626e-06, Final residual = 5.51626e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 4.02167e-05, Final residual = 8.955e-06, No Iterations 2
-ExecutionTime = 0.51 s  ClockTime = 6 s
+ExecutionTime = 0.5 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 448
@@ -5024,7 +5024,7 @@ GAMG:  Solving for p, Initial residual = 0.00395214, Final residual = 0.00033336
 time step continuity errors : sum local = 1.96184e-09, global = -3.13931e-18, cumulative = -1.09997e-15
 smoothSolver:  Solving for omega, Initial residual = 5.59096e-06, Final residual = 5.59096e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.98241e-05, Final residual = 9.87068e-06, No Iterations 2
-ExecutionTime = 0.51 s  ClockTime = 6 s
+ExecutionTime = 0.5 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 449
@@ -5035,7 +5035,7 @@ GAMG:  Solving for p, Initial residual = 0.00335259, Final residual = 0.00031517
 time step continuity errors : sum local = 1.86634e-09, global = -3.23227e-18, cumulative = -1.1032e-15
 smoothSolver:  Solving for omega, Initial residual = 5.68464e-06, Final residual = 5.68464e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 4.15501e-05, Final residual = 9.57766e-06, No Iterations 2
-ExecutionTime = 0.51 s  ClockTime = 6 s
+ExecutionTime = 0.5 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 450
@@ -5112,7 +5112,7 @@ GAMG:  Solving for p, Initial residual = 0.00303168, Final residual = 0.00015417
 time step continuity errors : sum local = 9.74069e-10, global = -1.29338e-18, cumulative = -1.12142e-15
 smoothSolver:  Solving for omega, Initial residual = 6.33621e-06, Final residual = 6.33621e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 4.26592e-05, Final residual = 5.1635e-06, No Iterations 3
-ExecutionTime = 0.52 s  ClockTime = 6 s
+ExecutionTime = 0.51 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 457
@@ -5123,7 +5123,7 @@ GAMG:  Solving for p, Initial residual = 0.00235967, Final residual = 0.00019385
 time step continuity errors : sum local = 1.13923e-09, global = -9.63162e-19, cumulative = -1.12239e-15
 smoothSolver:  Solving for omega, Initial residual = 6.42905e-06, Final residual = 6.42905e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 4.38168e-05, Final residual = 4.50118e-06, No Iterations 3
-ExecutionTime = 0.52 s  ClockTime = 6 s
+ExecutionTime = 0.51 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 458
@@ -5134,7 +5134,7 @@ GAMG:  Solving for p, Initial residual = 0.002797, Final residual = 0.000139575,
 time step continuity errors : sum local = 8.72003e-10, global = -6.09607e-18, cumulative = -1.12848e-15
 smoothSolver:  Solving for omega, Initial residual = 6.52218e-06, Final residual = 6.52218e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 4.21368e-05, Final residual = 5.02419e-06, No Iterations 3
-ExecutionTime = 0.52 s  ClockTime = 6 s
+ExecutionTime = 0.51 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 459
@@ -5211,7 +5211,7 @@ GAMG:  Solving for p, Initial residual = 0.0022549, Final residual = 0.000217378
 time step continuity errors : sum local = 1.34868e-09, global = -1.06961e-18, cumulative = -1.14978e-15
 smoothSolver:  Solving for omega, Initial residual = 7.15782e-06, Final residual = 7.15782e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 4.21045e-05, Final residual = 9.23098e-06, No Iterations 2
-ExecutionTime = 0.53 s  ClockTime = 6 s
+ExecutionTime = 0.52 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 466
@@ -5222,7 +5222,7 @@ GAMG:  Solving for p, Initial residual = 0.0020808, Final residual = 0.000152157
 time step continuity errors : sum local = 9.5248e-10, global = -1.14022e-19, cumulative = -1.14989e-15
 smoothSolver:  Solving for omega, Initial residual = 7.24614e-06, Final residual = 7.24614e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 4.07165e-05, Final residual = 9.77487e-06, No Iterations 2
-ExecutionTime = 0.53 s  ClockTime = 6 s
+ExecutionTime = 0.52 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 467
@@ -5310,7 +5310,7 @@ GAMG:  Solving for p, Initial residual = 0.00180973, Final residual = 0.00014450
 time step continuity errors : sum local = 8.83115e-10, global = -5.20952e-18, cumulative = -1.16845e-15
 smoothSolver:  Solving for omega, Initial residual = 7.92156e-06, Final residual = 7.92156e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.80717e-05, Final residual = 8.76551e-06, No Iterations 2
-ExecutionTime = 0.54 s  ClockTime = 6 s
+ExecutionTime = 0.53 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 475
@@ -5321,7 +5321,7 @@ GAMG:  Solving for p, Initial residual = 0.0019674, Final residual = 0.000110101
 time step continuity errors : sum local = 6.72633e-10, global = -3.38053e-18, cumulative = -1.17184e-15
 smoothSolver:  Solving for omega, Initial residual = 8.00238e-06, Final residual = 8.00238e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.9177e-05, Final residual = 8.47047e-06, No Iterations 2
-ExecutionTime = 0.54 s  ClockTime = 6 s
+ExecutionTime = 0.53 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 476
@@ -5409,7 +5409,7 @@ GAMG:  Solving for p, Initial residual = 0.00149437, Final residual = 0.00014234
 time step continuity errors : sum local = 9.02835e-10, global = -9.35923e-19, cumulative = -1.19296e-15
 smoothSolver:  Solving for omega, Initial residual = 8.59657e-06, Final residual = 8.59657e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.5319e-05, Final residual = 7.54614e-06, No Iterations 2
-ExecutionTime = 0.55 s  ClockTime = 6 s
+ExecutionTime = 0.54 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 484
@@ -5420,7 +5420,7 @@ GAMG:  Solving for p, Initial residual = 0.00180575, Final residual = 0.00012155
 time step continuity errors : sum local = 7.63379e-10, global = -2.37645e-18, cumulative = -1.19534e-15
 smoothSolver:  Solving for omega, Initial residual = 8.66618e-06, Final residual = 8.66618e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.3539e-05, Final residual = 7.6332e-06, No Iterations 2
-ExecutionTime = 0.55 s  ClockTime = 6 s
+ExecutionTime = 0.54 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 485
@@ -5508,7 +5508,7 @@ GAMG:  Solving for p, Initial residual = 0.00145305, Final residual = 8.79717e-0
 time step continuity errors : sum local = 5.38202e-10, global = -1.79131e-18, cumulative = -1.21618e-15
 smoothSolver:  Solving for omega, Initial residual = 9.19832e-06, Final residual = 9.19832e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.00589e-05, Final residual = 6.72976e-06, No Iterations 2
-ExecutionTime = 0.56 s  ClockTime = 6 s
+ExecutionTime = 0.55 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 493
@@ -5519,7 +5519,7 @@ GAMG:  Solving for p, Initial residual = 0.0014143, Final residual = 9.02896e-05
 time step continuity errors : sum local = 5.65056e-10, global = -1.50544e-18, cumulative = -1.21769e-15
 smoothSolver:  Solving for omega, Initial residual = 9.26166e-06, Final residual = 9.26166e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 3.08838e-05, Final residual = 6.30828e-06, No Iterations 2
-ExecutionTime = 0.56 s  ClockTime = 6 s
+ExecutionTime = 0.55 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 494
@@ -5607,7 +5607,7 @@ GAMG:  Solving for p, Initial residual = 0.00136676, Final residual = 8.85725e-0
 time step continuity errors : sum local = 5.43524e-10, global = -1.99492e-18, cumulative = -1.24086e-15
 smoothSolver:  Solving for omega, Initial residual = 9.74337e-06, Final residual = 9.74337e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.74516e-05, Final residual = 5.85758e-06, No Iterations 2
-ExecutionTime = 0.57 s  ClockTime = 6 s
+ExecutionTime = 0.56 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 502
@@ -5618,7 +5618,7 @@ GAMG:  Solving for p, Initial residual = 0.00123213, Final residual = 0.00011536
 time step continuity errors : sum local = 7.08742e-10, global = -3.26935e-18, cumulative = -1.24413e-15
 smoothSolver:  Solving for omega, Initial residual = 9.80055e-06, Final residual = 9.80055e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.50372e-05, Final residual = 5.67184e-06, No Iterations 2
-ExecutionTime = 0.57 s  ClockTime = 6 s
+ExecutionTime = 0.56 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 503
@@ -5673,7 +5673,7 @@ GAMG:  Solving for p, Initial residual = 0.052296, Final residual = 0.00253692, 
 time step continuity errors : sum local = 1.52823e-08, global = -4.15207e-19, cumulative = -1.25965e-15
 smoothSolver:  Solving for omega, Initial residual = 5.22251e-06, Final residual = 5.22251e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 9.66488e-05, Final residual = 9.67523e-06, No Iterations 3
-ExecutionTime = 0.57 s  ClockTime = 6 s
+ExecutionTime = 0.58 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 508
@@ -5684,7 +5684,7 @@ GAMG:  Solving for p, Initial residual = 0.04924, Final residual = 0.00229593, N
 time step continuity errors : sum local = 1.42316e-08, global = -2.61439e-18, cumulative = -1.26226e-15
 smoothSolver:  Solving for omega, Initial residual = 5.30639e-06, Final residual = 5.30639e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 8.38008e-05, Final residual = 8.36002e-06, No Iterations 3
-ExecutionTime = 0.57 s  ClockTime = 6 s
+ExecutionTime = 0.58 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 509
@@ -5695,7 +5695,7 @@ GAMG:  Solving for p, Initial residual = 0.051556, Final residual = 0.00271992, 
 time step continuity errors : sum local = 1.51243e-08, global = -3.42595e-18, cumulative = -1.26569e-15
 smoothSolver:  Solving for omega, Initial residual = 5.44297e-06, Final residual = 5.44297e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 7.94442e-05, Final residual = 8.53308e-06, No Iterations 3
-ExecutionTime = 0.57 s  ClockTime = 6 s
+ExecutionTime = 0.58 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 510
@@ -5761,7 +5761,7 @@ GAMG:  Solving for p, Initial residual = 0.0369217, Final residual = 0.00185855,
 time step continuity errors : sum local = 7.37403e-09, global = -1.69658e-18, cumulative = -1.27756e-15
 smoothSolver:  Solving for omega, Initial residual = 6.15734e-06, Final residual = 6.15734e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.94111e-05, Final residual = 6.73857e-06, No Iterations 2
-ExecutionTime = 0.58 s  ClockTime = 6 s
+ExecutionTime = 0.59 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 516
@@ -5772,7 +5772,7 @@ GAMG:  Solving for p, Initial residual = 0.0333144, Final residual = 0.00154706,
 time step continuity errors : sum local = 6.25191e-09, global = -2.95232e-18, cumulative = -1.28051e-15
 smoothSolver:  Solving for omega, Initial residual = 6.22134e-06, Final residual = 6.22134e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.94042e-05, Final residual = 5.84952e-06, No Iterations 2
-ExecutionTime = 0.58 s  ClockTime = 6 s
+ExecutionTime = 0.59 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 517
@@ -5783,7 +5783,7 @@ GAMG:  Solving for p, Initial residual = 0.0309614, Final residual = 0.00165324,
 time step continuity errors : sum local = 6.5981e-09, global = -3.26689e-18, cumulative = -1.28378e-15
 smoothSolver:  Solving for omega, Initial residual = 6.27081e-06, Final residual = 6.27081e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.80822e-05, Final residual = 5.93903e-06, No Iterations 2
-ExecutionTime = 0.58 s  ClockTime = 6 s
+ExecutionTime = 0.59 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 518
@@ -5794,7 +5794,7 @@ GAMG:  Solving for p, Initial residual = 0.0280478, Final residual = 0.00148048,
 time step continuity errors : sum local = 5.99417e-09, global = -1.98895e-18, cumulative = -1.28577e-15
 smoothSolver:  Solving for omega, Initial residual = 6.30671e-06, Final residual = 6.30671e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.56004e-05, Final residual = 5.96015e-06, No Iterations 2
-ExecutionTime = 0.58 s  ClockTime = 6 s
+ExecutionTime = 0.59 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 519
@@ -5860,7 +5860,7 @@ GAMG:  Solving for p, Initial residual = 0.01585, Final residual = 0.00103263, N
 time step continuity errors : sum local = 4.95791e-09, global = -1.10117e-18, cumulative = -1.30613e-15
 smoothSolver:  Solving for omega, Initial residual = 6.32388e-06, Final residual = 6.32388e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.43426e-05, Final residual = 5.26566e-06, No Iterations 2
-ExecutionTime = 0.59 s  ClockTime = 6 s
+ExecutionTime = 0.6 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 525
@@ -5871,7 +5871,7 @@ GAMG:  Solving for p, Initial residual = 0.0144055, Final residual = 0.000954689
 time step continuity errors : sum local = 4.73084e-09, global = -3.0156e-18, cumulative = -1.30915e-15
 smoothSolver:  Solving for omega, Initial residual = 6.30653e-06, Final residual = 6.30653e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.36483e-05, Final residual = 5.48061e-06, No Iterations 2
-ExecutionTime = 0.59 s  ClockTime = 6 s
+ExecutionTime = 0.6 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 526
@@ -5882,7 +5882,7 @@ GAMG:  Solving for p, Initial residual = 0.0132812, Final residual = 0.000877403
 time step continuity errors : sum local = 4.43745e-09, global = -3.58717e-18, cumulative = -1.31274e-15
 smoothSolver:  Solving for omega, Initial residual = 6.28799e-06, Final residual = 6.28799e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.34907e-05, Final residual = 4.69374e-06, No Iterations 2
-ExecutionTime = 0.59 s  ClockTime = 6 s
+ExecutionTime = 0.6 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 527
@@ -5893,7 +5893,7 @@ GAMG:  Solving for p, Initial residual = 0.0117281, Final residual = 0.000875273
 time step continuity errors : sum local = 4.41395e-09, global = -2.10294e-19, cumulative = -1.31295e-15
 smoothSolver:  Solving for omega, Initial residual = 6.26669e-06, Final residual = 6.26669e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.26908e-05, Final residual = 5.35824e-06, No Iterations 2
-ExecutionTime = 0.59 s  ClockTime = 6 s
+ExecutionTime = 0.6 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 528
@@ -5904,7 +5904,7 @@ GAMG:  Solving for p, Initial residual = 0.0109224, Final residual = 0.000741354
 time step continuity errors : sum local = 3.8834e-09, global = -2.07625e-18, cumulative = -1.31502e-15
 smoothSolver:  Solving for omega, Initial residual = 6.24337e-06, Final residual = 6.24337e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.23522e-05, Final residual = 4.71264e-06, No Iterations 2
-ExecutionTime = 0.59 s  ClockTime = 6 s
+ExecutionTime = 0.6 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 529
@@ -5948,7 +5948,7 @@ GAMG:  Solving for p, Initial residual = 0.00750388, Final residual = 0.00051873
 time step continuity errors : sum local = 2.84702e-09, global = 7.57512e-20, cumulative = -1.32661e-15
 smoothSolver:  Solving for omega, Initial residual = 6.1428e-06, Final residual = 6.1428e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.00656e-05, Final residual = 9.95143e-06, No Iterations 1
-ExecutionTime = 0.6 s  ClockTime = 6 s
+ExecutionTime = 0.61 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 533
@@ -5959,7 +5959,7 @@ GAMG:  Solving for p, Initial residual = 0.00676963, Final residual = 0.00056503
 time step continuity errors : sum local = 2.98856e-09, global = -5.13845e-20, cumulative = -1.32666e-15
 smoothSolver:  Solving for omega, Initial residual = 6.12139e-06, Final residual = 6.12139e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 1.77253e-05, Final residual = 9.39494e-06, No Iterations 1
-ExecutionTime = 0.6 s  ClockTime = 6 s
+ExecutionTime = 0.61 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 534
@@ -5970,7 +5970,7 @@ GAMG:  Solving for p, Initial residual = 0.00640939, Final residual = 0.00053293
 time step continuity errors : sum local = 2.87194e-09, global = 1.18056e-20, cumulative = -1.32665e-15
 smoothSolver:  Solving for omega, Initial residual = 6.1029e-06, Final residual = 6.1029e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 1.94574e-05, Final residual = 9.94917e-06, No Iterations 1
-ExecutionTime = 0.6 s  ClockTime = 6 s
+ExecutionTime = 0.61 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 535
@@ -5981,7 +5981,7 @@ GAMG:  Solving for p, Initial residual = 0.00569402, Final residual = 0.00051000
 time step continuity errors : sum local = 2.77412e-09, global = -1.93953e-18, cumulative = -1.32859e-15
 smoothSolver:  Solving for omega, Initial residual = 6.08537e-06, Final residual = 6.08537e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 1.72543e-05, Final residual = 9.17023e-06, No Iterations 1
-ExecutionTime = 0.6 s  ClockTime = 6 s
+ExecutionTime = 0.61 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 536
@@ -5992,7 +5992,7 @@ GAMG:  Solving for p, Initial residual = 0.00525631, Final residual = 0.00046190
 time step continuity errors : sum local = 2.53794e-09, global = -2.7544e-18, cumulative = -1.33134e-15
 smoothSolver:  Solving for omega, Initial residual = 6.06838e-06, Final residual = 6.06838e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 1.92146e-05, Final residual = 9.81765e-06, No Iterations 1
-ExecutionTime = 0.6 s  ClockTime = 6 s
+ExecutionTime = 0.61 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 537
@@ -6003,7 +6003,7 @@ GAMG:  Solving for p, Initial residual = 0.00469761, Final residual = 0.00042543
 time step continuity errors : sum local = 2.3384e-09, global = -2.31005e-18, cumulative = -1.33365e-15
 smoothSolver:  Solving for omega, Initial residual = 6.05177e-06, Final residual = 6.05177e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 1.7196e-05, Final residual = 9.65025e-06, No Iterations 1
-ExecutionTime = 0.6 s  ClockTime = 6 s
+ExecutionTime = 0.61 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 538
@@ -6047,7 +6047,7 @@ GAMG:  Solving for p, Initial residual = 0.00320819, Final residual = 0.00028915
 time step continuity errors : sum local = 1.61754e-09, global = -3.2667e-18, cumulative = -1.34601e-15
 smoothSolver:  Solving for omega, Initial residual = 5.98744e-06, Final residual = 5.98744e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 1.78728e-05, Final residual = 9.32386e-06, No Iterations 1
-ExecutionTime = 0.61 s  ClockTime = 6 s
+ExecutionTime = 0.62 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 542
@@ -6058,7 +6058,7 @@ GAMG:  Solving for p, Initial residual = 0.0030695, Final residual = 0.00022988,
 time step continuity errors : sum local = 1.32474e-09, global = -4.60408e-18, cumulative = -1.35061e-15
 smoothSolver:  Solving for omega, Initial residual = 5.97158e-06, Final residual = 5.97158e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 1.90348e-05, Final residual = 9.3783e-06, No Iterations 1
-ExecutionTime = 0.61 s  ClockTime = 6 s
+ExecutionTime = 0.62 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 543
@@ -6069,7 +6069,7 @@ GAMG:  Solving for p, Initial residual = 0.00273724, Final residual = 0.00025276
 time step continuity errors : sum local = 1.43239e-09, global = -2.75349e-18, cumulative = -1.35337e-15
 smoothSolver:  Solving for omega, Initial residual = 5.9557e-06, Final residual = 5.9557e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 1.84141e-05, Final residual = 9.35068e-06, No Iterations 1
-ExecutionTime = 0.61 s  ClockTime = 6 s
+ExecutionTime = 0.62 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 544
@@ -6080,7 +6080,7 @@ GAMG:  Solving for p, Initial residual = 0.00255081, Final residual = 0.00019796
 time step continuity errors : sum local = 1.13511e-09, global = -1.12743e-18, cumulative = -1.35449e-15
 smoothSolver:  Solving for omega, Initial residual = 5.93976e-06, Final residual = 5.93976e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 1.91317e-05, Final residual = 9.58326e-06, No Iterations 1
-ExecutionTime = 0.61 s  ClockTime = 6 s
+ExecutionTime = 0.62 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 545
@@ -6091,7 +6091,7 @@ GAMG:  Solving for p, Initial residual = 0.00221857, Final residual = 0.00020154
 time step continuity errors : sum local = 1.15238e-09, global = -2.47011e-18, cumulative = -1.35696e-15
 smoothSolver:  Solving for omega, Initial residual = 5.92376e-06, Final residual = 5.92376e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 1.90996e-05, Final residual = 9.62055e-06, No Iterations 1
-ExecutionTime = 0.61 s  ClockTime = 6 s
+ExecutionTime = 0.62 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 546
@@ -6102,7 +6102,7 @@ GAMG:  Solving for p, Initial residual = 0.00217977, Final residual = 0.00016356
 time step continuity errors : sum local = 9.48871e-10, global = -3.56869e-18, cumulative = -1.36053e-15
 smoothSolver:  Solving for omega, Initial residual = 5.90769e-06, Final residual = 5.90769e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 1.97993e-05, Final residual = 9.85163e-06, No Iterations 1
-ExecutionTime = 0.61 s  ClockTime = 6 s
+ExecutionTime = 0.62 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 547
@@ -6146,7 +6146,7 @@ GAMG:  Solving for p, Initial residual = 0.0022364, Final residual = 0.000139819
 time step continuity errors : sum local = 7.31608e-10, global = -2.79107e-18, cumulative = -1.37259e-15
 smoothSolver:  Solving for omega, Initial residual = 5.83553e-06, Final residual = 5.83553e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.08799e-05, Final residual = 5.00843e-06, No Iterations 2
-ExecutionTime = 0.62 s  ClockTime = 6 s
+ExecutionTime = 0.63 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 551
@@ -6157,7 +6157,7 @@ GAMG:  Solving for p, Initial residual = 0.00183959, Final residual = 0.00016209
 time step continuity errors : sum local = 8.39744e-10, global = -8.1931e-19, cumulative = -1.37341e-15
 smoothSolver:  Solving for omega, Initial residual = 5.81385e-06, Final residual = 5.81385e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.14501e-05, Final residual = 5.14563e-06, No Iterations 2
-ExecutionTime = 0.62 s  ClockTime = 6 s
+ExecutionTime = 0.63 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 552
@@ -6168,7 +6168,7 @@ GAMG:  Solving for p, Initial residual = 0.00192936, Final residual = 0.00012491
 time step continuity errors : sum local = 6.62791e-10, global = -3.56133e-18, cumulative = -1.37697e-15
 smoothSolver:  Solving for omega, Initial residual = 5.79147e-06, Final residual = 5.79147e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.14062e-05, Final residual = 5.10173e-06, No Iterations 2
-ExecutionTime = 0.62 s  ClockTime = 6 s
+ExecutionTime = 0.63 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 553
@@ -6179,7 +6179,7 @@ GAMG:  Solving for p, Initial residual = 0.00157065, Final residual = 0.00011358
 time step continuity errors : sum local = 6.04365e-10, global = 5.86015e-19, cumulative = -1.37638e-15
 smoothSolver:  Solving for omega, Initial residual = 5.76867e-06, Final residual = 5.76867e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.10299e-05, Final residual = 5.63137e-06, No Iterations 2
-ExecutionTime = 0.62 s  ClockTime = 6 s
+ExecutionTime = 0.63 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 554
@@ -6190,7 +6190,7 @@ GAMG:  Solving for p, Initial residual = 0.001752, Final residual = 0.00011198, 
 time step continuity errors : sum local = 5.94293e-10, global = -4.11898e-18, cumulative = -1.3805e-15
 smoothSolver:  Solving for omega, Initial residual = 5.74559e-06, Final residual = 5.74559e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.24657e-05, Final residual = 5.49959e-06, No Iterations 2
-ExecutionTime = 0.62 s  ClockTime = 6 s
+ExecutionTime = 0.63 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 555
@@ -6201,7 +6201,7 @@ GAMG:  Solving for p, Initial residual = 0.0021754, Final residual = 8.99851e-05
 time step continuity errors : sum local = 4.86699e-10, global = -2.64726e-18, cumulative = -1.38315e-15
 smoothSolver:  Solving for omega, Initial residual = 5.72396e-06, Final residual = 5.72396e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.16792e-05, Final residual = 5.6163e-06, No Iterations 2
-ExecutionTime = 0.62 s  ClockTime = 6 s
+ExecutionTime = 0.63 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 556
@@ -6245,7 +6245,7 @@ GAMG:  Solving for p, Initial residual = 0.0014915, Final residual = 6.01883e-05
 time step continuity errors : sum local = 3.43023e-10, global = -3.37654e-18, cumulative = -1.39565e-15
 smoothSolver:  Solving for omega, Initial residual = 5.63343e-06, Final residual = 5.63343e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.26664e-05, Final residual = 5.78671e-06, No Iterations 2
-ExecutionTime = 0.63 s  ClockTime = 6 s
+ExecutionTime = 0.64 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 560
@@ -6256,7 +6256,7 @@ GAMG:  Solving for p, Initial residual = 0.00166548, Final residual = 0.00011837
 time step continuity errors : sum local = 6.47344e-10, global = -2.49048e-18, cumulative = -1.39814e-15
 smoothSolver:  Solving for omega, Initial residual = 5.6106e-06, Final residual = 5.6106e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.3132e-05, Final residual = 5.68597e-06, No Iterations 2
-ExecutionTime = 0.63 s  ClockTime = 6 s
+ExecutionTime = 0.64 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 561
@@ -6267,7 +6267,7 @@ GAMG:  Solving for p, Initial residual = 0.00122517, Final residual = 4.71158e-0
 time step continuity errors : sum local = 2.81939e-10, global = -9.24188e-19, cumulative = -1.39906e-15
 smoothSolver:  Solving for omega, Initial residual = 5.58776e-06, Final residual = 5.58776e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.31638e-05, Final residual = 5.87501e-06, No Iterations 2
-ExecutionTime = 0.63 s  ClockTime = 6 s
+ExecutionTime = 0.64 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 562
@@ -6278,7 +6278,7 @@ GAMG:  Solving for p, Initial residual = 0.00134717, Final residual = 0.00010743
 time step continuity errors : sum local = 6.0667e-10, global = 2.35538e-19, cumulative = -1.39883e-15
 smoothSolver:  Solving for omega, Initial residual = 5.56498e-06, Final residual = 5.56498e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.33832e-05, Final residual = 5.68511e-06, No Iterations 2
-ExecutionTime = 0.63 s  ClockTime = 6 s
+ExecutionTime = 0.64 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 563
@@ -6289,7 +6289,7 @@ GAMG:  Solving for p, Initial residual = 0.00110984, Final residual = 4.04268e-0
 time step continuity errors : sum local = 2.56896e-10, global = -2.99437e-18, cumulative = -1.40182e-15
 smoothSolver:  Solving for omega, Initial residual = 5.54229e-06, Final residual = 5.54229e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.34514e-05, Final residual = 5.82509e-06, No Iterations 2
-ExecutionTime = 0.63 s  ClockTime = 6 s
+ExecutionTime = 0.64 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 564
@@ -6300,7 +6300,7 @@ GAMG:  Solving for p, Initial residual = 0.00124401, Final residual = 0.00010032
 time step continuity errors : sum local = 5.62271e-10, global = -2.56827e-18, cumulative = -1.40439e-15
 smoothSolver:  Solving for omega, Initial residual = 5.5197e-06, Final residual = 5.5197e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.35796e-05, Final residual = 5.54711e-06, No Iterations 2
-ExecutionTime = 0.63 s  ClockTime = 6 s
+ExecutionTime = 0.64 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 565
@@ -6344,7 +6344,7 @@ GAMG:  Solving for p, Initial residual = 0.00116489, Final residual = 8.15288e-0
 time step continuity errors : sum local = 4.53547e-10, global = -1.7348e-18, cumulative = -1.41626e-15
 smoothSolver:  Solving for omega, Initial residual = 5.43113e-06, Final residual = 5.43113e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.37741e-05, Final residual = 5.58191e-06, No Iterations 2
-ExecutionTime = 0.64 s  ClockTime = 6 s
+ExecutionTime = 0.65 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 569
@@ -6355,7 +6355,7 @@ GAMG:  Solving for p, Initial residual = 0.00118576, Final residual = 6.08487e-0
 time step continuity errors : sum local = 3.7969e-10, global = -3.39529e-18, cumulative = -1.41966e-15
 smoothSolver:  Solving for omega, Initial residual = 5.41368e-06, Final residual = 5.41368e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.36826e-05, Final residual = 5.7399e-06, No Iterations 2
-ExecutionTime = 0.64 s  ClockTime = 6 s
+ExecutionTime = 0.65 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 570
@@ -6366,7 +6366,7 @@ GAMG:  Solving for p, Initial residual = 0.00110233, Final residual = 0.00010678
 time step continuity errors : sum local = 6.02287e-10, global = -2.32663e-18, cumulative = -1.42198e-15
 smoothSolver:  Solving for omega, Initial residual = 5.39632e-06, Final residual = 5.39632e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.47104e-05, Final residual = 5.85887e-06, No Iterations 2
-ExecutionTime = 0.64 s  ClockTime = 6 s
+ExecutionTime = 0.65 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 571
@@ -6377,7 +6377,7 @@ GAMG:  Solving for p, Initial residual = 0.00116736, Final residual = 7.10405e-0
 time step continuity errors : sum local = 4.37931e-10, global = -2.81666e-18, cumulative = -1.4248e-15
 smoothSolver:  Solving for omega, Initial residual = 5.37911e-06, Final residual = 5.37911e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.35654e-05, Final residual = 5.75705e-06, No Iterations 2
-ExecutionTime = 0.64 s  ClockTime = 6 s
+ExecutionTime = 0.65 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 572
@@ -6388,7 +6388,7 @@ GAMG:  Solving for p, Initial residual = 0.00118804, Final residual = 0.00010622
 time step continuity errors : sum local = 6.00636e-10, global = -6.86905e-19, cumulative = -1.42549e-15
 smoothSolver:  Solving for omega, Initial residual = 5.36482e-06, Final residual = 5.36482e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.37016e-05, Final residual = 5.52208e-06, No Iterations 2
-ExecutionTime = 0.64 s  ClockTime = 6 s
+ExecutionTime = 0.65 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 573
@@ -6399,7 +6399,7 @@ GAMG:  Solving for p, Initial residual = 0.00123113, Final residual = 5.84964e-0
 time step continuity errors : sum local = 3.49718e-10, global = -2.52324e-18, cumulative = -1.42801e-15
 smoothSolver:  Solving for omega, Initial residual = 5.35218e-06, Final residual = 5.35218e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.37102e-05, Final residual = 5.83216e-06, No Iterations 2
-ExecutionTime = 0.64 s  ClockTime = 6 s
+ExecutionTime = 0.65 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 574
@@ -6443,7 +6443,7 @@ GAMG:  Solving for p, Initial residual = 0.00114272, Final residual = 5.89288e-0
 time step continuity errors : sum local = 3.4621e-10, global = -2.04798e-18, cumulative = -1.43459e-15
 smoothSolver:  Solving for omega, Initial residual = 5.30262e-06, Final residual = 5.30262e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.25536e-05, Final residual = 5.33639e-06, No Iterations 2
-ExecutionTime = 0.65 s  ClockTime = 6 s
+ExecutionTime = 0.66 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 578
@@ -6454,7 +6454,7 @@ GAMG:  Solving for p, Initial residual = 0.00104746, Final residual = 8.8163e-05
 time step continuity errors : sum local = 4.86371e-10, global = -2.7599e-18, cumulative = -1.43735e-15
 smoothSolver:  Solving for omega, Initial residual = 5.29047e-06, Final residual = 5.29047e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.35089e-05, Final residual = 5.55349e-06, No Iterations 2
-ExecutionTime = 0.65 s  ClockTime = 6 s
+ExecutionTime = 0.66 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 579
@@ -6465,7 +6465,7 @@ GAMG:  Solving for p, Initial residual = 0.00114363, Final residual = 5.73072e-0
 time step continuity errors : sum local = 3.27157e-10, global = -3.0812e-18, cumulative = -1.44043e-15
 smoothSolver:  Solving for omega, Initial residual = 5.27839e-06, Final residual = 5.27839e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.21309e-05, Final residual = 5.30378e-06, No Iterations 2
-ExecutionTime = 0.65 s  ClockTime = 6 s
+ExecutionTime = 0.66 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 580
@@ -6476,7 +6476,7 @@ GAMG:  Solving for p, Initial residual = 0.00108322, Final residual = 8.69447e-0
 time step continuity errors : sum local = 4.66455e-10, global = -1.36839e-18, cumulative = -1.4418e-15
 smoothSolver:  Solving for omega, Initial residual = 5.26644e-06, Final residual = 5.26644e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.21908e-05, Final residual = 5.21653e-06, No Iterations 2
-ExecutionTime = 0.65 s  ClockTime = 6 s
+ExecutionTime = 0.66 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 581
@@ -6487,7 +6487,7 @@ GAMG:  Solving for p, Initial residual = 0.00111359, Final residual = 5.75587e-0
 time step continuity errors : sum local = 3.1878e-10, global = -3.74156e-18, cumulative = -1.44554e-15
 smoothSolver:  Solving for omega, Initial residual = 5.25454e-06, Final residual = 5.25454e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.16059e-05, Final residual = 5.16174e-06, No Iterations 2
-ExecutionTime = 0.65 s  ClockTime = 6 s
+ExecutionTime = 0.66 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 582
@@ -6498,7 +6498,7 @@ GAMG:  Solving for p, Initial residual = 0.000977159, Final residual = 9.07441e-
 time step continuity errors : sum local = 5.03118e-10, global = -3.15386e-18, cumulative = -1.4487e-15
 smoothSolver:  Solving for omega, Initial residual = 5.24275e-06, Final residual = 5.24275e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.24112e-05, Final residual = 5.31982e-06, No Iterations 2
-ExecutionTime = 0.65 s  ClockTime = 6 s
+ExecutionTime = 0.66 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 583
@@ -6542,7 +6542,7 @@ GAMG:  Solving for p, Initial residual = 0.00094699, Final residual = 6.25574e-0
 time step continuity errors : sum local = 3.4283e-10, global = -2.24674e-18, cumulative = -1.45539e-15
 smoothSolver:  Solving for omega, Initial residual = 5.198e-06, Final residual = 5.198e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.19276e-05, Final residual = 4.86121e-06, No Iterations 2
-ExecutionTime = 0.66 s  ClockTime = 6 s
+ExecutionTime = 0.67 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 587
@@ -6553,7 +6553,7 @@ GAMG:  Solving for p, Initial residual = 0.00105601, Final residual = 7.46057e-0
 time step continuity errors : sum local = 4.22863e-10, global = -3.61857e-18, cumulative = -1.459e-15
 smoothSolver:  Solving for omega, Initial residual = 5.189e-06, Final residual = 5.189e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.04112e-05, Final residual = 9.74616e-06, No Iterations 1
-ExecutionTime = 0.66 s  ClockTime = 6 s
+ExecutionTime = 0.67 s  ClockTime = 6 s
 
 Calculating grad(U).
 Time = 588
@@ -6564,7 +6564,7 @@ GAMG:  Solving for p, Initial residual = 0.000919765, Final residual = 9.12737e-
 time step continuity errors : sum local = 4.89879e-10, global = -2.12588e-18, cumulative = -1.46113e-15
 smoothSolver:  Solving for omega, Initial residual = 5.18345e-06, Final residual = 5.18345e-06, No Iterations 0
 smoothSolver:  Solving for k, Initial residual = 2.02458e-05, Final residual = 4.46254e-06, No Iterations 2
-ExecutionTime = 0.66 s  ClockTime = 6 s
+ExecutionTime = 0.67 s  ClockTime = 6 s
 
 
 SIMPLE solution converged in 588 iterations

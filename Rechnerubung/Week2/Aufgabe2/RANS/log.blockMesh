@@ -8,9 +8,9 @@
 Build  : 7-3bcbaf946ae9
 Exec   : blockMesh
 Date   : May 14 2022
-Time   : 04:16:35
+Time   : 04:41:52
 Host   : "Lubuntu"
-PID    : 36153
+PID    : 42147
 I/O    : uncollated
 Case   : /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS
 nProcs : 1

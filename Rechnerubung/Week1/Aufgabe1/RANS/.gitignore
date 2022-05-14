@@ -1,6 +1,0 @@
-[1-9]*
-dynamicCode
-postProcessing
-log*
-*.foam
-polyMesh
