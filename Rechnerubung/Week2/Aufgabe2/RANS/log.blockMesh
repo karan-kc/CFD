@@ -1,0 +1,110 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-3bcbaf946ae9
+Exec   : blockMesh
+Date   : May 14 2022
+Time   : 04:16:35
+Host   : "Lubuntu"
+PID    : 36153
+I/O    : uncollated
+Case   : /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Using #calcEntry at line 9 in file "/home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/system/controlDict.functions.sample"
+Using #codeStream with "/home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_5515ac93b64c0a82bdaaf3ed0854faf0d4d67d38.so"
+Creating new library in "dynamicCode/_5515ac93b64c0a82bdaaf3ed0854faf0d4d67d38/platforms/linux64GccDPInt32Opt/lib/libcodeStream_5515ac93b64c0a82bdaaf3ed0854faf0d4d67d38.so"
+Invoking "wmake -s libso /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/_5515ac93b64c0a82bdaaf3ed0854faf0d4d67d38"
+wmake libso /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/_5515ac93b64c0a82bdaaf3ed0854faf0d4d67d38
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/_5515ac93b64c0a82bdaaf3ed0854faf0d4d67d38/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_5515ac93b64c0a82bdaaf3ed0854faf0d4d67d38.so
+Using #calcEntry at line 25 in file "/home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/system/controlDict.functions.sample"
+Using #codeStream with "/home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_374ca1b9dc86ccc3095389a43130c0b38e24df3f.so"
+Creating new library in "dynamicCode/_374ca1b9dc86ccc3095389a43130c0b38e24df3f/platforms/linux64GccDPInt32Opt/lib/libcodeStream_374ca1b9dc86ccc3095389a43130c0b38e24df3f.so"
+Invoking "wmake -s libso /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/_374ca1b9dc86ccc3095389a43130c0b38e24df3f"
+wmake libso /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/_374ca1b9dc86ccc3095389a43130c0b38e24df3f
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/_374ca1b9dc86ccc3095389a43130c0b38e24df3f/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_374ca1b9dc86ccc3095389a43130c0b38e24df3f.so
+Creating block mesh from
+    "/home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/system/blockMeshDict"
+Using #calcEntry at line 19 in file "/home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/system/blockMeshDict"
+Using #codeStream with "/home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_aa8b46bb05f226ed06483cffac758073baa3fc52.so"
+Creating new library in "dynamicCode/_aa8b46bb05f226ed06483cffac758073baa3fc52/platforms/linux64GccDPInt32Opt/lib/libcodeStream_aa8b46bb05f226ed06483cffac758073baa3fc52.so"
+Invoking "wmake -s libso /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/_aa8b46bb05f226ed06483cffac758073baa3fc52"
+wmake libso /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/_aa8b46bb05f226ed06483cffac758073baa3fc52
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/_aa8b46bb05f226ed06483cffac758073baa3fc52/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_aa8b46bb05f226ed06483cffac758073baa3fc52.so
+Using #calcEntry at line 20 in file "/home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/system/blockMeshDict"
+Using #codeStream with "/home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_2e3bd3df842addd67dfd3a34ff4c97874a63ddf9.so"
+Creating new library in "dynamicCode/_2e3bd3df842addd67dfd3a34ff4c97874a63ddf9/platforms/linux64GccDPInt32Opt/lib/libcodeStream_2e3bd3df842addd67dfd3a34ff4c97874a63ddf9.so"
+Invoking "wmake -s libso /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/_2e3bd3df842addd67dfd3a34ff4c97874a63ddf9"
+wmake libso /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/_2e3bd3df842addd67dfd3a34ff4c97874a63ddf9
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe2/RANS/dynamicCode/_2e3bd3df842addd67dfd3a34ff4c97874a63ddf9/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_2e3bd3df842addd67dfd3a34ff4c97874a63ddf9.so
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 0
+		Number of boundary faces : 6
+		Number of defined boundary faces : 6
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 316.667 .. 316.667
+        j : 9.55931 .. 9.55931
+        k : 2
+
+Detected cyclic patches; ordering boundary faces
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (0 0 -1) (950 1900 1)
+  nPoints: 408
+  nCells: 150
+  nFaces: 653
+  nInternalFaces: 247
+----------------
+Patches
+----------------
+  patch 0 (start: 247 size: 50) name: inlet
+  patch 1 (start: 297 size: 50) name: outlet
+  patch 2 (start: 347 size: 6) name: wall
+  patch 3 (start: 353 size: 300) name: frontAndBack
+
+End
+
