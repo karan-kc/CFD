@@ -1,0 +1,29 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7  
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+#include "../config"
+halfChannelLength                   #calc "0.5*$channelLength";
+
+type                                sets;
+libs                                ("libsampling.so");
+
+writeControl                        writeTime;
+interpolationScheme                 cellPoint;
+setFormat                           raw;
+
+sets
+(
+    wallNormal
+    {
+        type    lineFace;
+        axis    y;
+        start   ($halfChannelLength 0  0);
+        end     ($halfChannelLength #calc "$delta+1"  0);
+    }
+);
+
+fields          (U k R);

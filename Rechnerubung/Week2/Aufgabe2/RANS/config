@@ -1,0 +1,10 @@
+reTau              950;
+
+delta               $reTau;
+nu                  1;
+rho                 1;
+
+channelLength       $reTau;
+nCellsX             3;
+nCellsY             50;
+wallGrading         10.0;
