@@ -1,4 +1,3 @@
-
 1. Ist OpenFOAM in der Lage, 2D-Simulationen durchzufu ̈hren? In den Beschreibungen der Anfangsbedingungen z.B. unter 0/p findet man die Einträge empty. Was bedeuten sie? Hinweis: OpenFOAM-Handbuch
 
 Openfoam is not capable of running purely 2D simulations.
@@ -15,6 +14,3 @@ pimpleFoam is a transient solver for incompressible and turbulent flow of Newton
 in OpenFOAM? Kann der Löser Turbulenz berücksichtigen?
 
 pisoFoam is suitable for the simulation of Non-Newtonian single-phase flow. Yes, it can take turbulence into account.
-
-
-
