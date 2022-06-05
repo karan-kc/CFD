@@ -3,29 +3,36 @@
 import re
 import shutil
 import matplotlib.pyplot as mpl
-
-#Duplicate Directory
-shutil.copytree('/home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe1/RANS', './RANS')
-
-#Change Reynolds Number from 186 to 950
-with open('RANS/config','r+') as fout:
-    text = fout.read()
-    text = re.sub(r'186','950',text)
-    fout.seek(0)
-    fout.write(text)
-    fout.truncate()
-
 import subprocess as sub
-my_wd = "./RANS/"
-filename = "./Allrun"
-sub.Popen(filename, cwd=my_wd, shell=True).wait()
+
+def copyDirectory(to):
+    shutil.copytree('/home/ensm_student/Documents/CFD/Rechnerubung/Week2/Aufgabe1/RANS', to+'RANS')
+
+def changeReynoldsNumber(newNumber):
+    with open('./RANS/config','r+') as fout:
+        text = fout.read()
+        text = re.sub(r'186',str(newNumber),text)
+        fout.seek(0)
+        fout.write(text)
+        fout.truncate()
+
+def runSimulation():
+    my_wd = "./RANS/"
+    filename = "./Allrun"
+    sub.Popen(filename, cwd=my_wd, shell=True).wait()
+
+    with open('./RANS/log.simpleFoam','r') as fout:
+        text = fout.read()
+        result = re.search('SIMPLE solution converged in (.*) iterations', text)
+
+    return result.group(1)
 
 
 class simData(object):
     pass
 
 
-def readRANSresults(foldername):
+def readRANSresults(foldername,numberOfIterations):
     """
     This function reads the output file of a simulation
     """
@@ -37,7 +44,7 @@ def readRANSresults(foldername):
     rans_data.uv = []
 
     # Geschwindigkeit einlesen
-    with open(foldername + 'RANS/postProcessing/sample/815/wallNormal_U.xy') as fin:
+    with open(foldername + 'RANS/postProcessing/sample/'+numberOfIterations+'/wallNormal_U.xy') as fin:
         # Zeilen einlesen
         data_lines = fin.readlines()
 
@@ -49,7 +56,7 @@ def readRANSresults(foldername):
             rans_data.y_plus.append(float(split_line[0]))
             rans_data.U.append(float(split_line[1]))
     # TKE einlesen
-    with open(foldername + 'RANS/postProcessing/sample/815/wallNormal_k.xy') as fin:
+    with open(foldername + 'RANS/postProcessing/sample/'+numberOfIterations+'/wallNormal_k.xy') as fin:
         # Zeilen einlesen
         data_lines = fin.readlines()
 
@@ -60,7 +67,7 @@ def readRANSresults(foldername):
             # die benötigten Daten in die Variable abspeichern (2. Spalte)
             rans_data.k.append(float(split_line[1]))
     # Reynolds-Spannungen einlesen
-    with open(foldername + 'RANS/postProcessing/sample/815/wallNormal_R.xy') as fin:
+    with open(foldername + 'RANS/postProcessing/sample/'+numberOfIterations+'/wallNormal_R.xy') as fin:
         # Zeilen einlesen
         data_lines = fin.readlines()
 
@@ -137,21 +144,17 @@ def plotData(rans_data, dns_data, foldertosave):
     # Abspeichern als PNG
     mpl.savefig(foldertosave + '/k_uv.png', format="png")
 
-
 def main():
-    """
-    this is the function used to call all functions necessary for the task
-    """
-
-    # Ordner mit den Datensätzen
     data_path = './'
-
-    # Datensatz einlesen
-    rans = readRANSresults(data_path)
+    copyDirectory(data_path)
+    changeReynoldsNumber(950)
+    # Runs Simulation and loads number of iterations into variable
+    numberofIterations=runSimulation()
+    # Reads postProcessed files for data-points
+    rans = readRANSresults(data_path, numberofIterations)
     dns = readDNSresults(data_path)
-    # Datensatz plotten und abspeichern
+    # Plots graph
     plotData(rans, dns, './')
-
 
 ###############################################################################
 ### Führt die main-Funktion aus nachdem Einlesen aller Funktionen und Definitionen
