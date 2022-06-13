@@ -1,0 +1,13 @@
+x_e = 0.0061
+
+When du_x/dx first equals 0, the criterion is reached.
+u_x stays unchanged for long, indicating formation of fully developed velocity profile in laminar flow.
+
+I ran the command: postProcess -func "grad(U)"
+I opened the simulation in paraview and selected grad_0(U) to display du_x/dx
+I then used PlotoverLine and determined the graph
+Finally, I extrapolated the necessary data: when grad_0(U) first reaches 0.
+
+**graph,csv, and screenshot of table is included in the folder
+
+ 
