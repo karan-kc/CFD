@@ -6,8 +6,8 @@ In order to work with 2D simulations, an ‘empty’ boundary condition is defin
 2. Was ist der Unterschied zwischen icoFoam, pisoFoam, simpleFoam und pimpleFoam?
 
 icoFoam is a transient solver for incompressible and laminar flow of Newtonian fluids that uses the PISO algorithm.
-pisoFoam is a transient solver for incompressible and turbulent flow of Non-Newtonian fluids that uses the PISO algorithm.
-simpleFoam is a steady state solver for incompressible and turbulent flow of Non-Newtonian fluids that uses the SIMPLE algorithm.
+pisoFoam is a transient solver for incompressible and turbulent flow of Newtonian fluids that uses the PISO algorithm.
+simpleFoam is a steady state solver for incompressible and turbulent flow of Newtonian fluids that uses the SIMPLE algorithm.
 pimpleFoam is a transient solver for incompressible and turbulent flow of Newtonian fluids on a moving mesh that uses the PIMPLE algorithm (a combination of the PISO and SIMPLE algorithm).
 
 3. Welcher Löser eignet sich für die Simulation einer nicht-newtonschen Einphasenströmung
