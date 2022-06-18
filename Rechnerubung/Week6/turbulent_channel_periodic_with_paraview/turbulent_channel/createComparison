@@ -1,0 +1,12 @@
+#!/bin/bash
+
+gnuplot -p << EOF
+set terminal png size 1200,900 enhanced font "Helvetica,20"
+set output 'Comparison_DNS.png'
+set style data linespoints
+set key right bottom
+set xlabel "y^+"
+set ylabel "u^+"
+plot "./Re950.prof" using 2:3 title "DNS", "./y+_and_u+" using 1:2 title "RANS"
+pause mouse
+EOF

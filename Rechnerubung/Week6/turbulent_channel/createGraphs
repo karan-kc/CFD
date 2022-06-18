@@ -1,0 +1,71 @@
+#!/bin/bash
+#------------------------------------------------------------------------------
+# =========                 |
+# \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+#  \\    /   O peration     | Website:  https://openfoam.org
+#   \\  /    A nd           | Copyright (C) 2011-2018 OpenFOAM Foundation
+#    \\/     M anipulation  |
+#------------------------------------------------------------------------------
+# License
+#     This file is part of OpenFOAM.
+#
+#     OpenFOAM is free software: you can redistribute it and/or modify it
+#     under the terms of the GNU General Public License as published by
+#     the Free Software Foundation, either version 3 of the License, or
+#     (at your option) any later version.
+#
+#     OpenFOAM is distributed in the hope that it will be useful, but WITHOUT
+#     ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+#     FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+#     for more details.
+#
+#     You should have received a copy of the GNU General Public License
+#     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Script
+#     createGraphs
+#
+# Description
+#     Creates .eps graphs of OpenFOAM results vs experiment for the buoyant
+#     cavity case
+#
+#------------------------------------------------------------------------------
+
+cd ${0%/*} || exit 1    # Run from this directory
+
+# Stop on first error
+set -e
+
+createEpsU()
+{
+    p1=$1
+    p2=$2
+    p3=$3
+
+    gnuplot<<EOF
+    # set terminal postscript eps color enhanced
+    # set output "Simulation.eps"
+    set terminal png size 1200,800 enhanced
+    set output "Simulation.png"
+    set xlabel "U/U_{inlet}, [-]"
+    set ylabel "y/h, [-]"
+    set key right top
+    h=0.01
+    uInlet=1
+    plot \
+        "$p1" u (\$2/uInlet):(\$1/h) title "x/H=1"  with lines linetype -1, \
+        "$p2" u (\$2/uInlet):(\$1/h) title "x/H=5" with lines linetype 0, \
+        "$p3" u (\$2/uInlet):(\$1/h) title "x/H=9" with lines linetype 1
+EOF
+}
+
+# creating graphs
+iterations=$(for dir in postProcessing/sample/*/; do basename "$dir"; done)
+
+u1="./postProcessing/sample/"$iterations"/x_by_H_01_U.xy"
+u2="./postProcessing/sample/"$iterations"/x_by_H_05_U.xy"
+u3="./postProcessing/sample/"$iterations"/x_by_H_09_U.xy"
+
+
+createEpsU $u1 $u2 $u3
+#------------------------------------------------------------------------------

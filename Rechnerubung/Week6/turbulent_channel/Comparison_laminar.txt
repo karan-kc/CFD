@@ -1,0 +1,3 @@
+The time-averaged velocity profile of turbulent flow is flatter than its laminar flow equivalent.
+This is due to a mixing of layers that homogenizes the difference in velocity.
+The steep drop at the edges of the graph is due to the viscous sublayer and the no-slip condition at the top and bottom walls.

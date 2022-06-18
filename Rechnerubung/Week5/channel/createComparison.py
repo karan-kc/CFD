@@ -44,7 +44,7 @@ def readUresults(foldername, iterations):
             split_line = line.split('\t')
             # die benötigten Daten in die Variablen abspeichern (1. und 2. Spalte)
             u_data.x_005.append(float(split_line[1]))
-            u_data.y_005.append(float(split_line[0]))
+            u_data.y_005.append(float(split_line[0])*100) #*100 in order to scale for y/h
     # TKE einlesen
     with open(foldername+'postProcessing/sample/'+iterations+'/x_by_H_02_U.xy') as fin:
         # Zeilen einlesen
@@ -56,7 +56,7 @@ def readUresults(foldername, iterations):
             split_line = line.split('\t')
             # die benötigten Daten in die Variable abspeichern (2. Spalte)
             u_data.x_02.append(float(split_line[1]))
-            u_data.y_02.append(float(split_line[0]))
+            u_data.y_02.append(float(split_line[0])*100) #*100 in order to scale for y/h
     # Reynolds-Spannungen einlesen
     with open(foldername+'postProcessing/sample/'+iterations+'/x_by_H_10_U.xy') as fin:
         # Zeilen einlesen
@@ -68,7 +68,7 @@ def readUresults(foldername, iterations):
             split_line = line.split('\t')
             # die benötigten Daten in die Variable abspeichern (3. Spalte)
             u_data.x_10.append(float(split_line[1]))
-            u_data.y_10.append(float(split_line[0]))
+            u_data.y_10.append(float(split_line[0])*100) #*100 in order to scale for y/h
     # Datenobjekt zurückgeben
     return u_data
 
@@ -91,7 +91,7 @@ def plotData(u_data, foldertosave):
     mpl.plot(u_data.x_005, u_data.y_005, 'b--', label='x/H=0.5')
     mpl.plot(u_data.x_02, u_data.y_02, 'r--', label='x/H=2')
     mpl.plot(u_data.x_10, u_data.y_10, 'm--', label='x/H=10')
-    mpl.plot(u_x_list, ylist, 'g-', label='Analytical Solution')
+    mpl.plot(u_x_list, ylist*100, 'g-', label='Analytical Solution') #*100 in order to scale for y/h
 
 
 

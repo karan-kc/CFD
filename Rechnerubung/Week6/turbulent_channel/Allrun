@@ -1,0 +1,20 @@
+#!/bin/bash
+
+./Allclean
+
+blockMesh
+
+simpleFoam > log #&
+
+# sleep 3
+# echo "CTRL+C to abort the Residual-Task"
+# foamMonitor -l postProcessing/residuals/0/residuals.dat
+# sleep 1
+
+simpleFoam -postProcess -func sample -latestTime
+simpleFoam -postProcess -func yPlus -latestTime
+simpleFoam -postProcess -func wallShearStress -latestTime
+simpleFoam -postProcess -func streamFunction
+# postProcess -func "grad(U)"
+./createGraphs
+./createComparison.py
