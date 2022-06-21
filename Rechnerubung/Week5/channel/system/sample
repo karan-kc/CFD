@@ -42,8 +42,16 @@ sets
         end     (0.01 0.002 0);
         nPoints 200;
     }
+    gradient_U
+    {
+        type    lineUniform;
+        axis    x;
+        start   (0    0.001 0);
+        end     (0.02 0.001 0);
+        nPoints 200;
+    }
     
 );
 
-fields          (U);
+fields          (U grad(U));
 // ************************************************************************* //

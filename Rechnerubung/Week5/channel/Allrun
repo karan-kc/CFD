@@ -11,7 +11,9 @@ simpleFoam > log #&
 # foamMonitor -l postProcessing/residuals/0/residuals.dat
 # sleep 1
 
-postProcess -func sample -latestTime
 postProcess -func "grad(U)"
+postProcess -func sample -latestTime
+
 ./createGraphs
 ./createComparison.py
+./createGradientGraph.py

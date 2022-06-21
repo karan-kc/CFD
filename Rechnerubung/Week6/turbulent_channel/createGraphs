@@ -48,14 +48,14 @@ createEpsU()
     set terminal png size 1200,800 enhanced
     set output "Simulation.png"
     set xlabel "U/U_{inlet}, [-]"
-    set ylabel "y/h, [-]"
+    set ylabel "y/H, [-]"
     set key right top
-    h=0.01
-    uInlet=1
+    H=0.2
+    uInlet=1.85
     plot \
-        "$p1" u (\$2/uInlet):(\$1/h) title "x/H=1"  with lines linetype -1, \
-        "$p2" u (\$2/uInlet):(\$1/h) title "x/H=5" with lines linetype 0, \
-        "$p3" u (\$2/uInlet):(\$1/h) title "x/H=9" with lines linetype 1
+        "$p1" u (\$2/uInlet):(\$1/H) title "x/H=1"  with lines linetype -1, \
+        "$p2" u (\$2/uInlet):(\$1/H) title "x/H=5" with lines linetype 0, \
+        "$p3" u (\$2/uInlet):(\$1/H) title "x/H=9" with lines linetype 1
 EOF
 }
 

@@ -44,7 +44,7 @@ def readUresults(foldername, iterations):
             split_line = line.split('\t')
             # die benötigten Daten in die Variablen abspeichern (1. und 2. Spalte)
             u_data.x_01.append(float(split_line[1]))
-            u_data.y_01.append(float(split_line[0])*100) #*100 in order to scale for y/h
+            u_data.y_01.append(float(split_line[0]))
     # TKE einlesen
     with open(foldername+'postProcessing/sample/'+iterations+'/x_by_H_05_U.xy') as fin:
         # Zeilen einlesen
@@ -56,7 +56,7 @@ def readUresults(foldername, iterations):
             split_line = line.split('\t')
             # die benötigten Daten in die Variable abspeichern (2. Spalte)
             u_data.x_05.append(float(split_line[1]))
-            u_data.y_05.append(float(split_line[0])*100) #*100 in order to scale for y/h
+            u_data.y_05.append(float(split_line[0]))
     # Reynolds-Spannungen einlesen
     with open(foldername+'postProcessing/sample/'+iterations+'/x_by_H_09_U.xy') as fin:
         # Zeilen einlesen
@@ -68,37 +68,47 @@ def readUresults(foldername, iterations):
             split_line = line.split('\t')
             # die benötigten Daten in die Variable abspeichern (3. Spalte)
             u_data.x_09.append(float(split_line[1]))
-            u_data.y_09.append(float(split_line[0])*100) #*100 in order to scale for y/h
+            u_data.y_09.append(float(split_line[0]))
     # Datenobjekt zurückgeben
     return u_data
 
 def u_x(y, u_inlet, H):
-    h = H #0.2
-    u_max = (3/2)*u_inlet #1.85
-    return u_max*(((4*y)/h)-((4*(y**2))/(h**2)))
+    u_max = (3/2)*u_inlet
+    return u_max*(((4*y)/H)-((4*(y**2))/(H**2)))
 
 
 def plotData(u_data, foldertosave):
     """
     This function plots the data given data object
     """
+    u_inlet = 1.85
+    H = 0.2
 
     ylist = np.linspace(0,0.2,num=1000)
-    u_x_list = u_x(ylist, 1.85, 0.2)
+    u_x_list = u_x(ylist, u_inlet, H)
+
+    # Scaled Lists:
+    U_data = simData()
+    U_data.x_01 = [i/u_inlet for i in u_data.x_01]
+    U_data.x_05 = [i/u_inlet for i in u_data.x_05]
+    U_data.x_09 = [i/u_inlet for i in u_data.x_09]
+    U_data.y_01 = [i/H for i in u_data.y_01]
+    U_data.y_05 = [i/H for i in u_data.y_05]
+    U_data.y_09 = [i/H for i in u_data.y_09]
+    U_x_list = [i/u_inlet for i in u_x_list]
+    ylist_scaled = [i/H for i in ylist]
 
     # Geschwindigkeit plotten
     mpl.figure(num=1, dpi=500)
-    mpl.plot(u_data.x_01, u_data.y_01, 'b--', label='x/H=1')
-    mpl.plot(u_data.x_05, u_data.y_05, 'r--', label='x/H=5')
-    mpl.plot(u_data.x_09, u_data.y_09, 'm--', label='x/H=9')
-    mpl.plot(u_x_list, ylist*100, 'g-', label='Analytical Solution') #*100 in order to scale for y/h
-
-
+    mpl.plot(U_data.x_01, U_data.y_01, 'b--', label='x/H=1')
+    mpl.plot(U_data.x_05, U_data.y_05, 'r--', label='x/H=5')
+    mpl.plot(U_data.x_09, U_data.y_09, 'm--', label='x/H=9')
+    mpl.plot(U_x_list, ylist_scaled, 'g-', label='Analytical Solution')
 
 
     # Achsenbeschriftung
     mpl.xlabel('$U/U_{inlet}, [-]$')
-    mpl.ylabel('y/h, [-]') # 'r' vor dem Text inkludiert backslash, sonst wird die Zeile falsch interpretiert, siehe https://docs.python.org/2/reference/lexical_analysis.html#string-literals
+    mpl.ylabel('y/H, [-]')
     # Legende aktivieren
     mpl.legend()
     # Abspeichern als PNG

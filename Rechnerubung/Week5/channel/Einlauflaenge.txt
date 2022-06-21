@@ -10,4 +10,6 @@ Finally, I extrapolated the necessary data: when grad_0(U) first reaches 0.
 
 **graph,csv, and screenshot of table is included in the folder
 
+!!!I learnt how to create the grad(U) graph with python. First I sampled grad(U), then created the graph. Now I can extrapolate the same way by viewing the sampled data. 
+
  

@@ -44,7 +44,7 @@ def readUresults(foldername, iterations):
             split_line = line.split('\t')
             # die benötigten Daten in die Variablen abspeichern (1. und 2. Spalte)
             u_data.x_005.append(float(split_line[1]))
-            u_data.y_005.append(float(split_line[0])*100) #*100 in order to scale for y/h
+            u_data.y_005.append(float(split_line[0]))
     # TKE einlesen
     with open(foldername+'postProcessing/sample/'+iterations+'/x_by_H_02_U.xy') as fin:
         # Zeilen einlesen
@@ -56,7 +56,7 @@ def readUresults(foldername, iterations):
             split_line = line.split('\t')
             # die benötigten Daten in die Variable abspeichern (2. Spalte)
             u_data.x_02.append(float(split_line[1]))
-            u_data.y_02.append(float(split_line[0])*100) #*100 in order to scale for y/h
+            u_data.y_02.append(float(split_line[0]))
     # Reynolds-Spannungen einlesen
     with open(foldername+'postProcessing/sample/'+iterations+'/x_by_H_10_U.xy') as fin:
         # Zeilen einlesen
@@ -68,33 +68,42 @@ def readUresults(foldername, iterations):
             split_line = line.split('\t')
             # die benötigten Daten in die Variable abspeichern (3. Spalte)
             u_data.x_10.append(float(split_line[1]))
-            u_data.y_10.append(float(split_line[0])*100) #*100 in order to scale for y/h
+            u_data.y_10.append(float(split_line[0]))
     # Datenobjekt zurückgeben
     return u_data
 
 def u_x(y, u_inlet, H):
-    h = H #0.002
-    u_max = (3/2)*u_inlet #0.25
-    return u_max*(((4*y)/h)-((4*(y**2))/(h**2)))
+    u_max = (3/2)*u_inlet
+    return u_max*(((4*y)/H)-((4*(y**2))/(H**2)))
 
 
 def plotData(u_data, foldertosave):
     """
     This function plots the data given data object
     """
+    u_inlet = 0.25
+    H = 0.002
 
     ylist = np.linspace(0,0.002,num=1000)
-    u_x_list = u_x(ylist, 0.25, 0.002)
+    u_x_list = u_x(ylist, u_inlet, H)
+
+    # Scaled Lists:
+    U_data = simData()
+    U_data.x_005 = [i/u_inlet for i in u_data.x_005]
+    U_data.x_02 = [i/u_inlet for i in u_data.x_02]
+    U_data.x_10 = [i/u_inlet for i in u_data.x_10]
+    U_data.y_005 = [i / H for i in u_data.y_005]
+    U_data.y_02 = [i/H for i in u_data.y_02]
+    U_data.y_10 = [i/H for i in u_data.y_10]
+    U_x_list = [i/u_inlet for i in u_x_list]
+    ylist_scaled = [i/H for i in ylist]
 
     # Geschwindigkeit plotten
     mpl.figure(num=1, dpi=500)
-    mpl.plot(u_data.x_005, u_data.y_005, 'b--', label='x/H=0.5')
-    mpl.plot(u_data.x_02, u_data.y_02, 'r--', label='x/H=2')
-    mpl.plot(u_data.x_10, u_data.y_10, 'm--', label='x/H=10')
-    mpl.plot(u_x_list, ylist*100, 'g-', label='Analytical Solution') #*100 in order to scale for y/h
-
-
-
+    mpl.plot(U_data.x_005, U_data.y_005, 'b--', label='x/H=0.5')
+    mpl.plot(U_data.x_02, U_data.y_02, 'r--', label='x/H=2')
+    mpl.plot(U_data.x_10, U_data.y_10, 'm--', label='x/H=10')
+    mpl.plot(U_x_list, ylist_scaled, 'g-', label='Analytical Solution')
 
     # Achsenbeschriftung
     mpl.xlabel('$U/U_{inlet}, [-]$')
