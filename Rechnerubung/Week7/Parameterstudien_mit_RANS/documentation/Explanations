@@ -1,0 +1,19 @@
+I deleted any reference to the 0.orig file as it was just more convenient to deal with 0.
+
+In order to set the velocity and kinematic viscosity value, I first looked up the kinematic viscosity of air at SATP (Standard Ambient Room Temperature).
+At SATP, where pressure is 1atm and temperature is 25C, kinematic viscosity is about 1.562E-05.
+I then solved for fluid velocity given the chord length of 1 and a Reynolds number of 1E6.
+u = 15.62
+
+To accommodate the AOA (Angle of Attack), I used the #calc function to modify the freestream velocity vector appropriately.
+For k, I used 0.5% for the turbulence intensity as the script for UE06 mentioned that aerofoils deal with relatively low turbulence compared to the insides of machines. This seems to hold true for external flow vs. internal flow in general.
+
+I used (float) wherever the AOA could be mistaken as an integer.
+
+For omega, I used the beta_1 value from the cited paper. Additionally, I considered del_y_1 to be the half-width of the aerofoil. I found the approximate value using the ruler in openfoam and then found the exact coordinate value by ctrl-f the more precise y-value in the blockMeshDict file. This value turned out to be 0.06106643254088557.   
+
+For reference, I set the inlet and outlet to the same values for all the boundary conditions within the folder 0.
+
+I included screenshots from Paraview in the documentation folder for U at an AOA of 0 and 20. There are 2 representations: Surface and Surface LIC. Obvious differences in the fluid flow can be observed at these 2 angles.  
+
+I needed to reduce (increase the value) residualControl for U from 1e-03 to 1e-02, so that the simulation could converge within 500 iterations for the maximum freestream velocity angle of 20°.
