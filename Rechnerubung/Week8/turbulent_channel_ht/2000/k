@@ -1,0 +1,93 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "2000";
+    object      k;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 2 -2 0 0 0 0];
+
+internalField   nonuniform List<scalar> 
+40
+(
+0.0469275
+0.027816
+0.0241158
+0.017644
+0.0214423
+0.0190833
+0.0200491
+0.0195213
+0.0187281
+0.0187204
+0.0171893
+0.0172316
+0.0152645
+0.0152642
+0.0129062
+0.0128797
+0.0102104
+0.0101842
+0.00756375
+0.00754931
+0.00661727
+0.00660729
+0.00641636
+0.00640694
+0.00659079
+0.00658016
+0.00716665
+0.00715299
+0.00815875
+0.00813997
+0.0095696
+0.00954307
+0.0114209
+0.0113831
+0.0138842
+0.0138303
+0.0177043
+0.0176286
+0.0181103
+0.0180402
+)
+;
+
+boundaryField
+{
+    inlet
+    {
+        type            zeroGradient;
+    }
+    outlet
+    {
+        type            zeroGradient;
+    }
+    fixedWalls-bottom
+    {
+        type            kqRWallFunction;
+        value           nonuniform List<scalar> 2(0.0181103 0.0180402);
+    }
+    fixedWalls-top
+    {
+        type            kqRWallFunction;
+        value           nonuniform List<scalar> 2(0.0469275 0.027816);
+    }
+    frontAndBack
+    {
+        type            empty;
+    }
+}
+
+
+// ************************************************************************* //

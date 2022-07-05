@@ -1,0 +1,95 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "1900";
+    object      alphat;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [1 -1 -1 0 0 0 0];
+
+internalField   nonuniform List<scalar> 
+40
+(
+6.70155e-05
+5.23898e-05
+0.000121371
+0.000106719
+0.000222018
+0.00021139
+0.000358007
+0.000352707
+0.000523849
+0.000522174
+0.000712641
+0.000711596
+0.000914187
+0.000913906
+0.00111415
+0.00111361
+0.00129023
+0.0012895
+0.00139731
+0.00139642
+0.00135866
+0.00135758
+0.00130237
+0.00130111
+0.00121986
+0.00121833
+0.00112099
+0.00111911
+0.00101287
+0.00101066
+0.00089622
+0.000893764
+0.000766147
+0.000763574
+0.000615721
+0.000613251
+0.000399029
+0.000398229
+6.21072e-05
+6.2014e-05
+)
+;
+
+boundaryField
+{
+    inlet
+    {
+        type            zeroGradient;
+    }
+    outlet
+    {
+        type            zeroGradient;
+    }
+    fixedWalls-bottom
+    {
+        type            compressible::alphatJayatillekeWallFunction;
+        Prt             0.85;
+        value           nonuniform List<scalar> 2(1.89012e-05 1.88303e-05);
+    }
+    fixedWalls-top
+    {
+        type            compressible::alphatJayatillekeWallFunction;
+        Prt             0.85;
+        value           uniform 0;
+    }
+    frontAndBack
+    {
+        type            empty;
+    }
+}
+
+
+// ************************************************************************* //

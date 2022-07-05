@@ -1,0 +1,16 @@
+#!/bin/bash
+
+./Allclean
+
+blockMesh
+
+buoyantSimpleFoam > log #&
+
+# sleep 3
+# echo "CTRL+C to abort the Residual-Task"
+# foamMonitor -l postProcessing/residuals/0/residuals.dat
+# sleep 1
+
+buoyantSimpleFoam -postProcess -func sample -latestTime
+
+./createVelocityProfile.py
