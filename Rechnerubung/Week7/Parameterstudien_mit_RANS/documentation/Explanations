@@ -3,7 +3,7 @@ I deleted any reference to the 0.orig file as it was just more convenient to dea
 In order to set the velocity and kinematic viscosity value, I first looked up the kinematic viscosity of air at SATP (Standard Ambient Room Temperature).
 At SATP, where pressure is 1atm and temperature is 25C, kinematic viscosity is about 1.562E-05.
 I then solved for fluid velocity given the chord length of 1 and a Reynolds number of 1E6.
-u = 15.62
+mag_U_infty = 15.62
 
 To accommodate the AOA (Angle of Attack), I used the #calc function to modify the freestream velocity vector appropriately.
 For k, I used 0.5% for the turbulence intensity as the script for UE06 mentioned that aerofoils deal with relatively low turbulence compared to the insides of machines. This seems to hold true for external flow vs. internal flow in general.
@@ -16,4 +16,15 @@ For reference, I set the inlet and outlet to the same values for all the boundar
 
 I included screenshots from Paraview in the documentation folder for U at an AOA of 0 and 20. There are 2 representations: Surface and Surface LIC. Obvious differences in the fluid flow can be observed at these 2 angles.  
 
-I needed to reduce (increase the value) residualControl for U from 1e-03 to 1e-02, so that the simulation could converge within 500 iterations for the maximum freestream velocity angle of 20°.
+Wenn Sie simpleFoam benutzt haben: Welche Residuenanforderung müssen Sie stellen, um eine sinnvolle Lösung zu erreichen? Passen Sie diesen Wert in Ihrer fvSolution Datei an?
+
+I needed to reduce (increase the value) residualControl for U from 1e-03 to 2e-02, so that the simulation could converge within 500 iterations for all integer angles between 0°-->20° [freestream velocity AOAs].
+
+
+I've included screenshots of yPlus at an AOA of 0° and 20°. The min/max values vary depending on the angle, but the average value seems to stay similar.
+
+For the preprocess.py script I have used the naming convention "AOA_alpha" for the raw folders created and simulated under data.
+preprocess.py also does the job of proceess.py by simulating the folders. This functionality can be easily commented out. While it's currently redundant, I've also created a process.py script.
+
+
+For postprocess.py I created an interactive scipt that creates Lilienthal polar curves for the asked AOA. I did this by using python to seek out the values for the lift and drag coefficient within the forceCoeff_object.dat file in postProcessing (for the asked AOAs). This file included the cL and cD values for all the iterations. I then used matplotlib to graph the values across each other.
