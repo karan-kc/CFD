@@ -1,0 +1,117 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.1.0                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application     interFoam;
+
+startFrom       startTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         0.10 ;//0.25;
+
+deltaT          1e-08;
+
+writeControl    adjustableRunTime;
+
+writeInterval   0.0001;
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  6;
+
+writeCompression uncompressed;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable yes;
+
+adjustTimeStep  yes;
+
+maxCo           0.2;
+
+maxAlphaCo      0.2;
+
+maxDeltaT       0.01;
+// if swak4Foam is installed, make it uncomment
+
+libs (
+    "libOpenFOAM.so" // keeps paraFoam happy
+    "libsimpleSwakFunctionObjects.so" 
+   );
+
+functions
+{
+    UT
+    {
+        type swakExpression;
+        valueType internalField;
+		verbose true;
+        aliases { alpha1 alpha.water; };
+        variables (
+             		"newPos=sum(pos()*vol()*(1.0-alpha1))/sum(vol()*(1.0-alpha1));"
+	     			"move=newPos-oldPos;"
+       	     		"velocity=move/(deltaT());"
+             		"oldPos=newPos;" 
+                   );
+	storedVariables (
+				{     		
+				name oldPos;
+    				initialValue "vector(0,0,0.008)";
+				}
+			);
+        expression "velocity";
+        accumulations (
+                	       min
+                      );
+       outputControlMode   timeStep;
+       outputInterval	    1;
+       writeStartTime       no;  
+    }
+    beta
+	{
+		type swakExpression ;
+		valueType set ;
+		verbose true ;
+		setName surfacex ;
+		set
+		{
+			type lineUniform ;
+			axis x ;
+			start (0 0 1e-5) ;
+			end (0.002 0 1e-5) ;
+			nPoints 100;
+		}
+		aliases { alpha1 alpha.water ; };
+		expression "(alpha1 > 0.5) ? (pos().x/0.0005) : 0" ;
+		accumulations (max) ;
+		interpolate true ;
+		interpolationType cellPoint ;
+		
+		outputControlMode timeStep ;
+		outputInterval 1;
+		writeStartTime no ;
+	}
+};
+
+
+// ************************************************************************* //

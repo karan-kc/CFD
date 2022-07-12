@@ -1,0 +1,76 @@
+#!/bin/sh
+#------------------------------------------------------------------------------
+# =========                 |
+# \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+#  \\    /   O peration     |
+#   \\  /    A nd           | Copyright (C) 2011 OpenFOAM Foundation
+#    \\/     M anipulation  |
+#-------------------------------------------------------------------------------
+# License
+#     This file is part of OpenFOAM.
+#
+#     OpenFOAM is free software: you can redistribute it and/or modify it
+#     under the terms of the GNU General Public License as published by
+#     the Free Software Foundation, either version 3 of the License, or
+#     (at your option) any later version.
+#
+#     OpenFOAM is distributed in the hope that it will be useful, but WITHOUT
+#     ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+#     FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+#     for more details.
+#
+#     You should have received a copy of the GNU General Public License
+#     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Script
+#     createGraphs
+#
+# Description
+#     Creates .eps graphs of OpenFOAM results vs experiment for the buoyant
+#     cavity case
+#
+#------------------------------------------------------------------------------
+
+createEpsU()
+{
+    p1=$1    
+
+    gnuplot<<EOF
+    set terminal postscript eps color enhanced
+    set output "OF.eps"
+    #set multiplot
+    set xlabel "Time,[sec]"
+    set ylabel "U_T, [m/s]"
+    #set grid
+    set key right bottom
+    set size 1.0, 1.0
+    #set size square 
+    #set yrange [0:0.2]
+    set xrange [0.001:0.2]
+    plot \
+	"$p1"  u  1:4 notitle with lines linetype 2 lc rgb "blue"  lw 2
+
+EOF
+}
+
+
+# test if gnuplot exists on the system
+type -P gnuplot &>/dev/null || {
+    echo "gnuplot not found - skipping graph creation" >&2
+    exit 1
+}
+
+
+# paths to data
+file1=./postProcessing/swakExpression_UT/0/UT
+
+
+p1="$file1"
+
+
+
+# generate temperature profiles
+createEpsU $p1 
+
+
+#------------------------------------------------------------------------------

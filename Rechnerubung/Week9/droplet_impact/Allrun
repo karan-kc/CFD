@@ -1,0 +1,26 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # run from this directory
+
+# Source tutorial run functions
+. $WM_PROJECT_DIR/bin/tools/RunFunctions
+
+# creat mesh
+blockMesh 
+
+#refresh alpha1 
+cp 0/alpha.water.org 0/alpha.water
+cp 0/U.org 0/U
+
+# creat non-uniform internalField
+setFields > log.setFields
+#funkySetFields -time 0 > log.funkySetFields
+
+#solve problem
+interFoam > log 
+
+# post processing 
+foamLog log
+./makeGraph.py
+paraview dummy.foam
+
+# ----------------------------------------------------------------- end-of-file

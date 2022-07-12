@@ -1,0 +1,10 @@
+Hey Karan and Ryan, 
+
+I am listing some of the things that you guys should change before submitting
+
+-Explanation in Beschreibung.txt
+-Python code in MakeGraph.py (or just delete it, as it's not part of the submission docs)
+
+Everything else is basically just following instructions. Also, keep in mind that running it in your computers again may lead to not generating the postProcessing data again (need of swak tools for postprocessing)
+
+That's it

@@ -1,0 +1,7 @@
+The given function uses the tools from swak to postprocess the data. Beta is a variable defined as the distance from the symmetry axis in contact with the lower substrate divided by the initial radius; equivalent to the contact diameter divided by the initial diameter of the droplet.
+
+First, a reference line is defined across the whole domain of the x-coordinate in the control volume and a small height in the z-direction (1e-5 [m]). 
+
+In this line, the beta values for each control volume are selected, if the field variable in the control volume is less than 0.5, beta is set to 0. This criteria is introduced to deal with the diffuse boundary of the droplet.
+
+The evaluation control volume that is the farthest from the origin is then chosen. The code writes this value to the postProcessing file.
