@@ -1,0 +1,3 @@
+#!/bin/sh
+foamCleanTutorials .
+rm -r 0

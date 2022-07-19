@@ -1,0 +1,49 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7  
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+type            sets;
+
+libs            ("libsampling.so");
+
+writeControl    writeTime;
+interpolationScheme cellPoint;
+setFormat       raw;
+
+
+
+sets
+(
+    x_by_h_005
+    {
+        type    lineUniform;
+        axis    y;
+        start   (0.005 0 0);
+        end     (0.005 0.04 0);
+        nPoints 40;
+    }
+
+     x_by_h_01
+    {
+        type    lineUniform;
+        axis    y;
+        start   (0.01 0 0);
+        end     (0.01 0.04 0);
+        nPoints 40;
+    }
+    x_by_h_04
+    {
+        type    lineUniform;
+        axis    y;
+        start   (0.04 0 0);
+        end     (0.04 0.04 0);
+        nPoints 40;
+    }
+    
+);
+
+fields          (U);
+// ************************************************************************* //

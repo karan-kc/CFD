@@ -1,0 +1,63 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  6
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      omega;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 -1 0 0 0 0];
+
+#include "../system/globalVariables";
+
+// beta_1		0.0750;			//Got value from linked study in Uebung
+// nu		1.562e-05;		//nu at SATP
+// del_y_1		0.06106643254088557;	//jet half width
+// omega		#calc "10*((6*$nu)/($beta_1*pow($del_y_1,2)))";	//Equation snippet given in Uebung sheet
+
+internalField   uniform $omega;
+
+boundaryField
+{
+    inlet
+    {
+        type            inletOutlet;
+        inletValue	$internalField;
+    }
+    outlet
+    {
+        type            inletOutlet;
+	inletValue	$internalField;
+    }
+    suction_side
+    {
+        type            omegaWallFunction;
+        value           $internalField;
+    }
+    pressure_side
+    {
+        type            omegaWallFunction;
+        value           $internalField;
+    }
+    trailing_edge
+    {
+        type            omegaWallFunction;
+        value           $internalField;
+    }
+    frontAndBack
+    {
+        type            empty;
+    }
+}
+
+
+// ************************************************************************* //

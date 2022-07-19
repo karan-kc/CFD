@@ -1,0 +1,37 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2.3.x                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      globalVariables;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+//Define Variable
+
+mag_U_infty	15.62;
+alpha_DEG 	(float)9;
+alpha_RAD 	(float)#calc"$alpha_DEG*M_PI/180";
+
+//define turbulence intensity at inlet
+intensity	0.005; //Turbulence Intensity for External Flow and Airfoils are much below 1%
+
+//calculate k
+k_inlet		#calc "(3/2)*pow($mag_U_infty*$intensity,2)";
+
+beta_1		0.0750;			//Got value from linked study in Uebung
+nu		1.562e-05;		//nu at SATP
+del_y_1		0.06106643254088557;	//jet half width
+omega		#calc "10*((6*$nu)/($beta_1*pow($del_y_1,2)))";	//Equation snippet given in Uebung sheet
+
+nut		#calc "$k_inlet/$omega";
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+

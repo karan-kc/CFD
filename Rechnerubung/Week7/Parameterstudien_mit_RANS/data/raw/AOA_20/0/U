@@ -1,0 +1,62 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volVectorField;
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+#include "../system/globalVariables";
+
+// mag_U_infty	15.62;
+// alpha_DEG 	(float)0.0;
+// alpha_RAD 	(float)#calc"$alpha_DEG*M_PI/180";
+
+internalField  uniform (#calc"$mag_U_infty*cos($alpha_RAD)" #calc"$mag_U_infty*sin($alpha_RAD)" 0);
+
+boundaryField
+{
+    inlet
+    {
+        type            freestreamVelocity; //Freistrahlgeschwindigkeit
+        freestreamValue $internalField;
+    }
+
+    outlet
+    {
+        type            freestreamVelocity; //Freistrahlgeschwindigkeit
+        freestreamValue $internalField;
+    }
+
+    suction_side
+    {
+        type            noSlip;
+    }
+
+    pressure_side
+    {
+        type            noSlip;
+    }
+
+    trailing_edge
+    {
+        type            noSlip;
+    }
+
+    frontAndBack
+    {
+        type            empty;
+    }
+}
+
+// ************************************************************************* //

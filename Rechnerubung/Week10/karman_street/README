@@ -1,0 +1,8 @@
+I used the omegaSST turbulence model with simpleFoam.
+
+I have 2 cores that I'm able to use.
+
+With parallel processing the simulation takes 1.89 seconds.
+Without parallel processing the simulation takes 3.52 seconds.
+I got these times from the log files. (These are the simulation times and don't include creating the mesh nor decomposePar/reconstructPar)
+As a result of the extra overhead needed for parallel_processing, the times in practice are about the same. If the simulation was longer, using the extra cores would be time-saving.

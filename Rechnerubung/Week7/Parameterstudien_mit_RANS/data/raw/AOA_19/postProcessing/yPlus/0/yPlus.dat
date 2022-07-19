@@ -1,0 +1,8 @@
+# y+ ()       
+# Time        	patch         	min           	max           	average       
+50            	suction_side	1.456963e+01	5.002521e+01	2.833202e+01
+50            	pressure_side	2.599594e+01	4.383154e+01	3.617048e+01
+50            	trailing_edge	7.248772e+01	1.157528e+02	9.412024e+01
+77            	suction_side	1.685204e+01	6.266661e+01	3.951682e+01
+77            	pressure_side	1.195354e+01	5.650417e+01	3.480535e+01
+77            	trailing_edge	1.227164e+02	1.593317e+02	1.410241e+02

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+./Allclean
+
+blockMesh
+simpleFoam > log #&
+
+#sleep 3
+#echo "CTRL+C to abort the Residual-Task"
+#foamMonitor -l postProcessing/residuals/0/residuals.dat
+#sleep 1
+
+
+# show result in ParaView
+# paraview dummy.foam
+
+
+#------------------------------------------------------------------------------

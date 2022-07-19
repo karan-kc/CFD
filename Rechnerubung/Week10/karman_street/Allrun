@@ -1,0 +1,22 @@
+#!/bin/bash
+./Allclean
+# start script to generate the mesh
+./makeMesh
+
+# remove the inital directory and copy from 0.orig
+rm -rf 0
+cp -r 0.orig 0
+
+# operate setFields routine on 0-directory
+setFields | tee log.setFields
+
+# run simpleFoam in non-parallel mode
+simpleFoam | tee log.simpleFoam 
+
+# run simpleFoam in parallel mode
+#decomposePar
+#mpirun.openmpi -np 2 simpleFoam -parallel > log.simpleFoam 
+#reconstructPar
+
+./createGraph.py
+
