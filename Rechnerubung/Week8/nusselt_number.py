@@ -5,11 +5,22 @@ Created on Sat June 11 15:15:00 2022
 
 @author: Karan Chodankar
 """
-
-import matplotlib.pyplot as mpl
 import numpy as np
 import re
 
+H = 0.2
+t_u = 343
+t_l = 293
+rho = 1.225
+u_bulk = 1.3452
+del_T_w = t_u-t_l
+q_T_w = 1.269321e+02
+q_theta_w = q_T_w/del_T_w
+delta = 0.1
+c_p = 1005
+mu = 1.831e-5
+pr = 0.705
+kappa = (c_p*mu)/pr
 
 class simData(object):
     pass
@@ -26,12 +37,8 @@ def readUresults(foldername, iterations):
     """
     # Datenobjekt definieren
     data = simData()
-    data.u_x = []
     data.u_y = []
-    data.t_x = []
-    data.t_y = []
-
-
+    data.theta_y = []
 
     with open(foldername+'postProcessing/sample/'+iterations+'/x_by_H_01_U.xy') as fin:
         # Zeilen einlesen
@@ -42,7 +49,6 @@ def readUresults(foldername, iterations):
             #Splitten:
             split_line = line.split('\t')
             # die benötigten Daten in die Variablen abspeichern (1. und 2. Spalte)
-            data.u_x.append(float(split_line[0]))
             data.u_y.append(float(split_line[1]))
 
     with open(foldername+'postProcessing/sample/'+iterations+'/x_by_H_01_T.xy') as fin:
@@ -54,51 +60,35 @@ def readUresults(foldername, iterations):
             #Splitten:
             split_line = line.split('\t')
             # die benötigten Daten in die Variablen abspeichern (1. und 2. Spalte)
-            data.t_x.append(float(split_line[0]))
-            data.t_y.append(float(split_line[1]))
+            data.theta_y.append((float(split_line[1])-t_l)/del_T_w)
     # TKE einlesen
     # Datenobjekt zurückgeben
     return data
-
-def plotData(data_x, data_y, foldertosave, filename, label, color):
-    """
-    This function plots the data given data object
-    """
-
-    # Geschwindigkeit plotten
-    mpl.figure(num=1, dpi=500)
-    mpl.plot(data_x, data_y, color+'-', label=label)
-
-
-    # Achsenbeschriftung
-    # mpl.xlabel('U_X, $[ms^{-1}]$')
-    # mpl.ylabel('y, [m]')
-    # Legende aktivieren
-    mpl.legend()
-    # Abspeichern als PNG
-    mpl.tight_layout()
-    mpl.grid()
-    mpl.savefig(foldertosave+filename,format="png")
-    mpl.figure().clear()
-    mpl.close()
-    mpl.cla()
-    mpl.clf()
 
 def main():
     """
     this is the function used to call all functions necessary for the task
     """
-
     data_path = './'
     logFile = './log'
     iterations = getIterations(logFile)
 
-    filename_u = 'u_mean.png'
-    filename_t = 't_mean.png'
-
     data = readUresults(data_path, iterations)
-    plotData(data.u_x, data.u_y,data_path,filename_u, 'U_X', 'r')
-    plotData(data.t_x, data.t_y,data_path,filename_t, 'T', 'k')
+    u_mean = np.mean(np.array(data.u_y))
+    theta_mean = np.mean(np.array(data.theta_y))
+
+    del_theta_l = (1/(u_bulk*delta))*u_mean*theta_mean*(H/2-0)
+    nusselt_l = ((2*H)/del_theta_l)*(q_theta_w/kappa)
+
+    re_dh = (2*H*rho*u_bulk)/mu
+    nusselt_kays = 0.021*(pr**0.5)*(re_dh**0.8)
+
+
+    dev = (nusselt_l-nusselt_kays)/nusselt_kays # The Deviation is about 0.97%
+
+    print("The deviation from the Kays-Correlation is "+str(dev*100)+"%")
+
+
 
 ###############################################################################
 if __name__ == "__main__":

@@ -12,5 +12,10 @@ buoyantSimpleFoam > log #&
 # sleep 1
 
 buoyantSimpleFoam -postProcess -func sample -latestTime
+buoyantSimpleFoam -postProcess -latestTime -func wallShearStress
+buoyantSimpleFoam -postProcess -latestTime -func wallHeatFlux
 
-./createVelocityProfile.py
+./createProfiles.py
+./skin_friction.py
+./nusselt_number.py
+

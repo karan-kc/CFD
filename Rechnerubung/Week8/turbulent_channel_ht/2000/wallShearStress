@@ -9,79 +9,37 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       volScalarField;
+    class       volVectorField;
     location    "2000";
-    object      T;
+    object      wallShearStress;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 0 0 1 0 0 0];
+dimensions      [1 -1 -2 0 0 0 0];
 
-internalField   nonuniform List<scalar> 
-40
-(
-337.073
-337.047
-333.892
-333.887
-331.423
-331.471
-329.498
-329.548
-327.854
-327.887
-326.333
-326.348
-324.835
-324.842
-323.289
-323.295
-321.619
-321.626
-319.716
-319.725
-318.261
-318.272
-317.406
-317.416
-316.521
-316.53
-315.585
-315.592
-314.576
-314.582
-313.468
-313.471
-312.216
-312.215
-310.735
-310.729
-308.76
-308.749
-304.672
-304.66
-)
-;
+internalField   uniform (0 0 0);
 
 boundaryField
 {
     inlet
     {
-        type            zeroGradient;
+        type            calculated;
+        value           uniform (0 0 0);
     }
     outlet
     {
-        type            zeroGradient;
+        type            calculated;
+        value           uniform (0 0 0);
     }
     fixedWalls-bottom
     {
-        type            fixedValue;
-        value           uniform 293;
+        type            calculated;
+        value           nonuniform List<vector> 2((-0.00666713 -2.60712e-07 0) (-0.00664022 6.31323e-07 0));
     }
     fixedWalls-top
     {
-        type            fixedValue;
-        value           uniform 343;
+        type            calculated;
+        value           nonuniform List<vector> 2((-0.00834079 -9.84652e-07 0) (-0.00831241 1.00512e-06 0));
     }
     frontAndBack
     {
