@@ -1,0 +1,10 @@
+#!/bin/sh
+#SBATCH --partition=dev_single
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --time=00:30:00
+#SBATCH --mem=90000mb
+#SBATCH --mail-type=ALL
+module load cae/openfoam/7
+source $FOAM_INIT
+reconstructPar -latestTime

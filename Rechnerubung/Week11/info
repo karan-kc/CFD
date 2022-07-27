@@ -1,0 +1,6 @@
+First ExecutionTime Step on Local Machine: 8.02s
+
+With BwUniCluster : 1.04
+
+
+!!! Constant folder in both the Simulations is achived due to GitHub's Limit on individual files needing to be <100MB (And each commit/push needs to be <2GB)

@@ -1,0 +1,150 @@
+
+Don't forget to initialize OpenFOAM with:
+
+	source $FOAM_INIT
+
+or simply:
+
+	foamInit
+
+[uc2n461.localdomain:2868646] MCW rank 0 bound to socket 0[core 0[hwt 0-1]]: [BB/../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 1 bound to socket 0[core 1[hwt 0-1]]: [../BB/../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 2 bound to socket 0[core 2[hwt 0-1]]: [../../BB/../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 3 bound to socket 0[core 3[hwt 0-1]]: [../../../BB/../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 4 bound to socket 0[core 4[hwt 0-1]]: [../../../../BB/../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 7 bound to socket 0[core 7[hwt 0-1]]: [../../../../../../../BB/../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 5 bound to socket 0[core 5[hwt 0-1]]: [../../../../../BB/../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 6 bound to socket 0[core 6[hwt 0-1]]: [../../../../../../BB/../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 8 bound to socket 0[core 8[hwt 0-1]]: [../../../../../../../../BB/../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 11 bound to socket 0[core 11[hwt 0-1]]: [../../../../../../../../../../../BB/../../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 10 bound to socket 0[core 10[hwt 0-1]]: [../../../../../../../../../../BB/../../../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 9 bound to socket 0[core 9[hwt 0-1]]: [../../../../../../../../../BB/../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 12 bound to socket 0[core 12[hwt 0-1]]: [../../../../../../../../../../../../BB/../../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 14 bound to socket 0[core 14[hwt 0-1]]: [../../../../../../../../../../../../../../BB/../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 15 bound to socket 0[core 15[hwt 0-1]]: [../../../../../../../../../../../../../../../BB/../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 13 bound to socket 0[core 13[hwt 0-1]]: [../../../../../../../../../../../../../BB/../../../../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 16 bound to socket 0[core 16[hwt 0-1]]: [../../../../../../../../../../../../../../../../BB/../../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 18 bound to socket 0[core 18[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../BB/..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 19 bound to socket 0[core 19[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../BB][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 17 bound to socket 0[core 17[hwt 0-1]]: [../../../../../../../../../../../../../../../../../BB/../..][../../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 20 bound to socket 1[core 20[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][BB/../../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 22 bound to socket 1[core 22[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../BB/../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 23 bound to socket 1[core 23[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../BB/../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 21 bound to socket 1[core 21[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../BB/../../../../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 24 bound to socket 1[core 24[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../BB/../../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 26 bound to socket 1[core 26[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../BB/../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 25 bound to socket 1[core 25[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../BB/../../../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 27 bound to socket 1[core 27[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../BB/../../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 28 bound to socket 1[core 28[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../../BB/../../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 30 bound to socket 1[core 30[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../BB/../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 29 bound to socket 1[core 29[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../BB/../../../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 31 bound to socket 1[core 31[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../BB/../../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 32 bound to socket 1[core 32[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../BB/../../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 34 bound to socket 1[core 34[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../BB/../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 33 bound to socket 1[core 33[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../BB/../../../../../..]
+[uc2n461.localdomain:2868646] MCW rank 35 bound to socket 1[core 35[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../BB/../../../..]
+[uc2n461.localdomain:2868646] MCW rank 36 bound to socket 1[core 36[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../BB/../../..]
+[uc2n461.localdomain:2868646] MCW rank 38 bound to socket 1[core 38[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../BB/..]
+[uc2n461.localdomain:2868646] MCW rank 37 bound to socket 1[core 37[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../BB/../..]
+[uc2n461.localdomain:2868646] MCW rank 39 bound to socket 1[core 39[hwt 0-1]]: [../../../../../../../../../../../../../../../../../../../..][../../../../../../../../../../../../../../../../../../../BB]
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-63349425784a
+Exec   : pimpleFoam -parallel
+Date   : Jul 25 2022
+Time   : 16:33:48
+Host   : "uc2n461.localdomain"
+PID    : 2868656
+I/O    : uncollated
+Case   : /pfs/work7/workspace/scratch/udydf-ensm/channel_DNS_Re180
+nProcs : 40
+Slaves : 
+39
+(
+"uc2n461.localdomain.2868658"
+"uc2n461.localdomain.2868657"
+"uc2n461.localdomain.2868659"
+"uc2n461.localdomain.2868660"
+"uc2n461.localdomain.2868662"
+"uc2n461.localdomain.2868663"
+"uc2n461.localdomain.2868661"
+"uc2n461.localdomain.2868664"
+"uc2n461.localdomain.2868667"
+"uc2n461.localdomain.2868666"
+"uc2n461.localdomain.2868665"
+"uc2n461.localdomain.2868668"
+"uc2n461.localdomain.2868671"
+"uc2n461.localdomain.2868669"
+"uc2n461.localdomain.2868670"
+"uc2n461.localdomain.2868672"
+"uc2n461.localdomain.2868675"
+"uc2n461.localdomain.2868673"
+"uc2n461.localdomain.2868674"
+"uc2n461.localdomain.2868676"
+"uc2n461.localdomain.2868679"
+"uc2n461.localdomain.2868677"
+"uc2n461.localdomain.2868678"
+"uc2n461.localdomain.2868680"
+"uc2n461.localdomain.2868682"
+"uc2n461.localdomain.2868681"
+"uc2n461.localdomain.2868683"
+"uc2n461.localdomain.2868684"
+"uc2n461.localdomain.2868686"
+"uc2n461.localdomain.2868685"
+"uc2n461.localdomain.2868687"
+"uc2n461.localdomain.2868688"
+"uc2n461.localdomain.2868690"
+"uc2n461.localdomain.2868689"
+"uc2n461.localdomain.2868691"
+"uc2n461.localdomain.2868692"
+"uc2n461.localdomain.2868694"
+"uc2n461.localdomain.2868693"
+"uc2n461.localdomain.2868695"
+)
+
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+[0] 
+[0] 
+[0] --> FOAM FATAL ERROR: 
+[0] pimpleFoam: cannot open case directory "/pfs/work7/workspace/scratch/udydf-ensm/channel_DNS_Re180/processor0"
+[0] 
+[0] 
+FOAM parallel run exiting
+[0] 
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI COMMUNICATOR 3 SPLIT FROM 0
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc2n461
+Job ID: 20931997
+Cluster: uc2
+User/Group: udydf/stud
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 80
+CPU Utilized: 00:00:01
+CPU Efficiency: 0.04% of 00:41:20 core-walltime
+Job Wall-clock time: 00:00:31
+Memory Utilized: 2.31 MB
+Memory Efficiency: 0.00% of 87.89 GB

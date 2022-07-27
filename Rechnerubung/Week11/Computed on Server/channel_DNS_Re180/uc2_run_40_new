@@ -1,0 +1,9 @@
+#!/bin/sh
+#SBATCH --partition=single
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=40
+#SBATCH --time=5:00:00
+#SBATCH --mail-type=ALL
+module load cae/openfoam/7
+source $FOAM_INIT
+mpirun --bind-to core --map-by core -report-bindings pimpleFoam -parallel

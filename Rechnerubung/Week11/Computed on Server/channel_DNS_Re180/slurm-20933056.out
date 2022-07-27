@@ -1,0 +1,85 @@
+
+Don't forget to initialize OpenFOAM with:
+
+	source $FOAM_INIT
+
+or simply:
+
+	foamInit
+
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-63349425784a
+Exec   : reconstructPar -latestTime
+Date   : Jul 25 2022
+Time   : 22:54:37
+Host   : "uc2n362.localdomain"
+PID    : 377996
+I/O    : uncollated
+Case   : /pfs/work7/workspace/scratch/udydf-ensm/channel_DNS_Re180
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Reconstructing fields for mesh region0
+
+Time = 1000
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        pMean
+        p
+        pPrime2Mean
+
+    Reconstructing volVectorFields
+
+        U_0
+        U
+        UMean
+
+    Reconstructing volSymmTensorFields
+
+        UPrime2Mean
+
+    Reconstructing surfaceScalarFields
+
+        phi
+        phi_0
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+
+End
+
+
+============================= JOB FEEDBACK =============================
+
+NodeName=uc2n362
+Job ID: 20933056
+Cluster: uc2
+User/Group: udydf/stud
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 2
+CPU Utilized: 00:00:06
+CPU Efficiency: 5.66% of 00:01:46 core-walltime
+Job Wall-clock time: 00:00:53
+Memory Utilized: 1.82 GB
+Memory Efficiency: 2.07% of 87.89 GB
