@@ -1,0 +1,12 @@
+#!/bin/sh
+#SBATCH --partition=dev_single
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=16
+#SBATCH --time=00:30:00
+#SBATCH --mail-type=ALL
+module load compiler/intel/19.1
+module load mpi/openmpi/4.0 
+echo "Runnning in "$SLURM_SUBMIT_DIR
+cd $SLURM_SUBMIT_DIR
+mpirun --bind-to core --map-by core -report-bindings xcompact3d
+echo "Finished."

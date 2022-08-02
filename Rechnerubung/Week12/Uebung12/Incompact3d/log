@@ -1,0 +1,36 @@
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c decomp2d/glassman.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c decomp2d/fft_generic.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c decomp2d/io.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/module_param.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/variables.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/poisson.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/derive.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/schemes.f90
+mv module_param.o ./src
+#mv *.mod ./src
+mv glassman.o ./decomp2d
+#mv *.mod ./decomp2d
+mv fft_generic.o ./decomp2d
+#mv *.mod ./decomp2d
+mv io.o ./decomp2d
+#mv *.mod ./decomp2d
+mv derive.o ./src
+#mv *.mod ./src
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/variables.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/poisson.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/schemes.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/implicit.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/forces.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/BC-User.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/BC-TGV.f90
+mpif90 -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -I./src -I./decomp2d -cpp  -O3 -funroll-loops -floop-optimize -g -Warray-bounds -fcray-pointer -fbacktrace -ffree-line-length-none -DDOUBLE_PREC -DVERSION=\"\"   -c src/BC-Channel-flow.f90
+mv BC-User.o ./src
+#mv *.mod ./src
+mv BC-TGV.o ./src
+#mv *.mod ./src
+mv forces.o ./src
+#mv *.mod ./src
+mv poisson.o ./src
+#mv *.mod ./src
+mv variables.o ./src
+#mv *.mod ./src
