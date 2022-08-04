@@ -84,7 +84,7 @@ def main():
     nusselt_kays = 0.021*(pr**0.5)*(re_dh**0.8)
 
 
-    dev = (nusselt_l-nusselt_kays)/nusselt_kays # The Deviation is about 0.97%
+    dev = (nusselt_l-nusselt_kays)/nusselt_kays # The Deviation is about 0.5251645338427997%
 
     print("The deviation from the Kays-Correlation is "+str(dev*100)+"%")
 

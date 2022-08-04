@@ -31,12 +31,12 @@ boundaryField
     }
     fixedWalls-bottom
     {
-        type            kqRWallFunction;
+        type            kLowReWallFunction;
         value           uniform 0.0513375;
     }
     fixedWalls-top
     {
-        type            kqRWallFunction;
+        type            kLowReWallFunction;
         value           uniform 0.0513375;
     }
     frontAndBack

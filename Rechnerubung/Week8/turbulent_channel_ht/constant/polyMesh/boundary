@@ -21,8 +21,8 @@ FoamFile
     {
         type            mappedPatch;
         inGroups        List<word> 1(mappedPatch);
-        nFaces          20;
-        startFace       58;
+        nFaces          70;
+        startFace       208;
         sampleMode      nearestCell;
         sampleRegion    region0;
         offsetMode      uniform;
@@ -31,29 +31,29 @@ FoamFile
     outlet
     {
         type            patch;
-        nFaces          20;
-        startFace       78;
+        nFaces          70;
+        startFace       278;
     }
     fixedWalls-bottom
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          2;
-        startFace       98;
+        startFace       348;
     }
     fixedWalls-top
     {
         type            wall;
         inGroups        List<word> 1(wall);
         nFaces          2;
-        startFace       100;
+        startFace       350;
     }
     frontAndBack
     {
         type            empty;
         inGroups        List<word> 1(empty);
-        nFaces          80;
-        startFace       102;
+        nFaces          280;
+        startFace       352;
     }
 )
 

@@ -1,4 +1,4 @@
 # Wall heat-flux
 # Time        	patch         	min           	max           	integral      
-2.000000e+03	fixedWalls-bottom	-1.051998e+02	-1.049298e+02	-2.101297e+02
-2.000000e+03	fixedWalls-top	1.263777e+02	1.269321e+02	2.533098e+02
+2.000000e+03	fixedWalls-bottom	-1.160727e+02	-1.160005e+02	-2.320732e+02
+2.000000e+03	fixedWalls-top	1.160001e+02	1.160723e+02	2.320725e+02

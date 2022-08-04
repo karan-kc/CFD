@@ -34,12 +34,12 @@ boundaryField
     fixedWalls-bottom
     {
         type            calculated;
-        value           nonuniform List<scalar> 2(-105.2 -104.93);
+        value           nonuniform List<scalar> 2(-116.073 -116);
     }
     fixedWalls-top
     {
         type            calculated;
-        value           nonuniform List<scalar> 2(126.378 126.932);
+        value           nonuniform List<scalar> 2(116.072 116);
     }
     frontAndBack
     {

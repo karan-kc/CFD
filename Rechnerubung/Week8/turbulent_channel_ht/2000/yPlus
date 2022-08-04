@@ -10,37 +10,40 @@ FoamFile
     version     2.0;
     format      ascii;
     class       volScalarField;
-    location    "0";
-    object      T;
+    location    "2000";
+    object      yPlus;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 0 0 1 0 0 0];
+dimensions      [0 0 0 0 0 0 0];
 
-internalField   uniform 318;
+internalField   uniform 0;
 
 boundaryField
 {
     inlet
     {
-        type            zeroGradient;
+        type            calculated;
+        value           uniform 0;
     }
-
     outlet
     {
-        type            zeroGradient;
+        type            calculated;
+        value           uniform 0;
     }
-
     fixedWalls-bottom
     {
-        type            fixedValue;
-        value           uniform 293; // 19.85 degC
+        type            calculated;
+        value           nonuniform List<scalar> 2(0.075946 0.0758984);
     }
-
     fixedWalls-top
     {
-        type            fixedValue;
-        value           uniform 343; // 69.85 degC
+        type            calculated;
+        value           nonuniform List<scalar> 2(0.0759484 0.0759007);
+    }
+    frontAndBack
+    {
+        type            empty;
     }
 }
 

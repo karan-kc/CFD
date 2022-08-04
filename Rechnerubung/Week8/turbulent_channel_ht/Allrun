@@ -14,6 +14,7 @@ buoyantSimpleFoam > log #&
 buoyantSimpleFoam -postProcess -func sample -latestTime
 buoyantSimpleFoam -postProcess -latestTime -func wallShearStress
 buoyantSimpleFoam -postProcess -latestTime -func wallHeatFlux
+buoyantSimpleFoam -postProcess -latestTime -func yPlus
 
 ./createProfiles.py
 ./skin_friction.py

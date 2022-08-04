@@ -34,12 +34,12 @@ boundaryField
     fixedWalls-bottom
     {
         type            calculated;
-        value           nonuniform List<vector> 2((-0.00666713 -2.60712e-07 0) (-0.00664022 6.31323e-07 0));
+        value           nonuniform List<vector> 2((-0.00614071 -3.92126e-09 0) (-0.00613792 7.28023e-09 0));
     }
     fixedWalls-top
     {
         type            calculated;
-        value           nonuniform List<vector> 2((-0.00834079 -9.84652e-07 0) (-0.00831241 1.00512e-06 0));
+        value           nonuniform List<vector> 2((-0.00614086 3.92055e-09 0) (-0.00613807 -7.28016e-09 0));
     }
     frontAndBack
     {

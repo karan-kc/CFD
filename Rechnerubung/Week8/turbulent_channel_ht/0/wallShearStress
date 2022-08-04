@@ -9,38 +9,41 @@ FoamFile
 {
     version     2.0;
     format      ascii;
-    class       volScalarField;
+    class       volVectorField;
     location    "0";
-    object      T;
+    object      wallShearStress;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-dimensions      [0 0 0 1 0 0 0];
+dimensions      [1 -1 -2 0 0 0 0];
 
-internalField   uniform 318;
+internalField   uniform (0 0 0);
 
 boundaryField
 {
     inlet
     {
-        type            zeroGradient;
+        type            calculated;
+        value           uniform (0 0 0);
     }
-
     outlet
     {
-        type            zeroGradient;
+        type            calculated;
+        value           uniform (0 0 0);
     }
-
     fixedWalls-bottom
     {
-        type            fixedValue;
-        value           uniform 293; // 19.85 degC
+        type            calculated;
+        value           uniform (0 0 0);
     }
-
     fixedWalls-top
     {
-        type            fixedValue;
-        value           uniform 343; // 69.85 degC
+        type            calculated;
+        value           uniform (0 0 0);
+    }
+    frontAndBack
+    {
+        type            empty;
     }
 }
 
