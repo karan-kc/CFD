@@ -11,7 +11,7 @@ import matplotlib.pyplot as mpl
 nu = 4.7679e-05
 rho = 1
 delta = 1
-mu = nu*1
+mu = nu*rho
 delta = 1
 tau_wall = 7.3204e-05
 u_tau = tau_wall**(1/2)
