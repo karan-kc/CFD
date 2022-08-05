@@ -1,8 +1,9 @@
-I used the omegaSST turbulence model with simpleFoam.
+Since the Reynolds Number is quite low ~100 and the problem is a transient one, I used the laminar model with pisoFoam.
 
 I have 2 cores that I'm able to use.
 
-With parallel processing the simulation takes 1.89 seconds.
-Without parallel processing the simulation takes 3.52 seconds.
-I got these times from the log files. (These are the simulation times and don't include creating the mesh nor decomposePar/reconstructPar)
-As a result of the extra overhead needed for parallel_processing, the times in practice are about the same. If the simulation was longer, using the extra cores would be time-saving.
+With parallel processing the simulation takes 16 seconds.
+Without parallel processing the simulation takes 30 seconds.
+A reduction in time ~50%, which makes sense considering I used double the cores.
+I got these times from the log files. (These are the simulation times and don't include the time for creating the mesh nor decomposePar/reconstructPar)
+As a result of the extra overhead needed for parallel_processing, the times in practice are closer. If the simulation was longer, using the extra cores would be time-saving.

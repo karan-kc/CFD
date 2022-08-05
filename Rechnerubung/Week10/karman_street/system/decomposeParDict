@@ -21,7 +21,7 @@ method          simple;
 
 simpleCoeffs
 {
-    n               (2 1 1);    //I'm using a 2-core machine
+    n               (2 1 1);    //I'm using a 4-core machine
     delta           0.001;
 }
 
